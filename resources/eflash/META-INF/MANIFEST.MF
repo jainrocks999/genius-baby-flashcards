@@ -1,0 +1,2976 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-mdpi/postoffice.jpg
+SHA1-Digest: 8HyNJ3z+HLKoipV7Mx5PgqponLk=
+
+Name: res/layout-sw360dp/setting.xml
+SHA1-Digest: X0yCLC/ILncj6+bNbKBszgzmEr0=
+
+Name: res/raw/nest.mp3
+SHA1-Digest: m1s0zcdVVCCoMngV3gE0HJJVX+4=
+
+Name: res/drawable-mdpi/tools.png
+SHA1-Digest: kfxp+QSgExK9viclip4ARzQl6g0=
+
+Name: res/raw/salon.mp3
+SHA1-Digest: P8mDQ/gDaKCkVc9/joHgD3QYx7Y=
+
+Name: res/raw/iceskating.mp3
+SHA1-Digest: njz4mmz/0sbft3BV/Nnie8Qqv54=
+
+Name: res/raw/chewing.mp3
+SHA1-Digest: YWICOeHipu1EIqRFuBP1iIu96Wg=
+
+Name: res/drawable-mdpi/bonsaitree.jpg
+SHA1-Digest: LbXWf+aJkIvWA6b17YVHGujlNaU=
+
+Name: res/raw/soldier.mp3
+SHA1-Digest: +2iaoMO1V1zXGol3TxLUbnhCAKM=
+
+Name: res/drawable-mdpi/colony.jpg
+SHA1-Digest: c/oDbBwY0Cud/niTwc02RXCfgOA=
+
+Name: res/drawable-hdpi/cristmas.png
+SHA1-Digest: TsskHs3isGawtFXOPKeIZWUkncc=
+
+Name: res/drawable-mdpi/workbebench.jpg
+SHA1-Digest: SYfQ8AlNT2L8jVwNnZ0CiQBmm1c=
+
+Name: res/raw/cygnetswan.mp3
+SHA1-Digest: 6vZeZk9Tx8vDJRjSM7DUSPOywdE=
+
+Name: res/raw/orchid.mp3
+SHA1-Digest: /FdfkPZ7Y+PrthSim4ottqbHbsg=
+
+Name: res/drawable-hdpi/plant.png
+SHA1-Digest: JKaxKpFH6Q0xxUUE8qCCn4Om2rA=
+
+Name: res/drawable-mdpi/bandage.jpg
+SHA1-Digest: QharXTRqQDtyV39j2NG8lbdWV3g=
+
+Name: res/drawable-mdpi/spots.jpg
+SHA1-Digest: 1eww1L9OIdH3Fu+pKWTEd6w9la4=
+
+Name: res/raw/doctor.mp3
+SHA1-Digest: E4g4RPTtfRBuGrrNwR4F130iZo4=
+
+Name: res/drawable-mdpi/antlers.jpg
+SHA1-Digest: amSSkVz+P1KHDRIJWNi7FkPGQuw=
+
+Name: res/drawable-mdpi/water.jpg
+SHA1-Digest: 4M+FG6vHbFOsTgkt2hC6E35l7No=
+
+Name: res/raw/hauntedhouse.mp3
+SHA1-Digest: o8Akf6BW4CBSbch5s7pFWcrZGN0=
+
+Name: res/raw/skull.mp3
+SHA1-Digest: uFI8XXLOu0krXtOBTE2dhY184Y8=
+
+Name: res/drawable-mdpi/muscles.jpg
+SHA1-Digest: SuIg6f04/cqV7/z2zVnBO/52TqE=
+
+Name: res/raw/spacesuit.mp3
+SHA1-Digest: gELn3vyYz3ZfOTrluB/N2as0afo=
+
+Name: res/raw/pulling.mp3
+SHA1-Digest: RoDRdE8RAcl4HbRqNH3t5aMTv3U=
+
+Name: res/drawable-mdpi/stocking.jpg
+SHA1-Digest: ygEygArqiTsixqAngjesv7ZqWik=
+
+Name: res/drawable-mdpi/concerthall.jpg
+SHA1-Digest: QDQ8fqTBHWXnRuxHYQlHvuwYmZo=
+
+Name: res/raw/meteorite.mp3
+SHA1-Digest: dEgcjj2o+bfRsDnv2wR+dl+KKiY=
+
+Name: res/raw/moon.mp3
+SHA1-Digest: x5BnPUomWqInvtJfMDCoIoIbOc4=
+
+Name: res/drawable-hdpi/icon2.png
+SHA1-Digest: vkRG3IrXA1RFhSCxWT4NRPrgrN0=
+
+Name: res/raw/ducktape.mp3
+SHA1-Digest: xqO5tp0qH0wMLkQhvH/lT7h1rss=
+
+Name: res/drawable-mdpi/canoeing.jpg
+SHA1-Digest: 5MdXmErYY13bVJ6LSaF+JmrwFgg=
+
+Name: res/drawable-mdpi/hockey9.jpg
+SHA1-Digest: LCWxBUN8XWzReViYRcUuBndV7t4=
+
+Name: res/drawable-mdpi/rib.jpg
+SHA1-Digest: dlDJJtGdl0f9Bm+aKivMZ2OlbDk=
+
+Name: res/drawable-mdpi/paint.jpg
+SHA1-Digest: Iwzn1dkKVhQXRshlu57//vz3M10=
+
+Name: res/raw/eflashapps_sound.mp3
+SHA1-Digest: L5gQjCJaUds+q0ynO9xuqIOY7Ic=
+
+Name: res/raw/sun.mp3
+SHA1-Digest: pbmSneSaB3LQLcafLKZk0iSi8v8=
+
+Name: res/drawable-mdpi/coffin1.jpg
+SHA1-Digest: 5pOykE69zSUNZ6BP5hnOCKKNymo=
+
+Name: res/drawable-hdpi/splash2.jpg
+SHA1-Digest: fseYHAfIJKknsEIAE+A8D05PjBc=
+
+Name: res/layout-sw600dp/last_page_class.xml
+SHA1-Digest: nLKgiqacaUvbnZjyHiFCVXjRO2I=
+
+Name: res/drawable-mdpi/screwdriver.jpg
+SHA1-Digest: gnPnpFr5P3WPA6AWnOf8/glkpKo=
+
+Name: res/drawable-mdpi/singing.jpg
+SHA1-Digest: wxS678xxfGFLIuFgzMSDQMm2bsc=
+
+Name: res/raw/diving.mp3
+SHA1-Digest: alyfWTzv99XL69jOAgcWdxTDK/g=
+
+Name: res/drawable-mdpi/wings2.jpg
+SHA1-Digest: gZQXsoc6BEo1q+9IQPpesWAELYE=
+
+Name: res/raw/water.mp3
+SHA1-Digest: 847iN6YW7C1TDyPQjfIOxGtNmuk=
+
+Name: res/drawable-mdpi/puppydog.jpg
+SHA1-Digest: r04lJ+cCXPycDdkzyJTw1wNSnGY=
+
+Name: res/raw/kittencat.mp3
+SHA1-Digest: kfJ4bStNOlx495StJ+UguSKonns=
+
+Name: res/drawable-mdpi/werewolf.jpg
+SHA1-Digest: apG6Kkla1zBbN2FURCdflc9wqhQ=
+
+Name: res/raw/tearing.mp3
+SHA1-Digest: 6XJFJ8NyLVbGPWQwEJs/VnXUNXU=
+
+Name: res/raw/santaclaus.mp3
+SHA1-Digest: KawzExes0ilffefdcqpPVY4aI6M=
+
+Name: res/drawable-mdpi/seeds.jpg
+SHA1-Digest: ORkecJD3c2R2XesD1xSqrkDHuKw=
+
+Name: res/drawable-mdpi/holly.jpg
+SHA1-Digest: ejSUP9GlN0+nQW3qRFH/xP3TUuw=
+
+Name: res/drawable-mdpi/diving.jpg
+SHA1-Digest: hI8dBY4LMQE3gSc1x4jwfIWs0Bo=
+
+Name: res/raw/paintbrush.mp3
+SHA1-Digest: Z9D3EtvbwaEG04X0qe5vFk7D7j0=
+
+Name: res/drawable-mdpi/dna.jpg
+SHA1-Digest: diN/jTomyT1uk9gpYhAFhFo6b2E=
+
+Name: res/drawable-mdpi/mosquedaytime.jpg
+SHA1-Digest: tLYHuFal2ogCZDgzEFB7b5t+pcs=
+
+Name: res/drawable-mdpi/ivbag.jpg
+SHA1-Digest: HHKc8aRN74b/b2J7JfjRn0chfN0=
+
+Name: res/raw/kidneys.mp3
+SHA1-Digest: 1jZjmPr3m4u584NvUgCO1rpvm8I=
+
+Name: res/layout-sw600dp/splashscreen2.xml
+SHA1-Digest: xlp7BlB2+Xf2PMrqeSJp+AG5+Qs=
+
+Name: res/drawable-mdpi/river.jpg
+SHA1-Digest: tkwwYX8weYINEVbUK4fvHX+iyDU=
+
+Name: res/drawable-mdpi/spiderhallow.jpg
+SHA1-Digest: Z8CNY1eRZy9g0acbogGnE3566AM=
+
+Name: res/drawable-mdpi/chewingfood.jpg
+SHA1-Digest: +wxo8vvhFDjym6sQM4kwKfULRvE=
+
+Name: res/drawable-mdpi/tabletennis.jpg
+SHA1-Digest: 9w3OCRgJNyRNg+I2UmsCptG/EBY=
+
+Name: res/drawable-mdpi/arteries.jpg
+SHA1-Digest: m1LHxcA60f4ImA3YDQcCPRrxyjQ=
+
+Name: res/drawable-mdpi/neptune.jpg
+SHA1-Digest: nCEpgBfi7P4GywRNFuJKZvb5rt8=
+
+Name: res/drawable-mdpi/rose.jpg
+SHA1-Digest: wcnlQoF/HAc7w0/2T+yEOI4Md9Y=
+
+Name: res/drawable-mdpi/needle.jpg
+SHA1-Digest: eCQiyknURTQdEk5jVFEt4JTEgVQ=
+
+Name: res/raw/soccer.mp3
+SHA1-Digest: l7OtXaM4zQ56z6kPwlA8AIUUofo=
+
+Name: res/drawable-mdpi/forest.jpg
+SHA1-Digest: BjaTWTze7/X84JaFrwJ4hergi94=
+
+Name: res/drawable-mdpi/feathers.jpg
+SHA1-Digest: V7aJVanSJ3vfa1uSYdBLHapwEno=
+
+Name: res/anim/slide_out_right.xml
+SHA1-Digest: pcSWl7Qk95VGZIAqsqtqbtEBrpE=
+
+Name: res/layout-sw720dp/mixcategoryhard.xml
+SHA1-Digest: 8fqxJ7AUUXbNGdDyW0U1cz28frA=
+
+Name: res/raw/grassland.mp3
+SHA1-Digest: 8sRc/K99hB2qdAIyt0wCdXtfwI0=
+
+Name: res/raw/presents.mp3
+SHA1-Digest: 7JQX9+o7HF+GC7L786fEMyX+JrY=
+
+Name: res/raw/archoelogist.mp3
+SHA1-Digest: xALtFw/gFIRdEHwFwClN2PmQROc=
+
+Name: res/drawable-mdpi/motocross.jpg
+SHA1-Digest: rBLrmFUCwyDSdNU15mosLqlJwOM=
+
+Name: res/raw/busstop.mp3
+SHA1-Digest: hdyJTxt8Q9fiOvgm6ScdninZXTo=
+
+Name: res/drawable-hdpi/icon3.png
+SHA1-Digest: 4QTJy0FxANe9GD2mqcHguHsGxPw=
+
+Name: res/drawable-mdpi/glue.jpg
+SHA1-Digest: 0PzrPusl7t8sSTyk/5aR9pD9evw=
+
+Name: res/drawable-mdpi/laughing.jpg
+SHA1-Digest: Wa0R4nraFYkn3mTSwzIkERRaows=
+
+Name: res/drawable-mdpi/caves.jpg
+SHA1-Digest: pdhnXzB123dsBCfLSACy1rLUFsU=
+
+Name: res/drawable-mdpi/playing.jpg
+SHA1-Digest: xl/mFitlK3wpxXg/BkCnMd8qvrM=
+
+Name: res/raw/venus.mp3
+SHA1-Digest: mGpAhbjL6uNjH53oQPgzDJ3ghlw=
+
+Name: res/raw/hairdresser.mp3
+SHA1-Digest: VS9In9I/20oW8I8vCkSoYuQb4N4=
+
+Name: res/drawable-mdpi/halloween.png
+SHA1-Digest: oEv4OcD0TO1bxWFpil2Q5e6hZsY=
+
+Name: res/raw/babysitter.mp3
+SHA1-Digest: Lwf25RtuqNJMHwWQwbPR8A3YNBw=
+
+Name: res/drawable-mdpi/running.jpg
+SHA1-Digest: ZuxmiSbB8pn0JbCE81sO/psH5i0=
+
+Name: res/drawable-mdpi/nebula.jpg
+SHA1-Digest: T78FaLp9ljwUfODNk2c4rrxO6oc=
+
+Name: res/raw/elm.mp3
+SHA1-Digest: h+bZWQoltQ3WtXoOUjtQONJxr2o=
+
+Name: res/layout/last_page_class.xml
+SHA1-Digest: kPoZoO1TLkupN88Rb8nMOlBiMYY=
+
+Name: res/drawable-mdpi/clouds.jpg
+SHA1-Digest: 12EM3/TMWs//+SLJukdm2ueJyCY=
+
+Name: res/drawable-mdpi/swimming2.jpg
+SHA1-Digest: yEciOXgV6Zqk7q1YwxJJTPFp7FM=
+
+Name: res/drawable-hdpi/next_btn.png
+SHA1-Digest: 4+nVvNgoc5rgT5QdNRqJaQiBoZY=
+
+Name: res/drawable-hdpi/review.png
+SHA1-Digest: KALJB7aUK6n7rksE0bypNLSiUy4=
+
+Name: res/raw/wing.mp3
+SHA1-Digest: oCPYcnUcbBxKJHTiUpiMu7byEGY=
+
+Name: res/raw/spleen.mp3
+SHA1-Digest: IZFMySnd12hU9XAQut4Jn9PC178=
+
+Name: res/drawable-mdpi/spacerover.jpg
+SHA1-Digest: DQFbm3A8IUMT5alzG4ncWwSmZwc=
+
+Name: res/raw/pumpkin.mp3
+SHA1-Digest: oFNjdY3aMsXQo/qeiICLg/veJP8=
+
+Name: res/anim/slide_in_right.xml
+SHA1-Digest: 3FQsbDIuQ5zjN8G8UO/KsX/QAa0=
+
+Name: res/drawable-mdpi/diving1.jpg
+SHA1-Digest: 7KYbDCY/nToEFCtJgxmY8PhbtDg=
+
+Name: res/drawable-mdpi/spaceshuttle.jpg
+SHA1-Digest: Z5itVHxSjNGuyjh6q4FQx8hFVSc=
+
+Name: res/drawable-mdpi/seashore.jpg
+SHA1-Digest: 8WrYhbXTBTPvbXaRu1qde1t2WLU=
+
+Name: res/drawable-hdpi/home_btn1.png
+SHA1-Digest: TVel59QIb2k/nqWn63edizlySEw=
+
+Name: res/raw/curling.mp3
+SHA1-Digest: dAnVWrp33olfa117yGRg/MSW/jo=
+
+Name: res/raw/church.mp3
+SHA1-Digest: 8E9Zp8b4gl07UAMqfFnkxlCNKqE=
+
+Name: res/raw/mairigold.mp3
+SHA1-Digest: VM/tM773o9qNg6JKcQBKO2cWz1E=
+
+Name: res/raw/canoeing.mp3
+SHA1-Digest: 3YBAgyNIZ2QziWIVAV0+XPiZueE=
+
+Name: res/drawable-mdpi/pilers.jpg
+SHA1-Digest: 2Qu4thU5tM0Q2WvBKTqxxY4A4xA=
+
+Name: res/raw/spacecapsule.mp3
+SHA1-Digest: 2xLfl4I7V2ZfAen94SLELUZr2lQ=
+
+Name: res/drawable-mdpi/hive.jpg
+SHA1-Digest: iTVGLcoavVc/yFAdthnSwpT8ZDE=
+
+Name: res/raw/seeds.mp3
+SHA1-Digest: FQ8iKlP/x13Rqh9YbXbDB1lLzfs=
+
+Name: res/raw/breathing.mp3
+SHA1-Digest: aTxprYzEsYMNZmtlYIGYdm5OSwA=
+
+Name: res/drawable-hdpi/next_last.png
+SHA1-Digest: v3INBp5B1s9diNMuUg+l4RiNxzQ=
+
+Name: res/raw/coffin.mp3
+SHA1-Digest: d63TzMkPUiNfjanP6uLJvKFlS1o=
+
+Name: res/drawable-mdpi/judo.jpg
+SHA1-Digest: K29nyG9TjFD08Q4USATFEkBXiXM=
+
+Name: res/raw/lambssheep.mp3
+SHA1-Digest: TxIhzuSJC/TAFO5oFI87Y2GN74o=
+
+Name: res/raw/pirate.mp3
+SHA1-Digest: 6ZtCxlwnE5JCVssJmTYUcl70jxo=
+
+Name: res/raw/trainconductor.mp3
+SHA1-Digest: i+KfKReKYg9oCEoQ5kCp4bmsXHc=
+
+Name: res/drawable-mdpi/chickenandhen.jpg
+SHA1-Digest: 3Ow/MK7exJS7JTiYgqLC1GgCNgM=
+
+Name: res/drawable-mdpi/pigletpig.jpg
+SHA1-Digest: JYMV2rr5/xfKl1kH/8ICEwRlzBc=
+
+Name: res/raw/mummy.mp3
+SHA1-Digest: w+8/nZPOJ2T+E5cIixq8EXa9FL8=
+
+Name: res/raw/waiter.mp3
+SHA1-Digest: eLZD0uZhvRccul1x9Sf3GbQYC5o=
+
+Name: res/layout-sw720dp/setting.xml
+SHA1-Digest: sISDo0+mtYkbsHbXBdTGoNzaUFU=
+
+Name: res/drawable-mdpi/wreath.jpg
+SHA1-Digest: ktSbEvlzOAdflt98pwCYi/SF05k=
+
+Name: res/drawable-mdpi/nail.jpg
+SHA1-Digest: bxm1w7o+LbY9HTKCz4i1fmrkalg=
+
+Name: res/raw/supermarket.mp3
+SHA1-Digest: yLqR2JA0NAThr1uGtK+UJk99XbA=
+
+Name: res/drawable-mdpi/barn.jpg
+SHA1-Digest: VWFiMOjCxfnMaIKauzotL6SIx64=
+
+Name: res/drawable-mdpi/crying.jpg
+SHA1-Digest: ATjHNAFqT6W09UqO3fXGZAzz9Vc=
+
+Name: res/raw/bud.mp3
+SHA1-Digest: IU77GoCKFWRWeYh7jnBEtcsAQ9s=
+
+Name: res/drawable-mdpi/bell.jpg
+SHA1-Digest: QxCibIM/3i0uTmE3yByO3m8P7Kg=
+
+Name: res/raw/oaktree.mp3
+SHA1-Digest: qLoF9cRsgzyuv5ZbNzUbBc/q8bg=
+
+Name: res/raw/yawning.mp3
+SHA1-Digest: u1hEzmKiSoytUi3AcJ6LQIxIAFs=
+
+Name: res/drawable-mdpi/plant.png
+SHA1-Digest: JKaxKpFH6Q0xxUUE8qCCn4Om2rA=
+
+Name: res/raw/roller.mp3
+SHA1-Digest: 2Molp8JfUSNv5qCttYp3H8bVkTU=
+
+Name: res/raw/oldleaves.mp3
+SHA1-Digest: Mt3tnmP6cQmf+WwSrHbhdy6jB+A=
+
+Name: res/drawable-mdpi/valley.jpg
+SHA1-Digest: I1TmZ7FbICfWyToOhWnkLVQEDDI=
+
+Name: res/drawable-mdpi/cavetrail3.jpg
+SHA1-Digest: rxGLSUAGGQWSTQRRcWhzCenxlaA=
+
+Name: res/raw/carpenter.mp3
+SHA1-Digest: fQNdd4EcG6dSJJHbNIgTRzFSyfw=
+
+Name: res/raw/earth.mp3
+SHA1-Digest: LiiZkEUXKaDrWB5DIpGAwfmCzrA=
+
+Name: res/raw/equestrian.mp3
+SHA1-Digest: oRWjb5NuDNxDJ3BUoGgDMwOBETA=
+
+Name: res/raw/nailpuller.mp3
+SHA1-Digest: F4xsh3HZe14CgrICrEpOTKZf39U=
+
+Name: res/raw/calfcow.mp3
+SHA1-Digest: 24mEAiO0mZBypYCKwtGn57t5gyo=
+
+Name: res/drawable-ldpi/home_last1.png
+SHA1-Digest: vtaTTCNMqjR5c5/g+ctnmbbzTu0=
+
+Name: res/drawable-mdpi/vampire.jpg
+SHA1-Digest: xJTY2f/GmXQhXVLV4RD5+g9cA3c=
+
+Name: res/drawable-mdpi/blockplane.jpg
+SHA1-Digest: SoI8PVihtCZTr3mFYXoGGSdfLc8=
+
+Name: res/raw/wrestling.mp3
+SHA1-Digest: 1RJjrw4OnPvEVS/nS2pnZ9chjCQ=
+
+Name: res/layout/showcategory.xml
+SHA1-Digest: 0oF5nyvC1icD/llQO/+J12Gu9jU=
+
+Name: res/drawable-mdpi/boxing.jpg
+SHA1-Digest: TGrnkVrfGAKavDlKKKJqY/Sq0ag=
+
+Name: res/drawable-mdpi/tample.jpg
+SHA1-Digest: Ut09FKWJk2T7savnmVrlbnSSouw=
+
+Name: res/raw/scraper.mp3
+SHA1-Digest: wteTfzQ5ff1wRfaUwQZvltP+9g4=
+
+Name: res/raw/judge.mp3
+SHA1-Digest: 77YDKZHyDI6oY+7hGjA8UyIJcdg=
+
+Name: res/raw/holly.mp3
+SHA1-Digest: aLEm7SJ8Mv/BLsxNf/ZQ2TsFyTw=
+
+Name: res/raw/walking.mp3
+SHA1-Digest: ibjTlZ4AJaB/ZZySp2GlEafRmYg=
+
+Name: res/drawable-hdpi/animal_kid.png
+SHA1-Digest: pR24KyGAx7/mDLwVWpoNHcDe8A4=
+
+Name: res/raw/burrow.mp3
+SHA1-Digest: aHqQ+xpRBKguoBJ8V7tzLs3MN+c=
+
+Name: res/raw/crying.mp3
+SHA1-Digest: ah5WigBcaa+jFb+aJJ8VL/fb0eA=
+
+Name: res/drawable-mdpi/reflexhammer.jpg
+SHA1-Digest: EnF8y7t8Kfz/tZ1yvyv+n8vxQpY=
+
+Name: res/drawable-mdpi/mapletree.jpg
+SHA1-Digest: 7ktaenTLNEIBVoiJUz7A5GKUTqo=
+
+Name: res/layout-sw600dp/mixcategoryhard.xml
+SHA1-Digest: xaqt5bCEfSJ5rkfP7jBv1JCjhGI=
+
+Name: res/drawable-mdpi/kickboxing.jpg
+SHA1-Digest: /lNvMyNTROCryuyI7MjEtzwEY8A=
+
+Name: res/raw/coral.mp3
+SHA1-Digest: RioqUpErsesJnsxliNMkzzUfOmI=
+
+Name: res/raw/dancing.mp3
+SHA1-Digest: JBDPs3Of0y/tDUbQFk+SU4wG6Iw=
+
+Name: res/raw/otoscope.mp3
+SHA1-Digest: pSnlgx/5fpi01dhRhmgOBk3IFtE=
+
+Name: res/raw/angel.mp3
+SHA1-Digest: kxOCCCwwm/+5zc+CtglvFF6lR+0=
+
+Name: res/raw/throwing.mp3
+SHA1-Digest: PxF6IIE1Gdk+OOOXI90oGHKdOBA=
+
+Name: res/drawable-mdpi/littledipper.jpg
+SHA1-Digest: iu2amYbRnZDazh6m5GNWwmj6DFE=
+
+Name: res/layout-sw360dp/splashscreen.xml
+SHA1-Digest: ToBiwPR+qhQYOwobayhBZYc7Ces=
+
+Name: res/raw/temple.mp3
+SHA1-Digest: okKOxifcKiAJuUvFEPQmFwzVULE=
+
+Name: res/drawable-mdpi/city.jpg
+SHA1-Digest: WfCd4IL7PfGPdAHzhhnytMDXh6Y=
+
+Name: res/raw/exercising.mp3
+SHA1-Digest: oMfVEkVD2Y7vCVry2SRPez2I5sM=
+
+Name: res/raw/barn.mp3
+SHA1-Digest: QlM7j+M9XLYKOGkRqLYrKo7aFhk=
+
+Name: res/drawable-mdpi/computerprogrammer.jpg
+SHA1-Digest: /wSvXqX67uSvNCeMjialyL/CkLM=
+
+Name: res/raw/skin.mp3
+SHA1-Digest: FAjq7V8cYFAD1jKcK8YxHRHqNDc=
+
+Name: res/drawable-mdpi/nurse.jpg
+SHA1-Digest: e1Fo/rDad5eH1kdRyLvxxdeccqk=
+
+Name: res/drawable-hdpi/setting.png
+SHA1-Digest: PcYdEjjhwCF3mjWtirgH85u1wSk=
+
+Name: res/drawable-mdpi/shutterstock.jpg
+SHA1-Digest: /lHD3WWKvzCYvS2X1WRjwTLkPEk=
+
+Name: res/drawable-mdpi/pushingcar.jpg
+SHA1-Digest: uHem3BxcrhiAl3Ubm7Gk6n/V4cc=
+
+Name: res/drawable-mdpi/highjump.jpg
+SHA1-Digest: PjOI8tMm8nt2ABwGxS0dj9Skixc=
+
+Name: res/drawable-mdpi/football.jpg
+SHA1-Digest: J1xzBlFrrZaozWCH0OLdSJy/FfU=
+
+Name: res/raw/nebula.mp3
+SHA1-Digest: DBtcS8vaCMhNN7u5zXbYiwX2PhY=
+
+Name: res/raw/kickboxing.mp3
+SHA1-Digest: FEktXWV7DsSrkyxWYtBeDrxGdDE=
+
+Name: res/drawable-mdpi/detactive.jpg
+SHA1-Digest: T0SMQK2vXKmysYpkOLgsYvN1VDc=
+
+Name: res/drawable-mdpi/hurdles.jpg
+SHA1-Digest: ZRwqlJyU3eK/nZYuQs11bLa4uPE=
+
+Name: res/drawable-mdpi/moon.jpg
+SHA1-Digest: wkatzIK3T+r049kOQaaTBNmX0Kc=
+
+Name: res/drawable-mdpi/tennis.jpg
+SHA1-Digest: 4MNRBXDBHXtlPdDU/MxjVHpjWqE=
+
+Name: res/drawable-mdpi/speakar27.png
+SHA1-Digest: 2esT9N2WvtV17M6usyQipEJ9d5g=
+
+Name: res/drawable-mdpi/pelvis.jpg
+SHA1-Digest: qWF3+1poHeB5hIem6pnbLRIB6gs=
+
+Name: res/raw/syringe.mp3
+SHA1-Digest: shTvQiJRvR70A/n7N0wQyBSnPEU=
+
+Name: res/drawable-mdpi/screw.jpg
+SHA1-Digest: oLlPCnXya6FepQ7ODsgUs1fT0Mo=
+
+Name: res/drawable-mdpi/waterpolo.jpg
+SHA1-Digest: TYDpHwOrsE+y9Qb5LCbM6O0RglA=
+
+Name: res/raw/skating.mp3
+SHA1-Digest: ggJPYUYRmFh1e0D8ImYouGPxye4=
+
+Name: res/drawable-mdpi/claping.jpg
+SHA1-Digest: 1MLO9PPQqadSia3B+A7G77MnL/o=
+
+Name: res/raw/horns.mp3
+SHA1-Digest: 7h6Cz8IshKrSv3Elz/EYWzx85Lg=
+
+Name: res/drawable-mdpi/chruch.jpg
+SHA1-Digest: zY+cplOBrYYfwICTf/uIHqT/90o=
+
+Name: res/drawable-mdpi/mix.png
+SHA1-Digest: GSZDjgFtbNgUiZoK9L1KqrxyNBA=
+
+Name: res/raw/axe.mp3
+SHA1-Digest: 3bUc7y9A2PF5kL7wZDe1O3gtLcU=
+
+Name: res/drawable-mdpi/birch.jpg
+SHA1-Digest: lC1QiMuMXP2pJ7fs9o1uteccaoQ=
+
+Name: res/raw/santasleigh.mp3
+SHA1-Digest: 4Qkvj/B9Nxzy1Vq4oV7O95iXXxI=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: M9uQNj0P6w0Kjih0hyXUKjU1rT0=
+
+Name: res/drawable-mdpi/factory.jpg
+SHA1-Digest: i/a5XgklnfGSZkYWfJ/Bp/siVm8=
+
+Name: res/raw/mars.mp3
+SHA1-Digest: Cj6OiiT+cg5tw48Je+qQWL5/kHw=
+
+Name: res/drawable-hdpi/speakar27.png
+SHA1-Digest: 2esT9N2WvtV17M6usyQipEJ9d5g=
+
+Name: res/drawable-mdpi/lambssheep.jpg
+SHA1-Digest: sg5ZytYN2YVvk/+AuvVkPlPxbuI=
+
+Name: res/drawable-mdpi/farm.jpg
+SHA1-Digest: M1LwUKduHTSU1KJXIek8pexr9uc=
+
+Name: res/drawable-mdpi/rocketship.jpg
+SHA1-Digest: Q/23gqSFCW0Da8IN1wbwtvL40Fk=
+
+Name: res/raw/exercise.mp3
+SHA1-Digest: oMfVEkVD2Y7vCVry2SRPez2I5sM=
+
+Name: res/drawable-mdpi/sketing.jpg
+SHA1-Digest: 0kj6o7luWUqIpAFW/VsCVLRau2g=
+
+Name: res/drawable-mdpi/googlead.jpg
+SHA1-Digest: 1hWUED7hgbbOsCAw156W8xTNU9w=
+
+Name: res/raw/swimming1.mp3
+SHA1-Digest: 8njZdEumrTL4e0iypZEqXbIFbzU=
+
+Name: res/drawable-mdpi/measuringtape.jpg
+SHA1-Digest: rhT5hqdEPox42c90T5uXgsfaG/M=
+
+Name: res/raw/bladesofgrass.mp3
+SHA1-Digest: bzMhot9Bw+Rncaw1jEX98Ad74ig=
+
+Name: res/drawable-mdpi/lights.jpg
+SHA1-Digest: 6WcoJy6qusXiPq2niN18kI5AuCE=
+
+Name: res/raw/spacecraft.mp3
+SHA1-Digest: 3KMH5X3N5fR52xg3TsFLGpYmS/4=
+
+Name: res/menu/last_page_class.xml
+SHA1-Digest: O8EZ0/Id8MXTE4zN7qdSxi3y2H8=
+
+Name: res/drawable-mdpi/duckwithduckling.jpg
+SHA1-Digest: CaOn1CYarMhETn/edNoG4SJzWgM=
+
+Name: res/drawable-mdpi/skeloton.jpg
+SHA1-Digest: oAccJKmiQM2bub6Nh2FskbBPG4U=
+
+Name: res/raw/elf.mp3
+SHA1-Digest: 59sAzYccAHfNXlKRR8jnlhnruzk=
+
+Name: res/raw/boxing.mp3
+SHA1-Digest: jWXCo47esleN2V9nJl3zrVyXBho=
+
+Name: res/drawable-mdpi/gasstation.jpg
+SHA1-Digest: ANA1nLffVucWuSM7dz17heN/tAs=
+
+Name: res/drawable-mdpi/throwing.jpg
+SHA1-Digest: hmMBeCeJfB9cIJru1M/ma2ryiQc=
+
+Name: res/drawable-mdpi/skiing.jpg
+SHA1-Digest: 3+TRfzbbIUqYI9CqiZbfzSUxxBM=
+
+Name: res/raw/pliers.mp3
+SHA1-Digest: sCAmrFC7A9jgVVFWPDiCmPklwmQ=
+
+Name: res/raw/knocking.mp3
+SHA1-Digest: GwrfK+51e7A+rH3ELaPpbPYbfG0=
+
+Name: res/drawable-mdpi/ghost.jpg
+SHA1-Digest: 3sYz06heXwxksspKSCiRa6Z5wTk=
+
+Name: res/raw/mosque.mp3
+SHA1-Digest: GA1XUp77otDj6sYigR5jvXHgXjk=
+
+Name: res/drawable-mdpi/vein.jpg
+SHA1-Digest: wJpPOB+T6HA3mBcR/IGih2F6AW8=
+
+Name: res/drawable-mdpi/pulling.jpg
+SHA1-Digest: 1+TnjcyGthXC69TmrhRZP1BTtO0=
+
+Name: res/drawable-mdpi/grave.jpg
+SHA1-Digest: BoGCcrXvKi5FEYpFVTUxidx4yqI=
+
+Name: res/drawable-mdpi/mailman.jpg
+SHA1-Digest: 8bwe0njL8MR5Jdx+MlEdh9yg28E=
+
+Name: res/raw/rocket.mp3
+SHA1-Digest: olASxlyMPRQzB1FVKWAJO4Mbes8=
+
+Name: res/raw/wrench.mp3
+SHA1-Digest: wgK9nKej1JOeHCv7hmlTN3Otzhs=
+
+Name: res/raw/screaming.mp3
+SHA1-Digest: 2airC+lipY2wq600E5tRltSVZx0=
+
+Name: assets/eFlash2.sqlite
+SHA1-Digest: Y9cY3fEAzx9EmLqXKD7/tW4vBBk=
+
+Name: res/drawable-mdpi/fins.jpg
+SHA1-Digest: us5PFbglpHwwOmYELcyf5vmU0I4=
+
+Name: res/drawable-mdpi/stethoscope.jpg
+SHA1-Digest: aN8mA/DVrj9e1pKT2fsSLkh22sU=
+
+Name: res/drawable-mdpi/seaanemone.jpg
+SHA1-Digest: CPdZT5hLv93xxIs7giDmGmlQkUw=
+
+Name: res/layout-sw360dp/imageview.xml
+SHA1-Digest: 7VmteV6SEKOBMpkKPAV+QPOaBX8=
+
+Name: res/raw/colony.mp3
+SHA1-Digest: fp0gaf2rDUqfoaKdF0IGHxmlCcs=
+
+Name: res/drawable-mdpi/skyscraper.jpg
+SHA1-Digest: dw9+kKoDmuVojTVpvlXAsUetZrg=
+
+Name: res/layout-sw360dp/last_page_class.xml
+SHA1-Digest: D8lrJMTjkg0oHpWG7wyAyA9hpaQ=
+
+Name: res/raw/pond.mp3
+SHA1-Digest: SWHwCoiFJE7ampRxI42uETTvnzE=
+
+Name: res/drawable-mdpi/galaxy.jpg
+SHA1-Digest: Sj4QMKhm65otLxdlYeGTeK5daJI=
+
+Name: res/drawable-mdpi/heart.jpg
+SHA1-Digest: W3aF16pg48fegIV6sEnduPb8cfE=
+
+Name: res/drawable-mdpi/santasleigh.jpg
+SHA1-Digest: Zxz4JKqa236ptJaDKrunyxjDZiI=
+
+Name: res/raw/goblin.mp3
+SHA1-Digest: SUie/s2pyForSAO4TliotSqLe40=
+
+Name: res/raw/gymnastics.mp3
+SHA1-Digest: Y81wPV3PqQzIEADj6brevjkoGos=
+
+Name: res/raw/skyscraper.mp3
+SHA1-Digest: tByl1wp+sgLR+YQHBYJEm93Aksk=
+
+Name: res/raw/singing.mp3
+SHA1-Digest: AbDvhwFNoBWI5ILO23iwzij9N90=
+
+Name: res/raw/fins.mp3
+SHA1-Digest: u0CwjZxixeNeOn5cynEdJ++A6lc=
+
+Name: res/drawable-mdpi/scremming.jpg
+SHA1-Digest: ROrOFxBMJykICQ0qrEsGI0SjJ20=
+
+Name: res/layout-sw360dp/mixcategoryhard.xml
+SHA1-Digest: NIwnynL2LS2VHNGIVshEwp6iL5g=
+
+Name: res/raw/antennas.mp3
+SHA1-Digest: YNBEL4/sQ0l4W4lQyCyanwPZzMU=
+
+Name: res/drawable-mdpi/dancer.jpg
+SHA1-Digest: CqJnj3GU+RAoEQZjH1lm72yvalM=
+
+Name: res/raw/muscles.mp3
+SHA1-Digest: hFKZqV36h9yRXP5PpkzJT5Ed9TQ=
+
+Name: res/drawable-mdpi/driving.jpg
+SHA1-Digest: C8lklWX7NaVYwg/X6q77H+ZsOX0=
+
+Name: res/drawable-mdpi/fur.jpg
+SHA1-Digest: zVknjltbfxPqScj6/3L6vppT69A=
+
+Name: res/drawable-mdpi/wrench.jpg
+SHA1-Digest: WUCtte5oqqbdW8W1KkheAkjluqg=
+
+Name: res/raw/glue.mp3
+SHA1-Digest: c6UJwL8t517ym/YTzXg2s3T0i0c=
+
+Name: res/raw/jupiter.mp3
+SHA1-Digest: OHUMKQYPkiH4ND4WrWGGP+ExZKw=
+
+Name: res/raw/river.mp3
+SHA1-Digest: gvkmAEEzpbSi9NgJMfNnSbMmsU4=
+
+Name: res/raw/pelvis.mp3
+SHA1-Digest: m7/vMA1yoBJP9a7sXVQYdfVTw9A=
+
+Name: res/drawable-mdpi/gill.jpg
+SHA1-Digest: L+Ab4iaJsAl40ui04CxyP0/0Tu0=
+
+Name: res/raw/bloodpressuremonitor.mp3
+SHA1-Digest: MyDzypl24JzMLXPFs+RUGO8Thg0=
+
+Name: res/raw/eating.mp3
+SHA1-Digest: HjU+dhVij8VlBJD84+P/wiD9GTo=
+
+Name: res/raw/tennis.mp3
+SHA1-Digest: If2OMTsyGS2i9z0kh0mM3JB18dA=
+
+Name: res/drawable-mdpi/prist.jpg
+SHA1-Digest: 2Qn9HvTuFtQN/Nx4ss2gCJk/3Q0=
+
+Name: res/drawable-mdpi/rocket.jpg
+SHA1-Digest: L0zHxt3gDjLS8ZDXzQ/ESMnpVEY=
+
+Name: res/raw/padlocks.mp3
+SHA1-Digest: HYjZYAmcZiDQusD62TJBU3XC0SU=
+
+Name: res/raw/galaxy.mp3
+SHA1-Digest: JNB8m5VdfYLD/2F7A6PkO9efhfE=
+
+Name: res/drawable-mdpi/review.png
+SHA1-Digest: KALJB7aUK6n7rksE0bypNLSiUy4=
+
+Name: res/raw/stems.mp3
+SHA1-Digest: jA1l4VtEzZ1+Eg7Fhxpz/8tP2/8=
+
+Name: res/drawable-mdpi/bagofpresents.jpg
+SHA1-Digest: w86fcQAYAsV3FCqdVjQJ1BCVms0=
+
+Name: res/raw/dna.mp3
+SHA1-Digest: nJHomCsPKVsX5iQ0+xNAzoeRRow=
+
+Name: res/raw/gloves.mp3
+SHA1-Digest: Vh+afavZ82c0+bWoKCq7Aco3S1w=
+
+Name: res/drawable-mdpi/breathing2.jpg
+SHA1-Digest: kbs5R3lbgZtAaGhpeuYF2VCfDsQ=
+
+Name: res/drawable-mdpi/cublion.jpg
+SHA1-Digest: +5NrE19f/KEbthTb64hQSdSCrAs=
+
+Name: res/drawable-mdpi/shakinghands.jpg
+SHA1-Digest: uYfp6OEnF5PwIiXYIo4tAJwdXIU=
+
+Name: res/drawable-mdpi/rainforest.jpg
+SHA1-Digest: EiddmVwbvdQI6sNr9W/3I1sGRnU=
+
+Name: res/raw/palmtree.mp3
+SHA1-Digest: ccF7k3nK5ubQUUIXqVpDPBi4xJw=
+
+Name: res/layout/mixcategorymedi.xml
+SHA1-Digest: 84q0kQcLVZkJ4yfaGA5MmCkupYY=
+
+Name: res/drawable-mdpi/soldier.jpg
+SHA1-Digest: EuCMgMc0s/tMbMBMBrdcf/YHlh0=
+
+Name: res/raw/horseracing.mp3
+SHA1-Digest: GUlyFANPGROlC8X7i55y6POfFhs=
+
+Name: res/raw/rose.mp3
+SHA1-Digest: bW6rdJbHqmXDjNwMYDka5iZPC+g=
+
+Name: res/drawable-mdpi/shootingstar.jpg
+SHA1-Digest: kgy2pGOKC6FbpHqoi4xtzaoZAZ4=
+
+Name: res/drawable-mdpi/bud1.jpg
+SHA1-Digest: 7wZhxRhALtMKhYqa5kpx37YpoRQ=
+
+Name: res/drawable-ldpi/next_last.png
+SHA1-Digest: v3INBp5B1s9diNMuUg+l4RiNxzQ=
+
+Name: res/drawable-mdpi/karate.jpg
+SHA1-Digest: AU0ggnJQoc+ZQBigsNPivVHgR3w=
+
+Name: res/drawable-mdpi/snowflakes.jpg
+SHA1-Digest: aNR159N0AgL4sAcfPRGDxrde4MU=
+
+Name: res/drawable-mdpi/crawling.jpg
+SHA1-Digest: 2eWcv0A+eZxtQGpvB1N4QCbI0GM=
+
+Name: res/raw/pushing.mp3
+SHA1-Digest: 1lAyl0zw5Zxt4tJwSZqFx1rS6us=
+
+Name: res/drawable-mdpi/cycling8.jpg
+SHA1-Digest: Jf4CbuaXI1vHMZAJJpJ03vImgAE=
+
+Name: res/drawable-mdpi/penacreas.jpg
+SHA1-Digest: N9aN+Ym/hoI9XTmcLO6kO/obC8s=
+
+Name: res/raw/hacksaw.mp3
+SHA1-Digest: 64lw5m6G/EG5k05M3GDkC+AgiNw=
+
+Name: res/drawable-mdpi/hestaurant.jpg
+SHA1-Digest: QnZzyVGa4lc/4+IWcHaFdIh/OfM=
+
+Name: res/drawable-mdpi/sunflower.jpg
+SHA1-Digest: KKWMmPMtyWFTRM01F/YI7ARuYvc=
+
+Name: res/drawable-mdpi/flyingstork.jpg
+SHA1-Digest: 28RjHXWMVQgsuDGxg5bNm7vycLQ=
+
+Name: res/raw/shooting.mp3
+SHA1-Digest: BDxEsIP2PBsaqsrJD3aeTOZkM9w=
+
+Name: res/drawable-mdpi/bow.jpg
+SHA1-Digest: wZaBB30g3tiNKv9zW0GdS+UhFeE=
+
+Name: res/drawable-mdpi/bloodpressure.jpg
+SHA1-Digest: 0Eh6+xSy5SpWs8do8MNqeqUPn2k=
+
+Name: res/raw/swimming.mp3
+SHA1-Digest: Z2sN+u2y42Ha6sqZ6hkx61a9XOc=
+
+Name: res/layout-sw600dp/setting.xml
+SHA1-Digest: Z71SCVEhYZCc0r+R3SZZwhDICfw=
+
+Name: res/raw/judo.mp3
+SHA1-Digest: R/WhDLsuaqcDC3SWndbbLQ4mGEI=
+
+Name: res/raw/hopping.mp3
+SHA1-Digest: goKGeR0T5ILg5ETREMJ6Zj8LnDg=
+
+Name: res/raw/hibiscus.mp3
+SHA1-Digest: P6bjnSmPYSJm2eHJLEhltDkT+Q4=
+
+Name: res/drawable-hdpi/eflashmore.png
+SHA1-Digest: Dl3mgf6sRRK5ntycJzuWFzEi1zU=
+
+Name: res/drawable-mdpi/spleen.jpg
+SHA1-Digest: qqHdkJ4duHvdrCelzSHGxqvBfs8=
+
+Name: res/drawable-mdpi/curlingcanada.jpg
+SHA1-Digest: niq0imZ7VTGfJZSs94qhKSEfjmQ=
+
+Name: res/raw/measuringtape.mp3
+SHA1-Digest: I5uP+5jXOn7Jgz5VcJ0XKpFpiq4=
+
+Name: res/raw/magician.mp3
+SHA1-Digest: LyDmoZcZzs5melRru/C/TNn89UE=
+
+Name: res/raw/paws.mp3
+SHA1-Digest: TOcgQUk30+cxlKWc/KdNBEs0hLk=
+
+Name: res/drawable-mdpi/dancing1.jpg
+SHA1-Digest: bTS+Kp6spGjdHbcfVfSgpOYCNkU=
+
+Name: res/raw/tails.mp3
+SHA1-Digest: AXyt9uhkoR1vXx6+HQ6e4Y4zrgY=
+
+Name: res/raw/ruler.mp3
+SHA1-Digest: QQNXmh9PDYpAH5qLIVYkv5g81vI=
+
+Name: res/drawable-mdpi/pirate.jpg
+SHA1-Digest: YihTFSZn920wHQlH+Dqw7XsiuDU=
+
+Name: res/drawable-mdpi/shooting.jpg
+SHA1-Digest: GfCg4EY6bxarkOzwH3kpEN0GU+E=
+
+Name: res/raw/bandage.mp3
+SHA1-Digest: KWr656/LpX6sM0avcAtI4uEeJM0=
+
+Name: res/drawable-mdpi/palmtrees.jpg
+SHA1-Digest: Q/ZY/FpRWi7U/4+Aiityj3AeYgI=
+
+Name: res/raw/computerprogrammer.mp3
+SHA1-Digest: xSJKGlePJdojXDWTMwGlRO77fNw=
+
+Name: res/drawable-hdpi/save.png
+SHA1-Digest: wgVuUoITwjSAd7NhzsZzZxfvOC8=
+
+Name: res/raw/sleeping.mp3
+SHA1-Digest: MLahYRmNrHD0bVSE/xi+ANhyFvk=
+
+Name: res/drawable-mdpi/grassland.jpg
+SHA1-Digest: ZqhsbFzOmEaCjRs51fo4jH702Zc=
+
+Name: res/raw/clouds.mp3
+SHA1-Digest: htHoKf0DXvVMQw+u8dyi90tU4YE=
+
+Name: res/drawable-mdpi/lilaflowers.jpg
+SHA1-Digest: moS0aUW2JnRWMZ6w1ZCqHdVE+zE=
+
+Name: res/raw/puppydog.mp3
+SHA1-Digest: 33OA9aPgDNaLT5afZUYQUUdcWMo=
+
+Name: res/raw/bladder.mp3
+SHA1-Digest: xj6EReWn5mNbBbP41XwodR4vHXc=
+
+Name: res/drawable-mdpi/icehocky.jpg
+SHA1-Digest: 4ZhI4u+WhsFOGVQEFJ/yjn0FaNw=
+
+Name: res/raw/javelin.mp3
+SHA1-Digest: 2/65z8FPYvZV6QGHaMTzKfkz1HU=
+
+Name: res/raw/dusting.mp3
+SHA1-Digest: JXUBxn7KeoTnSRWquaWflt2U7QM=
+
+Name: res/drawable-mdpi/beaks.jpg
+SHA1-Digest: Abt6WjVhsIMwlnErieLEkPfgxaU=
+
+Name: res/drawable-mdpi/island.jpg
+SHA1-Digest: ow/FCfqAWYUD7WbdTek6Y4bfTY4=
+
+Name: res/drawable-mdpi/bigdipper.jpg
+SHA1-Digest: m2XfSaskFdmEE807QyEYi/5jYo4=
+
+Name: res/raw/icehockey.mp3
+SHA1-Digest: eC/Zd8EXyJ0la67mB+IrccjT2B4=
+
+Name: res/raw/level.mp3
+SHA1-Digest: vdWavNaHQi9COffyEco5z7F1FxI=
+
+Name: res/raw/chickenhen.mp3
+SHA1-Digest: oWgHImrldq1VEJaoudXpZvlAPbM=
+
+Name: res/drawable-hdpi/home_btn.png
+SHA1-Digest: 6pTpiew/fTBFR1JeFLhWX95nf8w=
+
+Name: res/raw/highjump.mp3
+SHA1-Digest: wDnVgB1RlJd4kZsjuc/sK7N5udc=
+
+Name: res/raw/cave.mp3
+SHA1-Digest: afx9yy5nserMp8RKUABObIhaAmU=
+
+Name: res/drawable-mdpi/longjump.jpg
+SHA1-Digest: o01Z5XE5Itmv+p/KS/n9EOY3C8I=
+
+Name: res/drawable-mdpi/review_app.png
+SHA1-Digest: afMiOwDsiHiV4v9cgxU0y6KZiHM=
+
+Name: res/drawable-mdpi/comet.jpg
+SHA1-Digest: s+L7fpXQf2j7SIih0rY6gX+n4/8=
+
+Name: res/raw/wreath.mp3
+SHA1-Digest: zbr90MDYkhdUTm/r+cPe8GHLLxM=
+
+Name: res/drawable-mdpi/soccer.jpg
+SHA1-Digest: 5pLfbye72TsKLYcoT1CpmNqFPcY=
+
+Name: res/drawable-mdpi/exercise.jpg
+SHA1-Digest: RiRas6OoJNkTjgZJGVz3Oj+hAW0=
+
+Name: res/raw/skullcrossbones.mp3
+SHA1-Digest: pmSdo6HiPnriGUJLMsx2RaQpaW4=
+
+Name: res/anim/slide_out_left.xml
+SHA1-Digest: 13mtOSqtr47xaMhwLg4qK1UTCrY=
+
+Name: res/raw/cheerleading.mp3
+SHA1-Digest: sXw+3tHVdr2dtbVwseNgmdIJkw0=
+
+Name: res/drawable-hdpi/mix.png
+SHA1-Digest: GSZDjgFtbNgUiZoK9L1KqrxyNBA=
+
+Name: res/drawable-mdpi/appletree.jpg
+SHA1-Digest: 44jzROlC8XlMGuxFJfjsX574bIg=
+
+Name: res/layout-sw720dp/showcategory.xml
+SHA1-Digest: 5h+c/ALDcSwNKbuiQ5x2aT0ol/k=
+
+Name: res/drawable-mdpi/strips.jpg
+SHA1-Digest: dr/zvBpup1NniPcyZC8cfNgBYkg=
+
+Name: res/raw/desert.mp3
+SHA1-Digest: j2W/TCxlZ0QTm2tA70rfYs0a5SI=
+
+Name: res/raw/skeleton.mp3
+SHA1-Digest: Nu0k2DWQEAWekQqIpVT+xcSmw5Y=
+
+Name: res/raw/web.mp3
+SHA1-Digest: tlglqCFQM35O25/cakn/iVKN0ao=
+
+Name: res/drawable-mdpi/slithering.jpg
+SHA1-Digest: XdmOPoWfXICuNKbPQIGL3mwo4qA=
+
+Name: res/raw/screwdriver.mp3
+SHA1-Digest: QvanmMDs0a7f4BsCS2QnKxgL5mU=
+
+Name: res/drawable-mdpi/lily.jpg
+SHA1-Digest: AVXOhpNklTBlaPs9vN4A8/yTLhs=
+
+Name: res/drawable-mdpi/ruller.jpg
+SHA1-Digest: 1EWaFDALjK4qKwWKADq/0Nk9ENI=
+
+Name: res/layout-sw360dp/showcategory.xml
+SHA1-Digest: 1y2nO+MmKrhZfqbfsl2xGLcqHQE=
+
+Name: res/drawable-mdpi/reindeer.jpg
+SHA1-Digest: nAQEM3SqmAoxbfF328g+Fb+2gC0=
+
+Name: res/raw/clown.mp3
+SHA1-Digest: geYJHSpcWe3LxY+qTMchxl01hQo=
+
+Name: res/drawable-mdpi/cherrytree.jpg
+SHA1-Digest: 8Dx7Esar5UBnVfa407Vl5jmWjBA=
+
+Name: res/raw/skiing.mp3
+SHA1-Digest: +FqmbwIFk6R+84k+ehFmoO9PhDI=
+
+Name: res/raw/lights.mp3
+SHA1-Digest: tI5xQslZEmJCiW9Xmo2ZYgrSzOo=
+
+Name: res/raw/roots.mp3
+SHA1-Digest: lEOwFfhLD+g6LU/jFTNzRur0IR4=
+
+Name: res/raw/pancreas.mp3
+SHA1-Digest: I46ceFuNTWrhwEaCmCrGyERFzds=
+
+Name: res/drawable-mdpi/talking.jpg
+SHA1-Digest: pmym6CBkhBqFhP0hjSlwxtHs9ZU=
+
+Name: res/layout-sw600dp/window_title.xml
+SHA1-Digest: acjhRx/qjfMv0lZKzzvI4tDWrRc=
+
+Name: res/raw/caves.mp3
+SHA1-Digest: 0YbntNRxNmpo8TNLu/lJCdIUrBw=
+
+Name: res/drawable-mdpi/doormen2.jpg
+SHA1-Digest: vQd1yxGj38NKh6Hyew9V2xCbBiA=
+
+Name: res/drawable-hdpi/logo.png
+SHA1-Digest: NbQAgGnMNQUmr/av/1mAxSfEMIs=
+
+Name: res/drawable-mdpi/orangetree.jpg
+SHA1-Digest: QK0adfGkYJ0R36Olruc/v6lBOsU=
+
+Name: res/raw/rapids.mp3
+SHA1-Digest: 5c3fDmMksETfFFUawLv7hNKa3aI=
+
+Name: res/drawable-mdpi/chrismaspudding.jpg
+SHA1-Digest: sWwbSTIb6THCexOGnLg6BLPp9xA=
+
+Name: res/raw/clapping.mp3
+SHA1-Digest: Kh5Cu4f1HrjhhsMV82Q4pjFytg4=
+
+Name: res/raw/tools.mp3
+SHA1-Digest: qyGoyMDJUclhmvszEcqYTNZSNNQ=
+
+Name: res/raw/mapletree.mp3
+SHA1-Digest: cf3q8TbG2Rf4LEc4kRMVokMe3bs=
+
+Name: res/drawable-mdpi/skullhallow.jpg
+SHA1-Digest: a9QyVYtlZIdmpLqXXdNsReJbeRw=
+
+Name: res/drawable-mdpi/scientist.jpg
+SHA1-Digest: ltGnm5BGA3LLtQvnDXjV73wRqyM=
+
+Name: res/raw/heart.mp3
+SHA1-Digest: KH00OCyvk6a81zGJBAyOueaJjYI=
+
+Name: res/raw/milkyway.mp3
+SHA1-Digest: hKZ5rK3s9XPgcs5noqBKxJ6aq+o=
+
+Name: res/raw/street.mp3
+SHA1-Digest: 1rYnuelci/VmMv0a+AZChY70ceg=
+
+Name: res/drawable-mdpi/xray.jpg
+SHA1-Digest: QFgfF1XMGGnbGgDQTHTXGwjhKGU=
+
+Name: res/drawable-mdpi/seaweed.jpg
+SHA1-Digest: FfeD7hBJGTocJaKwLwOOXMg2bEk=
+
+Name: res/drawable-hdpi/body.png
+SHA1-Digest: 5jaXj0wRF+BHLY/9QiE8i9xUn0M=
+
+Name: res/raw/sidewalk.mp3
+SHA1-Digest: 4T9IO/61+rBY9DadHEltesYWlcY=
+
+Name: res/raw/longbones.mp3
+SHA1-Digest: 2nHh/3FQg6aGEfybuYcmScpuHmk=
+
+Name: res/drawable-mdpi/mangotree.jpg
+SHA1-Digest: bEC4c4mJNlGjxYm7DdumMKHnaTI=
+
+Name: res/drawable-mdpi/canyon.jpg
+SHA1-Digest: 8wu2+BqZpWJQMPNkDUlYpFyrVmc=
+
+Name: res/drawable-mdpi/judge1.jpg
+SHA1-Digest: SWbsS23K2YWBe1kpGACVdzDyZjs=
+
+Name: res/drawable-mdpi/spacecapsule.jpg
+SHA1-Digest: NQHUfVmx8xm+Egpf2IcUE9wUn9o=
+
+Name: res/raw/beach.mp3
+SHA1-Digest: CcXTCgGaEwFP8JjrRWBdxERio3Y=
+
+Name: res/raw/orangetree.mp3
+SHA1-Digest: 4/NP4klVROXkSsw6GD6shFH5URs=
+
+Name: res/raw/farm.mp3
+SHA1-Digest: P4jfAFGAgc3YGKOEw4oqgnZDtO4=
+
+Name: res/drawable-mdpi/cancle.png
+SHA1-Digest: p70F1XxMyR4vKBxae+GQXeWrqlM=
+
+Name: res/raw/restaurant.mp3
+SHA1-Digest: Xjx9KffVqNPlp0sYxBy9Gt1ep8w=
+
+Name: res/drawable-hdpi/speakar58.png
+SHA1-Digest: cQ312kL35jP1PH2gYj8r3Kbr4L4=
+
+Name: res/raw/priest.mp3
+SHA1-Digest: lwHkUqfSzFj1AXc3LhLMu9ZQ4NM=
+
+Name: res/raw/cycling.mp3
+SHA1-Digest: ST14IAaFDoBuGjXGU9xRCYIlNn8=
+
+Name: res/drawable-mdpi/hammer.jpg
+SHA1-Digest: RSH1L9DxFVVXKWMH6IapS7cpyvo=
+
+Name: res/drawable-mdpi/chimney.jpg
+SHA1-Digest: sMQ8dJXhAoHK5S5bxCWh0qKvsWA=
+
+Name: res/raw/christmascard.mp3
+SHA1-Digest: /b9eX+6SnL9WivV2InRzQ8yNjAA=
+
+Name: res/drawable-hdpi/review_app.png
+SHA1-Digest: afMiOwDsiHiV4v9cgxU0y6KZiHM=
+
+Name: res/drawable-mdpi/chrismastree.jpg
+SHA1-Digest: o7zIwQnoqPzaAEeGhAZ5Irex/UE=
+
+Name: res/drawable-mdpi/blades.jpg
+SHA1-Digest: XLvWykNIBqSr9uSyomW9GakENs4=
+
+Name: res/drawable-mdpi/heloweenweb.jpg
+SHA1-Digest: epQ5fO9ylL2HiaHIkwXCWd5j6eg=
+
+Name: res/drawable-mdpi/stomach.jpg
+SHA1-Digest: LcEFAXULHP76OB/3nVZ0x9Lx3So=
+
+Name: res/raw/needle.mp3
+SHA1-Digest: lfRY6iVlxcc3jrT3i2Kf9Wc7pGo=
+
+Name: res/drawable-mdpi/supermarket.jpg
+SHA1-Digest: yXIf80yEtp+l/1FGVQ1Ko7vQpoI=
+
+Name: res/drawable-mdpi/swimmingpool.jpg
+SHA1-Digest: 2zUjWmtlWT4iHMZTQfc5QA2qaPA=
+
+Name: res/raw/cherrytree.mp3
+SHA1-Digest: nOuU+aj3NfFRJhJfMsBDcVBEq+c=
+
+Name: res/raw/uranus.mp3
+SHA1-Digest: TDHzOcqS3OJYHYpovzBYXY0DCpg=
+
+Name: res/raw/mitten.mp3
+SHA1-Digest: 9ptFkg6evtl7C3/sJXD2s3mwmoU=
+
+Name: res/raw/dancer.mp3
+SHA1-Digest: kN261qEGIpqKtUvk+jJsz9wA5zY=
+
+Name: res/raw/ducklingduck.mp3
+SHA1-Digest: ZchUu4eSAImVJzR275k9CCMBH3k=
+
+Name: res/drawable-mdpi/burrow1.jpg
+SHA1-Digest: 0CNP2wPS9EsMJ2AOMAlHGuEsC+4=
+
+Name: res/drawable-mdpi/roller.jpg
+SHA1-Digest: J6hm36AkNvrEEbd8T+kifQgCWgw=
+
+Name: res/drawable-mdpi/truckdrivers.jpg
+SHA1-Digest: ERt+zrfNIXxtU0mk53BWpaG/yms=
+
+Name: res/drawable-mdpi/swimming3.jpg
+SHA1-Digest: USoG/G7AR01u1+As5ifU2TMrQE8=
+
+Name: res/drawable-mdpi/captainbig.jpg
+SHA1-Digest: FvG1IA99Plco5c8zrFDzgjdNQJ4=
+
+Name: res/layout-sw720dp/mytitle.xml
+SHA1-Digest: yOpkVgFIObiUup4S02TpdM//ysI=
+
+Name: res/drawable-mdpi/cactus.jpg
+SHA1-Digest: 6oj4xuiRj/Xcif8oUTv3W3Aj1rs=
+
+Name: res/drawable-hdpi/repeat.png
+SHA1-Digest: XhlNKpZ8DAvRP7pwKneMdeHF8lc=
+
+Name: res/raw/architect.mp3
+SHA1-Digest: fWbHDxc0GnF1ubXmC955Nb+ElMM=
+
+Name: res/raw/motocross.mp3
+SHA1-Digest: iw1y7mfxcwAUxh96xrjBd87pj3A=
+
+Name: res/raw/skiing1.mp3
+SHA1-Digest: qojh2Ts5x4FN+HVLjiWAvEPlfBk=
+
+Name: res/raw/astronaut1.mp3
+SHA1-Digest: NNuOssv6z8qTa8Qafqh2orHSEMY=
+
+Name: res/drawable-mdpi/candel.jpg
+SHA1-Digest: 8Lz/2QJrutufJns2fVDJNaElJQg=
+
+Name: res/raw/mailman.mp3
+SHA1-Digest: 8Y6ffsxfeM9gUiW2oVtpIR+FiUY=
+
+Name: res/raw/fencing.mp3
+SHA1-Digest: OZjKyILGaEpAYlu2nw3CwguK8Ws=
+
+Name: res/drawable-mdpi/syringe.jpg
+SHA1-Digest: FPxnoGMdyVmDkkJ33xTOMfWoDH4=
+
+Name: res/drawable-mdpi/dogpuppy.jpg
+SHA1-Digest: 0VoBChXAFEhBxNJzEBvdhYTPAUU=
+
+Name: res/drawable-mdpi/previous_btn.png
+SHA1-Digest: t18EXHEjfbLmHMzuOFydUykwQTk=
+
+Name: res/drawable-mdpi/antennas.jpg
+SHA1-Digest: 15AyOVzEqbkX8kh6mHwlsJJeAaU=
+
+Name: res/raw/playground.mp3
+SHA1-Digest: bZZx8CmuZY7rIIO7sZVa30Ry7jM=
+
+Name: res/drawable-mdpi/speakar.png
+SHA1-Digest: xRjPmenKFjeBP1EK+S1urjYCM38=
+
+Name: res/raw/builder.mp3
+SHA1-Digest: UHSCzHaPcD/5fWlF0QkmGyhrye4=
+
+Name: res/raw/paint.mp3
+SHA1-Digest: px2rlMod0UdwPZykKd9+H2QjUAc=
+
+Name: res/raw/flying.mp3
+SHA1-Digest: C6Zmfsj2TP5u3lINo3mkV3YjvKk=
+
+Name: res/raw/comet.mp3
+SHA1-Digest: 2FJOv1jvaIc8jH44341MOhXVbG8=
+
+Name: res/drawable-mdpi/lotus.png
+SHA1-Digest: S+oJRwezqAplkNYJmqJgiPD+SX8=
+
+Name: res/raw/island.mp3
+SHA1-Digest: GX02rE+s6HP3Ur6M/8luQOxRBnQ=
+
+Name: res/drawable-mdpi/doctor.jpg
+SHA1-Digest: 9Y0r2N/Uzy4Y1nBXZ+AYuYve+pY=
+
+Name: res/drawable-mdpi/santaclause.jpg
+SHA1-Digest: z7JIaZS0AaqXsWK/OPH6gNUorhE=
+
+Name: res/raw/barber.mp3
+SHA1-Digest: 7ubuXgc5rOXvH+dI7P0w7YzRcEU=
+
+Name: res/raw/stripes.mp3
+SHA1-Digest: 8jF0uoPT20ACGtNQ011fP/cCNaY=
+
+Name: res/drawable-mdpi/largeintenstine.jpg
+SHA1-Digest: Ip459/Ru9/VFTLLuuHu8/wbjWlg=
+
+Name: res/drawable-mdpi/ducktape.jpg
+SHA1-Digest: N4+C3/ud96zk2sigCftolFWPP+g=
+
+Name: res/layout-sw360dp/main.xml
+SHA1-Digest: jGiLJ08FDl6WkStJ5ZFnKqurbks=
+
+Name: res/raw/waterfall.mp3
+SHA1-Digest: HS4Kj+9hcpMJtZSxImJgg8Fu0X8=
+
+Name: res/raw/neptune.mp3
+SHA1-Digest: lZSt60MU85dEvUgQzdHmtNwZ5zY=
+
+Name: res/drawable-mdpi/sidewalk.jpg
+SHA1-Digest: bh/ikdQLmJm6RoWAUhzEVHcYQWU=
+
+Name: res/drawable-mdpi/shells.jpg
+SHA1-Digest: dJewlA+jCiL7nfHxLalk1H/Tqyc=
+
+Name: res/raw/scientist.mp3
+SHA1-Digest: 54isRJVKOmLUBE6siEBK56Cz/FI=
+
+Name: res/drawable-mdpi/webdew.jpg
+SHA1-Digest: AwfMFKDpgYiUpm/mllE7QdvU8hk=
+
+Name: res/raw/werewolf.mp3
+SHA1-Digest: bLZfmZl08FuSEbDFbtjejv+0WlI=
+
+Name: res/raw/mopping.mp3
+SHA1-Digest: hb3XnOxTAT51y8+LxgUOira6Drg=
+
+Name: res/drawable-mdpi/star2.jpg
+SHA1-Digest: MRu6C6K1lItOgu4IGiNsqNhY7yU=
+
+Name: res/raw/running.mp3
+SHA1-Digest: ty4m68VtHAd0+t1IejTL02V3Rwo=
+
+Name: res/raw/gallbladder.mp3
+SHA1-Digest: qo0MUjrSu8eKG+Moy1SLc5/xHyI=
+
+Name: res/raw/gift.mp3
+SHA1-Digest: 702FeNFu40cpSEzLeKkG3olBfKo=
+
+Name: res/drawable-hdpi/previous_btn.png
+SHA1-Digest: t18EXHEjfbLmHMzuOFydUykwQTk=
+
+Name: res/raw/kidgoat.mp3
+SHA1-Digest: /vmd8R1wdoISyTzCGlxFJmUiy5I=
+
+Name: res/raw/moonlender.mp3
+SHA1-Digest: 6FIW6/JFy6yr7EvnkuVkrAS3VbI=
+
+Name: res/raw/cactus.mp3
+SHA1-Digest: 2x5nmTClN1yBRWIIsluMmGT3SKE=
+
+Name: res/raw/lungs.mp3
+SHA1-Digest: oBfyyAkigfJQGe6Yik5ui2Id5VA=
+
+Name: res/drawable-mdpi/web.jpg
+SHA1-Digest: AwfMFKDpgYiUpm/mllE7QdvU8hk=
+
+Name: res/drawable-mdpi/butcher.jpg
+SHA1-Digest: TdqjnQqEp2zzsGlRDgMhhdRvef8=
+
+Name: res/raw/mountain.mp3
+SHA1-Digest: Wgk4JO/jJDlDimD0L4pMzGtE2qQ=
+
+Name: res/drawable-mdpi/bakery.jpg
+SHA1-Digest: 6ccwVo8NRaSahXO0j6xWWZ2Ev58=
+
+Name: res/drawable-mdpi/waiter.jpg
+SHA1-Digest: NNjARYqexdygbcFe+G/Z4ZSJkPc=
+
+Name: res/raw/nova.mp3
+SHA1-Digest: 4Q5bPzUBWfKjrq1tCwQmgF+oQ/U=
+
+Name: res/drawable-ldpi/repeat.png
+SHA1-Digest: XhlNKpZ8DAvRP7pwKneMdeHF8lc=
+
+Name: res/drawable-mdpi/logo.png
+SHA1-Digest: NbQAgGnMNQUmr/av/1mAxSfEMIs=
+
+Name: res/raw/rollerskating.mp3
+SHA1-Digest: jCNw1OxHlrq5OPHAhGKvrqASBWI=
+
+Name: res/drawable-mdpi/tusks.jpg
+SHA1-Digest: PMU1Tmd9LhgHpINTWyQ117Yxpe8=
+
+Name: res/drawable-mdpi/kittenandcat.jpg
+SHA1-Digest: KL+C6bbbwxMMALRshMH+d0U1khg=
+
+Name: res/layout/main.xml
+SHA1-Digest: bGz0wZhvsnjH8bhrwp4J5kVJwYE=
+
+Name: res/drawable-mdpi/deserts.jpg
+SHA1-Digest: 3SMM7PQPHP+AVtF6yJknDDMpE6M=
+
+Name: res/raw/candle.mp3
+SHA1-Digest: DA4CXLLK8FN2zeTVch4V7kS7AtU=
+
+Name: res/drawable-mdpi/jumping.jpg
+SHA1-Digest: TLgafKEy1sdUefjM5Y8XXXk8Ikg=
+
+Name: res/raw/lifeguard.mp3
+SHA1-Digest: OQSrRWKmy6O3xaS2yNxVk8KtzLU=
+
+Name: res/raw/ivbag.mp3
+SHA1-Digest: oEEBQDxX6rrMUXHfiF03okHOw0E=
+
+Name: res/drawable-mdpi/angel.jpg
+SHA1-Digest: GJs2uT/p36hVb3oIHphx5cx3mpI=
+
+Name: res/drawable-mdpi/presents.jpg
+SHA1-Digest: kELsQmr25Uy0O74lFuziVUFLCRY=
+
+Name: res/raw/waving.mp3
+SHA1-Digest: bVd5SEo1f3tNhV0LpBR5VIxXY94=
+
+Name: res/raw/utilityknife.mp3
+SHA1-Digest: 8g6iKQZS2/RBnaITWg6Et+dgFQo=
+
+Name: res/raw/laughing.mp3
+SHA1-Digest: F5OFQOdcPRYJ30ZsIu8GfCtOiW8=
+
+Name: res/raw/bathing.mp3
+SHA1-Digest: wRY9o4OwIUf8zQsqPHMQ1tC4Nck=
+
+Name: res/drawable-mdpi/hospital.jpg
+SHA1-Digest: EyEeqWcTb5+JFUOVDUCDihZNpBE=
+
+Name: res/drawable-mdpi/uranus.jpg
+SHA1-Digest: eWzfloUSF/JiUF4fZnte16Fhl/o=
+
+Name: res/raw/meteor.mp3
+SHA1-Digest: 8aN9T/OjvpuqiJ3yEBhAPv+pyoc=
+
+Name: res/raw/flower.mp3
+SHA1-Digest: B/GalqTAeR5/S8Q7y0Anmdyuw9w=
+
+Name: res/drawable-mdpi/lung.jpg
+SHA1-Digest: TRATTNRvXIFh1kMHTC0+A5bTq/s=
+
+Name: res/raw/hat.mp3
+SHA1-Digest: CtkKPZO2nyRN8im7Bl1Yc8Affx4=
+
+Name: res/raw/stomach.mp3
+SHA1-Digest: 6YtkblhcCvjfoXzPZwPfKmRwVHQ=
+
+Name: res/raw/sting.mp3
+SHA1-Digest: mEBe77JSfgMo5dInVhcZYrBBhCo=
+
+Name: res/raw/star.mp3
+SHA1-Digest: s8G1200w3+0d6ljWpCK+Lhoq5sU=
+
+Name: res/drawable-mdpi/tailor1.jpg
+SHA1-Digest: 2VUZoLj2Yl08ETLwefXuzP6EeEA=
+
+Name: res/drawable-mdpi/barber.jpg
+SHA1-Digest: lyDVVNeX8XJVyp4eqBwhpNLM/SY=
+
+Name: res/raw/hockey.mp3
+SHA1-Digest: gOW0nBEuoA3dR7F3QqEqshTwJI0=
+
+Name: res/layout-sw720dp/window_title.xml
+SHA1-Digest: auB8NYXKH/aLlSwGHJ97je2Rwu4=
+
+Name: res/drawable-hdpi/speakar.png
+SHA1-Digest: xRjPmenKFjeBP1EK+S1urjYCM38=
+
+Name: res/raw/hugging.mp3
+SHA1-Digest: St3Ngxwttm6PSqo9aYUNJxJpD9E=
+
+Name: res/drawable-mdpi/hibiscus8.jpg
+SHA1-Digest: w+2xw3aHRVrrNa5J5Ctdfh3X24o=
+
+Name: res/drawable-mdpi/icesketing.jpg
+SHA1-Digest: WUnBMPCuFKa9p9VSLL6bnXkGrsc=
+
+Name: res/drawable-mdpi/icecrem.jpg
+SHA1-Digest: 10BHCJA5Pf/drKj+G9wzWaR+pRw=
+
+Name: res/layout/window_title.xml
+SHA1-Digest: 7RizsqBIFnVT4Ka354gIWM9DB5g=
+
+Name: res/raw/reflexhammer.mp3
+SHA1-Digest: Gdk2j7HaUBhVlzCZYa/Gjh9RFW8=
+
+Name: res/raw/cliff.mp3
+SHA1-Digest: aSbrvJl9rXtcxn8O8MtimPZXrys=
+
+Name: res/drawable-mdpi/sneezing.jpg
+SHA1-Digest: 8iQpyeVU34rVig++8Nijy+JwTkE=
+
+Name: res/raw/driving.mp3
+SHA1-Digest: AVDVAV2SP78evaQB1A7b0uieJ0I=
+
+Name: res/layout-sw720dp/last_page_class.xml
+SHA1-Digest: GmWT7OGphRfu/MJEFkINGjF3toY=
+
+Name: res/drawable-mdpi/engineer.jpg
+SHA1-Digest: AlZMgFa4ADzxMCFhbA9CCd9hG4E=
+
+Name: res/raw/hives.mp3
+SHA1-Digest: wMzibtCVCSo/a99+/XsQfs3Xjb0=
+
+Name: res/drawable-mdpi/eclipse.jpg
+SHA1-Digest: BQLLAnwmBtVHfXtx0lbT/Lhnz00=
+
+Name: res/drawable-mdpi/smallintenstine.jpg
+SHA1-Digest: Y9EnQBzKOZAvIvCqQVW+/70ZTio=
+
+Name: res/raw/accountant.mp3
+SHA1-Digest: Zvg2g+nU4X7HOgzCycYbj9A6wMc=
+
+Name: res/drawable-mdpi/snowboarding.jpg
+SHA1-Digest: E84QQdsBWFKs2LZBXLVN5vwqml0=
+
+Name: res/drawable-mdpi/trainconductor.jpg
+SHA1-Digest: vhiN6QIeetUbg+7Pl+oPzBLim1E=
+
+Name: res/drawable-mdpi/hauntedhouse.jpg
+SHA1-Digest: MoTMjgi3zh3CTXx8sJ1yPflmNOQ=
+
+Name: res/raw/sitting.mp3
+SHA1-Digest: lgBbdF2NTk54QGqOTg2Ou3QGHLY=
+
+Name: res/raw/foalhorse.mp3
+SHA1-Digest: CEbKTzdrW5YdtC7jeYBWuiamgQ8=
+
+Name: res/drawable-mdpi/lodge.jpg
+SHA1-Digest: +4xxm7vbbZiq9hFJ4Ubb3g00k1s=
+
+Name: res/drawable-mdpi/zombie.jpg
+SHA1-Digest: P6uPE3rPCWbmBXW02lejdwGBKIU=
+
+Name: res/raw/largeintestine.mp3
+SHA1-Digest: NkvVBbaNIfJPb/FOpKFmD+SVQ9E=
+
+Name: res/raw/workbench.mp3
+SHA1-Digest: w5EI7YlLq116ik6mlhz57/AEpPs=
+
+Name: res/drawable-mdpi/gloves.jpg
+SHA1-Digest: mSjlQmb2mrhq1z9F17fKnubA0HA=
+
+Name: res/raw/bonsaitree.mp3
+SHA1-Digest: O1ugmZU4Reboa+FYBqebWmksRxk=
+
+Name: res/drawable-mdpi/plants.jpg
+SHA1-Digest: vBPG8kyB8QZJm/iQQ9Aq/+zc/OY=
+
+Name: res/drawable-mdpi/tulip.jpg
+SHA1-Digest: v++Q0lnJnuSuqNrQP+Vyj4ZPIrA=
+
+Name: res/raw/clusters.mp3
+SHA1-Digest: IbGbTey7VB3PaUsfA4bZHhZxalM=
+
+Name: res/raw/swimmingpool.mp3
+SHA1-Digest: QRM4BkPAquyEsd3KWpG7DfB+FOg=
+
+Name: res/drawable-mdpi/candycan.jpg
+SHA1-Digest: AtK1NAYNYcgr8rWLxQAnN5DkV6o=
+
+Name: res/drawable-mdpi/fishing.jpg
+SHA1-Digest: z+NkPl3hIOFmJl7RkhwTPHYC77k=
+
+Name: res/drawable-hdpi/profassional.png
+SHA1-Digest: NTdz1kkmjmWnIk66mvza5dD9L3E=
+
+Name: res/drawable-mdpi/snowmen.jpg
+SHA1-Digest: LeyVmviVkxYZ5M7mmiyZp4GGWlI=
+
+Name: res/raw/petals.mp3
+SHA1-Digest: UUS7IKZKxI7029if6YAOfO2ONlw=
+
+Name: res/drawable-mdpi/astronaut.jpg
+SHA1-Digest: VsCtoZBwfuuZZwwVrndnt8EsFWc=
+
+Name: res/drawable-mdpi/daisy.jpg
+SHA1-Digest: HbbixJze/xGzvQ/D7q9PLP40hsU=
+
+Name: res/drawable-mdpi/fisherman.jpg
+SHA1-Digest: jARoCw9jdDDJdcQj5gQxWiBbpP4=
+
+Name: res/drawable-mdpi/tools5.jpg
+SHA1-Digest: khH9qnh/UvAQS4V2xLE4a9TNKzQ=
+
+Name: res/raw/talking.mp3
+SHA1-Digest: +28YUuzkD4uzYWF7WKDIxlVIV2k=
+
+Name: res/drawable-mdpi/soilhandfull.jpg
+SHA1-Digest: GHViv9vzDLnNHY2SCYLfI0iK0Zk=
+
+Name: res/raw/laryngoscope.mp3
+SHA1-Digest: DSru8Ot/M8vtS2fsUoUFNTA00jo=
+
+Name: res/layout/splashscreen.xml
+SHA1-Digest: ToBiwPR+qhQYOwobayhBZYc7Ces=
+
+Name: res/raw/sunflower.mp3
+SHA1-Digest: L7L/qPFG5SH+c07JeiDt7SHWBSk=
+
+Name: res/drawable-mdpi/funnel.jpg
+SHA1-Digest: 5QQarAEgj8vCNPRwcRHoiDhZWpM=
+
+Name: res/drawable-mdpi/redbloodcells.jpg
+SHA1-Digest: HVjsD9b/47iCs54giOQaGCjWSmA=
+
+Name: res/raw/snowman.mp3
+SHA1-Digest: 2YTAePWUHEx14tvvPy4DVYfsoGo=
+
+Name: res/drawable-mdpi/leaves.jpg
+SHA1-Digest: HiXkYarlzYfBCQpr3pnRnt190OY=
+
+Name: res/raw/bigdipper.mp3
+SHA1-Digest: l7NIG+0v89TvyN+ythbk+4BPutI=
+
+Name: res/drawable-mdpi/salon.jpg
+SHA1-Digest: 21D2HYhGfX1If7RBv0J6W20K2JA=
+
+Name: res/drawable-mdpi/glacier1.jpg
+SHA1-Digest: FZumWt12PY8dcKJpsB7tFbbDfpY=
+
+Name: res/raw/ocean.mp3
+SHA1-Digest: keX119vMVX4ILzwfkh9iATns9Hc=
+
+Name: res/drawable-hdpi/btn_back_box.png
+SHA1-Digest: OUZ7eHZazMHC+Lqt9G4aK72f0yE=
+
+Name: res/drawable-mdpi/park.jpg
+SHA1-Digest: jif2wMsp0pR2RIUtPtJG6GM+G38=
+
+Name: res/drawable-mdpi/setting_icn.png
+SHA1-Digest: t23ol8Vrlukeyra9uii4xjuoIC8=
+
+Name: res/drawable-mdpi/oldleaves.jpg
+SHA1-Digest: MBWUVlVe5v33IB5xwgCw4FKRj0E=
+
+Name: res/raw/brain.mp3
+SHA1-Digest: 658o6/NCrHlc8ZPd4hSGfHS9ges=
+
+Name: res/drawable-mdpi/coniferstrees.jpg
+SHA1-Digest: QztoAEBehzRRw0u84wQ4gxwVDzs=
+
+Name: res/raw/volleyball.mp3
+SHA1-Digest: ZWFdxRr0i9rbGxnIAXMEtiX4/M4=
+
+Name: res/raw/baseball.mp3
+SHA1-Digest: Sw69Pqpk9clMtRzaLTvmJDmRVWk=
+
+Name: res/drawable-hdpi/button1.png
+SHA1-Digest: 8eq3vf7wK8FX3LN9pykHSrIhUiw=
+
+Name: res/raw/sneezing.mp3
+SHA1-Digest: mOruizUzUs9Ez4lKCOEnN+jCzZs=
+
+Name: res/raw/nerves.mp3
+SHA1-Digest: KAN32AxRLPkER0JIekRkTAIRkSA=
+
+Name: res/drawable-mdpi/claw2.jpg
+SHA1-Digest: oJqz67Te5275NTYjHhOqvYraXrA=
+
+Name: res/drawable-mdpi/mittenthumb.jpg
+SHA1-Digest: Y71f6jfYXMv4SifWTak6g5H0Lc8=
+
+Name: res/raw/leaves.mp3
+SHA1-Digest: L+9BjaDwhAJDnOAzbkfa6UNiMwk=
+
+Name: res/raw/stocking.mp3
+SHA1-Digest: E//wIJgoiQaAkYRqmn77zkVL8pI=
+
+Name: res/drawable-mdpi/pond.jpg
+SHA1-Digest: SE21WZhTPYkAtPL7yDnhtf/ueXw=
+
+Name: res/drawable-mdpi/roots.jpg
+SHA1-Digest: 2igb6wr0klX5+7m9tWegmWvKs2Y=
+
+Name: res/raw/truckdriver.mp3
+SHA1-Digest: RYBoT7lbimmWtTYs4Oyol8bWRWI=
+
+Name: res/raw/hooves.mp3
+SHA1-Digest: lDasRJdBMNhzu8KDZ7TANb0UkwE=
+
+Name: res/raw/spine.mp3
+SHA1-Digest: PIne+szrfDrUY4ud+5AOVf8Yjt8=
+
+Name: res/drawable-hdpi/bg.png
+SHA1-Digest: C+Gv4FtbQF9Vc7HkHdtE36J+UaE=
+
+Name: res/drawable-mdpi/playground.jpg
+SHA1-Digest: a8jE9LBmslkLHoXD18xLaZc+BcM=
+
+Name: res/drawable-mdpi/teacher.jpg
+SHA1-Digest: JXGXKdYyr5jTUCnoPF9qUMoXX8o=
+
+Name: res/drawable-mdpi/busstop.jpg
+SHA1-Digest: kR/kK9VwIWX5pBEQUHPQ66k30w4=
+
+Name: res/raw/shaking.mp3
+SHA1-Digest: nw4DxMMusaDqax9UXGR2/ai1QwE=
+
+Name: res/raw/pinetree.mp3
+SHA1-Digest: vMrcVk+mgcrTGnwVL8Nen4KT7dg=
+
+Name: res/drawable-mdpi/otoscope.jpg
+SHA1-Digest: Q9MxTDfwCnwuVj6iEEzrwMnDVBE=
+
+Name: res/raw/supernova.mp3
+SHA1-Digest: 4pM/WTVOca6Sz0Pupe3slsYakP4=
+
+Name: res/raw/archery.mp3
+SHA1-Digest: IrfZ6PRAbzOLzvKZZATzuUxfcoE=
+
+Name: res/layout-sw600dp/showcategory.xml
+SHA1-Digest: bG99QCsugU7zplXuMPeYfQq0s5I=
+
+Name: res/drawable-mdpi/yawning.jpg
+SHA1-Digest: z2Lf4IMoeWdBKiOVGxNnNhPnu+4=
+
+Name: res/drawable-mdpi/spine.jpg
+SHA1-Digest: u+CJJSqxMqMi98S91Q1QCGX6tq0=
+
+Name: res/drawable-hdpi/googlead.jpg
+SHA1-Digest: 1hWUED7hgbbOsCAw156W8xTNU9w=
+
+Name: res/drawable-mdpi/pumpkin.jpg
+SHA1-Digest: 1d5ExjDVOdHmSzPegBDw+6C87fo=
+
+Name: res/drawable-mdpi/jupiter.jpg
+SHA1-Digest: uN3T8AgaVBw5alJFnLr1Qw3N/fs=
+
+Name: res/raw/carracing.mp3
+SHA1-Digest: AbD0L85Bgh7HopzXS/6dZeGSLQ4=
+
+Name: res/drawable-mdpi/toolbox.jpg
+SHA1-Digest: 6R6rdH7UIvOeqS7RMoZRO44zI3Y=
+
+Name: res/drawable-mdpi/profassional.png
+SHA1-Digest: NTdz1kkmjmWnIk66mvza5dD9L3E=
+
+Name: res/drawable-mdpi/chalk.jpg
+SHA1-Digest: JF5KraOD1vuaz+j4LwXct9EhNF0=
+
+Name: res/raw/house.mp3
+SHA1-Digest: abpQy0fHUhMHtE57qxAXg2Pw9Jw=
+
+Name: res/raw/forest.mp3
+SHA1-Digest: xaFjKIBr7ddBc/uXSDUbxvy21xE=
+
+Name: res/drawable-mdpi/rapids.jpg
+SHA1-Digest: AoASQx1JdrOg5mxl/uGRXDfopXA=
+
+Name: res/drawable-mdpi/goatandkid.jpg
+SHA1-Digest: kBx2nX1PUoCFxBvfskQzEoy6PhA=
+
+Name: res/layout-sw720dp/imageview.xml
+SHA1-Digest: 8v443AGqgfBvuA3oEXiimr0oKcE=
+
+Name: res/raw/mistletoe.mp3
+SHA1-Digest: xIqqPfAuxIqIaidSz/QpYqUp9TE=
+
+Name: res/drawable-mdpi/bark.jpg
+SHA1-Digest: PGaNQA5zaL3XS59Uhd9HOLGpTcU=
+
+Name: res/drawable-mdpi/padlock.jpg
+SHA1-Digest: f51+x07Dhyu9xLSNLgWsH3FD+Q4=
+
+Name: res/raw/spacerover.mp3
+SHA1-Digest: a53BbaNn93wKK4fuhZ63dp908co=
+
+Name: res/raw/jumping.mp3
+SHA1-Digest: Y9LKixVSNRh7iaKvy+G5v5Tg+Vs=
+
+Name: res/raw/stethoscope.mp3
+SHA1-Digest: DfeaK3SM//eqxpQfBgWpIouFink=
+
+Name: res/raw/chimney.mp3
+SHA1-Digest: REt3C0wPZyZXdbpS7VwLw8EFRio=
+
+Name: res/layout/splashscreen2.xml
+SHA1-Digest: xlp7BlB2+Xf2PMrqeSJp+AG5+Qs=
+
+Name: res/drawable-mdpi/mistletoe.jpg
+SHA1-Digest: vIbQ0bnb4rboKR1WAxmbacKdZdU=
+
+Name: res/raw/tweezer.mp3
+SHA1-Digest: 7qTpRyy9kQde0uz1GkNQrdAgxEI=
+
+Name: res/raw/longjump.mp3
+SHA1-Digest: UB1JAgM4/QZknPwYI4rBNwZkbdY=
+
+Name: res/drawable-mdpi/saturn.jpg
+SHA1-Digest: tC0t75l57vEa9bQSpXY0jnw3aBM=
+
+Name: res/raw/artist.mp3
+SHA1-Digest: 7085gypoLP2xbU0tIINBaFYPbjw=
+
+Name: res/drawable-mdpi/bat.jpg
+SHA1-Digest: OKE3gike9PPV7yljrsODgDuUhm0=
+
+Name: res/raw/stadium.mp3
+SHA1-Digest: 2PQhO66WpHceZoPE7zfVA+Upr9I=
+
+Name: res/raw/nurse.mp3
+SHA1-Digest: qRGM/5/HtKucCQey8TQYGzj5qck=
+
+Name: res/drawable-hdpi/sports.png
+SHA1-Digest: XsCSUSxjDCBvXgDORz1Sgq7XoBI=
+
+Name: res/drawable-mdpi/street.jpg
+SHA1-Digest: swnNzuqqcqsrZk9idpHr4HB99lk=
+
+Name: res/raw/shootingstars.mp3
+SHA1-Digest: 7EAC6NjVFyMM3GcnOFuFEsiV2hc=
+
+Name: res/drawable-mdpi/airport21.jpg
+SHA1-Digest: T23+/oJ7BP0aXe/avnLnPc0qA9I=
+
+Name: res/drawable-hdpi/space.png
+SHA1-Digest: /kl2etO1LQY2iT+WxwFrUhBq/p4=
+
+Name: res/raw/policeofficer.mp3
+SHA1-Digest: KVKIs6V+1V2QRi0BFp0Bol9tNcM=
+
+Name: res/raw/butcher.mp3
+SHA1-Digest: Wr5ReCcVTkPr2+Y1eB/NiYJ+bPw=
+
+Name: res/raw/christmastree.mp3
+SHA1-Digest: nc0rFMdZ4Vv5VSmuA9SYK+qhDUI=
+
+Name: res/drawable-mdpi/javelin.jpg
+SHA1-Digest: W/QL2OlTIZpE7TS03TzjjIp/2bc=
+
+Name: res/drawable-mdpi/safetyglasses.jpg
+SHA1-Digest: RvqUH02XLJtLhC1OExubUN2qDmU=
+
+Name: res/drawable-mdpi/weightlifting.jpg
+SHA1-Digest: pFArAHqNUMGmf6dzK9G1dl9z8O0=
+
+Name: res/raw/claws.mp3
+SHA1-Digest: NZQ9dSwi0FoUkB/Nfn2JIsMBWKE=
+
+Name: res/raw/christmaspudding.mp3
+SHA1-Digest: Q/tnQTktnrWvoa7zNPqKTywllnI=
+
+Name: res/drawable-mdpi/orchid.jpg
+SHA1-Digest: Tqh5kZHpbyZH/mJ8bQ1a8RDVB5s=
+
+Name: res/drawable-mdpi/artist6.jpg
+SHA1-Digest: OocraadtUqPANIn8PZUwmoFUJnU=
+
+Name: res/raw/tulip.mp3
+SHA1-Digest: wU5VQ6Un3Rca5U+wr2vY+DSFs5o=
+
+Name: res/drawable-mdpi/writing.jpg
+SHA1-Digest: IXxD7iA6w6O6uzveZsiYeSJWw2I=
+
+Name: res/drawable-mdpi/sleeping.jpg
+SHA1-Digest: AP+YSWqye+027eg6uyXfJAH83BM=
+
+Name: res/layout-sw720dp/splashscreen2.xml
+SHA1-Digest: xlp7BlB2+Xf2PMrqeSJp+AG5+Qs=
+
+Name: res/drawable-mdpi/paws2.jpg
+SHA1-Digest: 3pZHnGDx5pMVCe7MfTwxBKEn8nM=
+
+Name: res/drawable-mdpi/skullbody.jpg
+SHA1-Digest: X8QfQ5HisZeGIoNoOR6V0FqADSw=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: U4hq0NRU8PtfII74vJECrGqz+1Q=
+
+Name: res/drawable-mdpi/huggingbaby.jpg
+SHA1-Digest: VNbDed2zKaM6tvUZ75iev5KLKQ4=
+
+Name: res/raw/veins.mp3
+SHA1-Digest: bUn66K80PeHDnji5aMHDqJ0DeqQ=
+
+Name: res/drawable-mdpi/aurora.jpg
+SHA1-Digest: RPIXcmWoho0qfaMhMM80GCtH55w=
+
+Name: res/drawable-mdpi/tentacles.jpg
+SHA1-Digest: uHphk7awFUzuJq1y1o7JYisdLV0=
+
+Name: res/raw/writing.mp3
+SHA1-Digest: Eeg1VEGjE6B1PQhhDCDOe8N+Tiw=
+
+Name: res/drawable-hdpi/places.png
+SHA1-Digest: szP2OaFAvAV3qw71gWbD5oPhru8=
+
+Name: res/drawable-mdpi/clown.jpg
+SHA1-Digest: MVb99suakenNApP5xzqt0J5EUcI=
+
+Name: res/drawable-hdpi/screen.png
+SHA1-Digest: 0Enn4MTNLmhPNvOtj6bLsjcOZbc=
+
+Name: res/drawable-mdpi/magician.jpg
+SHA1-Digest: HNcpVjdSl5/WH6UAO6/saRo6BBg=
+
+Name: res/drawable-mdpi/marsplanet.jpg
+SHA1-Digest: 0hhH8lNK90zoXZ8efO2Z0pKAxck=
+
+Name: res/drawable-mdpi/tail2.jpg
+SHA1-Digest: PKbpkmy9x+IHzRi25zJFOA9Lquk=
+
+Name: res/raw/skull1.mp3
+SHA1-Digest: Vy0shGUremg88wD2Uy/pnqc8fUA=
+
+Name: res/drawable-mdpi/firefighter.jpg
+SHA1-Digest: YwBIWnxt6ZN2Lal8obammxRqHdE=
+
+Name: res/raw/firestation.mp3
+SHA1-Digest: FWLwj3Aq/UVWzWq2vqDSRNr5LtM=
+
+Name: res/raw/clap.mp3
+SHA1-Digest: 2l/B1sLLICyxXuw6WaGXMGkRUvw=
+
+Name: res/raw/bakery.mp3
+SHA1-Digest: icW79rP7Pm7Cr/dByt9jU9ee0RY=
+
+Name: res/drawable-mdpi/universe5.jpg
+SHA1-Digest: I5URCWXo1DFve7lSZ3MaY2YkOkQ=
+
+Name: res/raw/firstaidbox.mp3
+SHA1-Digest: Za8+cKe2+pUXp/6LzOANnTMu2oQ=
+
+Name: res/layout-sw600dp/splashscreen.xml
+SHA1-Digest: ToBiwPR+qhQYOwobayhBZYc7Ces=
+
+Name: res/drawable-mdpi/tweezers.jpg
+SHA1-Digest: g01F0WkCzdV4+FPd26ivDiF3Yac=
+
+Name: res/anim/slide_in_left.xml
+SHA1-Digest: iqXNPVcMwrFpSWg/SpiwNNk01NU=
+
+Name: res/drawable-mdpi/mopping.jpg
+SHA1-Digest: ZcLoRKkJaWi5+7avjE0kkEuBCA8=
+
+Name: res/drawable-mdpi/ocean.jpg
+SHA1-Digest: MA0+ML5C49Bw//1E9Bl1zbqIdsw=
+
+Name: res/raw/drillpress.mp3
+SHA1-Digest: pis+Gj5J7KWWPeKi/O28KrKqJwY=
+
+Name: res/drawable-hdpi/halloween.png
+SHA1-Digest: oEv4OcD0TO1bxWFpil2Q5e6hZsY=
+
+Name: res/drawable-mdpi/workbebench1.jpg
+SHA1-Digest: zgxoUWWemLpElrz3M4ojvwrGpBM=
+
+Name: res/layout-sw720dp/mixcategorymedi.xml
+SHA1-Digest: m1pMSU/dnVzUIKfzbTDk55KdQPQ=
+
+Name: res/raw/circus.mp3
+SHA1-Digest: pCHGzScOJMjDA7Ewr/7DgjrluIs=
+
+Name: res/raw/birch.mp3
+SHA1-Digest: x0+XPTiCHC6WbRya/Q6iNIRnSMM=
+
+Name: res/raw/billiards.mp3
+SHA1-Digest: uAXYi0YaM0AmEI+jtU/YdrocXdo=
+
+Name: res/raw/climbing1.mp3
+SHA1-Digest: ZwXWW1XvElm0eAk+e3wT0Dyqrvg=
+
+Name: res/drawable-mdpi/level.jpg
+SHA1-Digest: 9K1zkl2HgUs8gboN1Jy7YRms880=
+
+Name: res/drawable-mdpi/waterfall.jpg
+SHA1-Digest: 7GWP9WIawRHVxsp29Ij9aY4T7uI=
+
+Name: res/raw/xray.mp3
+SHA1-Digest: NUurIk+h6nP5DKcRVzYCsPuhpGo=
+
+Name: res/raw/bow.mp3
+SHA1-Digest: dnNZ6DnRmtcPusZKkCR1nJsq7ks=
+
+Name: res/drawable-hdpi/animal_house.png
+SHA1-Digest: 2stbEeiibrkiIS1QZJBVWJHk/PQ=
+
+Name: res/layout-sw600dp/main.xml
+SHA1-Digest: Zf3tdcNw5k3C9t0HrCxohJMMuCw=
+
+Name: res/drawable-mdpi/pinetree.jpg
+SHA1-Digest: BzdikomjGzBoZBm+Kh5JG+0LR3E=
+
+Name: res/drawable-hdpi/home_last1.png
+SHA1-Digest: vtaTTCNMqjR5c5/g+ctnmbbzTu0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: w4ijiwqDqDeZsT5IZT3zF938t3M=
+
+Name: res/drawable-mdpi/igloo.jpg
+SHA1-Digest: j2RXNwWeQuqR8KosGxTPCuEC0k4=
+
+Name: res/drawable-mdpi/sitting.jpg
+SHA1-Digest: VGqXuQRdjHYVkELkQuqze6kuRco=
+
+Name: res/raw/lake.mp3
+SHA1-Digest: UOe7DtgvQoI31NQeINyDzA1osCA=
+
+Name: res/drawable-mdpi/sun.jpg
+SHA1-Digest: MTl/BKlUXsP6Dp0bFSzGgdsaGo4=
+
+Name: res/raw/dahlia.mp3
+SHA1-Digest: jVlqqaCDxcCbseu0H1ersGv4A88=
+
+Name: res/raw/tailor.mp3
+SHA1-Digest: Zl+6BodYRizXVbulrG/vDuNCGbI=
+
+Name: res/drawable-mdpi/coral.jpg
+SHA1-Digest: MfLukpx3UVHwLS063BfQrQ1/RpU=
+
+Name: res/drawable-mdpi/dusting.jpg
+SHA1-Digest: jJTsMbhxHUXSIA/NWjfBBLu/VMM=
+
+Name: res/drawable-mdpi/digging.jpg
+SHA1-Digest: z7d14Aue0U6BYm7NOLDXBoUIPdw=
+
+Name: res/drawable-mdpi/laryngoscope.jpg
+SHA1-Digest: huZ/lGSaSBhhVth3z5E91kRtn7g=
+
+Name: res/raw/gasstation.mp3
+SHA1-Digest: j6lGyoiV0IlW6S9S/ZinQZzpWRw=
+
+Name: classes.dex
+SHA1-Digest: q/K2iGYTjMm6JjM6V3ZScaB2bsA=
+
+Name: res/layout-sw720dp/splashscreen.xml
+SHA1-Digest: ToBiwPR+qhQYOwobayhBZYc7Ces=
+
+Name: res/layout-sw360dp/window_title.xml
+SHA1-Digest: wNcElLeJ6Ay4Ur9sw2aMlKCvOXw=
+
+Name: res/drawable-mdpi/paintbrush.jpg
+SHA1-Digest: d1oMbjOCJHxzwGyQeXf2ZHCHSqc=
+
+Name: res/drawable-hdpi/tools.png
+SHA1-Digest: kfxp+QSgExK9viclip4ARzQl6g0=
+
+Name: res/raw/polevault.mp3
+SHA1-Digest: XIFdxwY/ThF4fg+FtymHOpFBafM=
+
+Name: res/raw/appletree.mp3
+SHA1-Digest: 77tGPRBEk1bIJ7x7zeieEDcwD1U=
+
+Name: res/layout-sw600dp/mytitle.xml
+SHA1-Digest: 9MbLWBFy64WtuJEWKzeLJIvgy+k=
+
+Name: res/raw/lilac.mp3
+SHA1-Digest: qCDTvr3DpHOEAiCBmdGt+IVy6fw=
+
+Name: res/drawable-mdpi/climing.jpg
+SHA1-Digest: UnovRvL1u8TszZY5wY8k3nCEV2o=
+
+Name: res/drawable-mdpi/nailpuller.jpg
+SHA1-Digest: zqV5A6iNjQGKpR0Wanwjrtq2XNY=
+
+Name: res/raw/park.mp3
+SHA1-Digest: 1L62IPVtIjrOBfMIzyeDqVw1loc=
+
+Name: res/raw/skipping.mp3
+SHA1-Digest: 3QnST7Gi995MrUdcTKZ1tyq7ylw=
+
+Name: res/drawable-mdpi/treeeating.jpg
+SHA1-Digest: e1nkL+ZGBl8DeA2FtbWEGI2KAeo=
+
+Name: res/layout-sw360dp/mixcategorymedi.xml
+SHA1-Digest: qWk2j3HBB9tmspgLXJc9w7sxhFU=
+
+Name: res/raw/shells.mp3
+SHA1-Digest: pGkQzZ6OlvQAp4vfYHkuDSkTA2k=
+
+Name: res/raw/lioncub.mp3
+SHA1-Digest: RtzwGWH88WhMkyu39wy5dcMLpH8=
+
+Name: res/drawable-mdpi/home_btn.png
+SHA1-Digest: 6pTpiew/fTBFR1JeFLhWX95nf8w=
+
+Name: res/drawable-mdpi/calfcow.jpg
+SHA1-Digest: VNzsPczrtKwPG3cq+PzjKxmc7Hc=
+
+Name: res/raw/soil.mp3
+SHA1-Digest: zVMwDbZFlaHMdfInhySLUyRFP/0=
+
+Name: res/raw/nail.mp3
+SHA1-Digest: NGl4/tWO1JZNJisWaRXzut0dm+E=
+
+Name: res/drawable-mdpi/eflashmore.png
+SHA1-Digest: Dl3mgf6sRRK5ntycJzuWFzEi1zU=
+
+Name: res/raw/synagogue.mp3
+SHA1-Digest: myUz2H6wn+ct/uqOkmB9nr94n4c=
+
+Name: res/raw/shotput.mp3
+SHA1-Digest: zGgPIlwfgbKMky7G8A74X5IbIpM=
+
+Name: res/drawable-mdpi/next_btn.png
+SHA1-Digest: 4+nVvNgoc5rgT5QdNRqJaQiBoZY=
+
+Name: res/raw/firefighter.mp3
+SHA1-Digest: SUtTX8QLuw7cinPtdOmo5WMKARw=
+
+Name: res/raw/weightlifting.mp3
+SHA1-Digest: tpGATuCt21CNOEuo+wI0/1OTt3w=
+
+Name: res/drawable-mdpi/meteor.jpg
+SHA1-Digest: W+GuvIqDQ8Cov4S4NmkAkpVSrxU=
+
+Name: res/drawable-mdpi/cycling.jpg
+SHA1-Digest: GqSKvSfxbn9jVs2Z478AOmuCmKE=
+
+Name: res/drawable-mdpi/scales.jpg
+SHA1-Digest: ys3nee9fok4Z4FqJpnJn3POWjEg=
+
+Name: res/drawable-mdpi/star5.jpg
+SHA1-Digest: 5ffp+uH8aeJLPTOqVmZNPTfTU1A=
+
+Name: res/layout-sw600dp/mixcategorymedi.xml
+SHA1-Digest: SUB3lKjn8/dm1GAt2IgZxAlsGy0=
+
+Name: res/drawable-mdpi/skin.jpg
+SHA1-Digest: ubz67idiwgPy54F1ffYtTd8/JkA=
+
+Name: res/drawable-mdpi/saw.jpg
+SHA1-Digest: RY61fDqyfdJ5ug6hQ/dLCH1RzNQ=
+
+Name: res/raw/bagofpresents.mp3
+SHA1-Digest: sFIcXuIjh6kDllUMeB55xH32SPk=
+
+Name: res/raw/pipewrench.mp3
+SHA1-Digest: LNaLYgsCbdR+FtcZ21Q0TVnw/28=
+
+Name: res/raw/janitor.mp3
+SHA1-Digest: zg9QECUrwZU2usfjOmHjFb5uVGY=
+
+Name: res/raw/gills.mp3
+SHA1-Digest: 7xLuii21Mo0lmNWfajWKfORqq1k=
+
+Name: res/raw/fishing.mp3
+SHA1-Digest: QOSx4ZMhiwHXsOY4pgR/8IiZsMw=
+
+Name: res/drawable-mdpi/kideny.jpg
+SHA1-Digest: QgVB1r687Z+Q99Vcz3RbchLxLmk=
+
+Name: res/raw/running1.mp3
+SHA1-Digest: fZWcRez6hkkwfIQKUVRWOjBSR5M=
+
+Name: res/raw/airport.mp3
+SHA1-Digest: 8qpWbf+bfN5Afgb+Fqcgn5YQwAQ=
+
+Name: res/drawable-mdpi/stinger.jpg
+SHA1-Digest: H+xZMgPqRKSqSaP16OF/mDZNVw4=
+
+Name: res/raw/scales.mp3
+SHA1-Digest: 7cra7ZyZiZWJEeY9sMzZe3QWoWk=
+
+Name: res/drawable-mdpi/policeofficers.jpg
+SHA1-Digest: KVudfho8BkF546ZUo6eQud+9k78=
+
+Name: res/drawable-mdpi/janitor.jpg
+SHA1-Digest: ai4loyzCkvWo9bE3glpHKn4LFUE=
+
+Name: res/drawable-mdpi/letter.jpg
+SHA1-Digest: Eo288py2KxQP+3eXxLYGLsap7cs=
+
+Name: res/raw/bark.mp3
+SHA1-Digest: FmiR+JHSFzR79du/ixrrCX+d01Q=
+
+Name: res/raw/daisy.mp3
+SHA1-Digest: Xmk1/lHf5fRamQfM4hW5wGoP4GM=
+
+Name: res/drawable-mdpi/spacestation.jpg
+SHA1-Digest: wUi9yjtwG8P5gUaTBjsbLuu9msQ=
+
+Name: res/raw/screw.mp3
+SHA1-Digest: YOVlWMVhxQHHr2tiTxrZMuyk6y0=
+
+Name: res/raw/digging.mp3
+SHA1-Digest: mOL3Xea/sNb8BZzY5SHvDc2yJQY=
+
+Name: res/raw/spots.mp3
+SHA1-Digest: Uq5N4LIzgjvxbAVtdya19HBRFEM=
+
+Name: res/drawable-mdpi/skipping.jpg
+SHA1-Digest: zGkjrk9LAgEux2J3+1T2uejHA5I=
+
+Name: res/drawable-mdpi/walking.jpg
+SHA1-Digest: VHmaAwnfV0pEGVYgkUZ0PLyV728=
+
+Name: res/raw/ribcage.mp3
+SHA1-Digest: c9/zdGh7tzzDSnL9B8fSm6dZTQk=
+
+Name: res/drawable-mdpi/restaurant.jpg
+SHA1-Digest: QnZzyVGa4lc/4+IWcHaFdIh/OfM=
+
+Name: res/drawable-mdpi/cygnetswaan.jpg
+SHA1-Digest: FZoVm6yDRYSS1G/Bow17hRWi29Q=
+
+Name: res/raw/crawling.mp3
+SHA1-Digest: C/khf5DKXpv5lX113hVSdSo89JI=
+
+Name: res/drawable-mdpi/dam.jpg
+SHA1-Digest: oNTyqan0HUpH93Yax/Yhu2/E3js=
+
+Name: res/drawable-mdpi/tearingpaper.jpg
+SHA1-Digest: Sqc9gmoy2BoeUHfC9PtrjlXilKw=
+
+Name: res/drawable-mdpi/nun.jpg
+SHA1-Digest: hmnbcyiDUBqoPvx5if883V6Qr8Y=
+
+Name: res/drawable-mdpi/gymnastics.jpg
+SHA1-Digest: N81xa3RpqhxCc/DXJEVwd5QAXY4=
+
+Name: res/drawable-mdpi/bathing.jpg
+SHA1-Digest: fW/WJ1PcKCLZn8CmWRFNeiGB8H0=
+
+Name: res/drawable-mdpi/hooves.jpg
+SHA1-Digest: 9uOyEXDgy+HfHG88qixBQV2MjDk=
+
+Name: res/raw/nun.mp3
+SHA1-Digest: UiEYh41Q0En+w+VBGXMcXtIa0/c=
+
+Name: res/raw/universe.mp3
+SHA1-Digest: hiCaP3wMIUypwaBNK3BsmCbyvl0=
+
+Name: res/drawable-mdpi/sailingposition.jpg
+SHA1-Digest: FNCA7RjTtED1Kmye0qRTpOhwWh4=
+
+Name: res/raw/playing.mp3
+SHA1-Digest: pi06Ba4V7FjT7/bkZboBOCsyNt8=
+
+Name: res/drawable-mdpi/nest.jpg
+SHA1-Digest: WFPcIJNy43rEN5zPTUT0T2Cg6ec=
+
+Name: res/drawable-mdpi/nerve.jpg
+SHA1-Digest: OAvHPcjKCBIXoiouVS+mfKVzjOw=
+
+Name: res/drawable-mdpi/shotput.jpg
+SHA1-Digest: aDI2yYhP/mjzJn4EcF7Sfu6i+9E=
+
+Name: res/drawable-mdpi/halfmoon.jpg
+SHA1-Digest: SprgrU3OySfTGVr4k8abcnoYQSw=
+
+Name: res/drawable-mdpi/chess.jpg
+SHA1-Digest: VpjMEtzyv7jWHt0N6Q1pY+0bxGc=
+
+Name: res/drawable-mdpi/synagogue.jpg
+SHA1-Digest: OrOEfIKegIvJDn2uHG3Ovy/SsJQ=
+
+Name: res/raw/icecreamshop.mp3
+SHA1-Digest: TRDlgVwvP/zlrmMa5UwQn5P9cpQ=
+
+Name: res/drawable-mdpi/utiltyknife.jpg
+SHA1-Digest: UohI2Jo712fahATqrYX39sHI24k=
+
+Name: res/drawable-mdpi/pilot.jpg
+SHA1-Digest: 4biqmFltL7po9xq+T5uV01cOopA=
+
+Name: res/raw/candycane.mp3
+SHA1-Digest: m1s9ldKOJsBhYYeDb2zTUZAS6s8=
+
+Name: res/drawable-hdpi/action.png
+SHA1-Digest: eLV9DOt4crFtEgY9btP1DjLIQqY=
+
+Name: res/drawable-mdpi/dentist.jpg
+SHA1-Digest: LHGeY0foYpvu2MSMTOVbQGlmQOA=
+
+Name: res/raw/christmasday.mp3
+SHA1-Digest: AK6oX/h8Kqhjsfhp2PWNgtKOtgk=
+
+Name: res/raw/badminton.mp3
+SHA1-Digest: AUXYVsNDwd3Ewiq44DEStKc/ezE=
+
+Name: res/drawable-mdpi/cheerleaders.jpg
+SHA1-Digest: XaPVhFOmFi9EYsFHsz6lhql7BEo=
+
+Name: res/drawable-mdpi/northstar.jpg
+SHA1-Digest: seevBMTZwQfFYm1q7qnZLRCBynA=
+
+Name: res/drawable-mdpi/chisels2.jpg
+SHA1-Digest: Qxwk06JIqvuVWntRYtuN/cfg7j4=
+
+Name: res/drawable-mdpi/drillpress.jpg
+SHA1-Digest: n41tSvEuSYQKh+HZl100YJw3bn8=
+
+Name: res/drawable-mdpi/milkyway.jpg
+SHA1-Digest: UC08A+252caPcEcvgWDBewNlHGg=
+
+Name: res/drawable-mdpi/sling.jpg
+SHA1-Digest: K40s+JyjuYfvrKv1D6OtDbcM8e8=
+
+Name: res/raw/spacestation.mp3
+SHA1-Digest: XFPHrTWhVTpqtJE8vpFzRdyAvD4=
+
+Name: res/raw/smallintestine.mp3
+SHA1-Digest: uGPs2EvAHeKVSJTPMjEDr+omBwg=
+
+Name: res/drawable-mdpi/thermometer.jpg
+SHA1-Digest: teIwhtiojYGx3Jlkxxig3MwFjcc=
+
+Name: res/drawable-mdpi/hopping.jpg
+SHA1-Digest: GdYipY+a/Gnz08tLx6UeIUhHwFk=
+
+Name: res/raw/planet.mp3
+SHA1-Digest: Rj/ScPJ84XkVMrg1Epfs4OH0k8Q=
+
+Name: res/raw/fur.mp3
+SHA1-Digest: 35D+bn19iCLJVbsvhl3zmDqGLos=
+
+Name: res/raw/flashlight.mp3
+SHA1-Digest: VLNynvJnX/NFJ6+cUenIoaTN414=
+
+Name: res/raw/tabletennis.mp3
+SHA1-Digest: w2KHQlrJHWXrxevwl1ZnklXzTco=
+
+Name: res/raw/sailing.mp3
+SHA1-Digest: DNRhZLToE6kdpDzkn9H1JtAv8wE=
+
+Name: res/raw/pilot.mp3
+SHA1-Digest: 5ESn8ueeByQG4IqvLlbGnmQ2AAM=
+
+Name: res/drawable-mdpi/astronaut1.jpg
+SHA1-Digest: lrOCQTisTe4wGwb34N91SNoPBRY=
+
+Name: res/raw/bell.mp3
+SHA1-Digest: n8NhIWac1FMaoN6AcipY1ScKcKk=
+
+Name: res/drawable-mdpi/lifeguard.jpg
+SHA1-Digest: BBKPXFYIM0/Wu5bEdMm8KM1tq/U=
+
+Name: res/raw/detective.mp3
+SHA1-Digest: 3xoh4hTIwwRUyjD0dgIm3Vr07Fk=
+
+Name: res/raw/hammer.mp3
+SHA1-Digest: DJKFudZJraFlD0h0UdSGDIYfZ/w=
+
+Name: res/drawable-mdpi/cricket.jpg
+SHA1-Digest: Ukvx5IH/6CNGhvqPBK1Fk6Vbx4k=
+
+Name: res/drawable-mdpi/wrestling.jpg
+SHA1-Digest: FiSLZ5PhDYu+1x6ZZUHvSgebVT0=
+
+Name: res/drawable-mdpi/satellite.jpg
+SHA1-Digest: qW/JU0jbMqAjuzceEVSBiinEOnY=
+
+Name: res/drawable-hdpi/animal_body_parts.png
+SHA1-Digest: V/IqrcZUZZCIEzAaQyfDiwE0k3k=
+
+Name: res/raw/dam.mp3
+SHA1-Digest: p2YCXRGxNSOq+gpi4HmcUbP4HYM=
+
+Name: res/drawable-mdpi/carnation.jpg
+SHA1-Digest: ICNYSEsPyZzrFLjDiEj5bcdVVJ0=
+
+Name: res/raw/web1.mp3
+SHA1-Digest: gCAX3JJL0OAZdKE7R5OqCwa489U=
+
+Name: res/raw/rainforest.mp3
+SHA1-Digest: /dx0oobfRLQzfNX+misUD112DLA=
+
+Name: res/raw/arteries.mp3
+SHA1-Digest: JDYlXFg5nxyOGlc32pSwM/+EZJU=
+
+Name: res/raw/engineer.mp3
+SHA1-Digest: ZuB13xMXNAfYP79meA0bYdsIHfY=
+
+Name: res/drawable-mdpi/hacksaw.jpg
+SHA1-Digest: kZMs0TybDbVE+tGkKv+8bKXx/pU=
+
+Name: res/drawable-mdpi/stems.jpg
+SHA1-Digest: 9a/VnO+HP2lQmTXwRf47rT6VEbk=
+
+Name: res/drawable-mdpi/places.png
+SHA1-Digest: szP2OaFAvAV3qw71gWbD5oPhru8=
+
+Name: res/drawable-mdpi/flashlight.jpg
+SHA1-Digest: i46BLLK1D6b3R0DQdNzvIcF6RBQ=
+
+Name: res/raw/seashore.mp3
+SHA1-Digest: VqXyP0o/omdMtu8VnkcZmuOddKU=
+
+Name: res/raw/littledipper.mp3
+SHA1-Digest: iEF5uckX4eeC61VaJgvM/2qHvpA=
+
+Name: res/drawable-hdpi/speakar57.png
+SHA1-Digest: dSLENl/DqBNIc/WBgKMzuw3wnUo=
+
+Name: res/drawable-mdpi/archeologist.jpg
+SHA1-Digest: In8IL7s4bvtUMa37QRwtNLpKCrM=
+
+Name: res/drawable-mdpi/first.jpg
+SHA1-Digest: 6T1keu8602Q1ITu3FWMWq1pMiXY=
+
+Name: res/layout-sw360dp/mytitle.xml
+SHA1-Digest: 9MbLWBFy64WtuJEWKzeLJIvgy+k=
+
+Name: res/drawable-mdpi/save.png
+SHA1-Digest: wgVuUoITwjSAd7NhzsZzZxfvOC8=
+
+Name: res/drawable-mdpi/fencing.jpg
+SHA1-Digest: TG2GtXTIXhc5sbSeNYu5vGAVBUc=
+
+Name: res/raw/spider.mp3
+SHA1-Digest: Bdr5cCfAQvq5JzOhr4/OWH30yVo=
+
+Name: res/raw/tree.mp3
+SHA1-Digest: Ygqa3qSHMQfVa/sYDWaJxVjvMEQ=
+
+Name: res/drawable-mdpi/builder.jpg
+SHA1-Digest: NQ3G3yJYuMJDquOrTQdSCgjQUT4=
+
+Name: res/drawable-mdpi/polevaultsequence.jpg
+SHA1-Digest: qu/BdBwtK6GIjAk8oIaaaL3tWiY=
+
+Name: res/raw/reindeer.mp3
+SHA1-Digest: GzuUIyWTo1RvH/hLHKfPMD/1KeM=
+
+Name: res/raw/spaceshuttle.mp3
+SHA1-Digest: 9hHXhzk3J5czSuKLjY8EQ76jeCM=
+
+Name: res/raw/captain.mp3
+SHA1-Digest: +jnr42f/WGltQarNi8hApdP1ei0=
+
+Name: res/raw/cricket.mp3
+SHA1-Digest: 1mZ+wwgg2cCJJdXyTktREGOQeKo=
+
+Name: res/drawable-mdpi/icescrape.jpg
+SHA1-Digest: 1wPowoGM75XXyorqWYfp4mdueZc=
+
+Name: res/drawable-mdpi/equestrian.jpg
+SHA1-Digest: uI38Ghcr9PAJr5294WY8d1Ry+50=
+
+Name: res/drawable-mdpi/archetect.jpg
+SHA1-Digest: fG4e6Iel8YdC9B8NJ3AGxB3TonM=
+
+Name: res/drawable-mdpi/liver.jpg
+SHA1-Digest: ZtYr+/00vsBm2sGFMlQ3LHnh/lo=
+
+Name: res/raw/chef.mp3
+SHA1-Digest: BmVlUuFiAVOiGQZHsyQHgiTkKrA=
+
+Name: res/layout/mixcategoryhard.xml
+SHA1-Digest: a06Ogu6exc0Phmty56wY64/ruE8=
+
+Name: res/raw/halfmoon.mp3
+SHA1-Digest: BeLEOsdLUzvVt5iqr6PMOrALqlw=
+
+Name: res/raw/rocketship.mp3
+SHA1-Digest: pjMhJYpD30aN1wdW7av1/YpBT4A=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: oN8Y3UnuFh1nFL5SYQqjoi2GX6U=
+
+Name: res/drawable-mdpi/carpenter.jpg
+SHA1-Digest: c3cAV2u+sXdv60GTq40D9i3UXZc=
+
+Name: res/raw/backyard.mp3
+SHA1-Digest: NybaKsFWa4rQ4k3qJa1E3xgMae8=
+
+Name: res/drawable-mdpi/veterinarian.jpg
+SHA1-Digest: 00C/crn/E1421zYSV3VuwqOfMaw=
+
+Name: res/raw/fangs.mp3
+SHA1-Digest: AT+DcGSYwlaQpkuH5IbWa7MiJEA=
+
+Name: res/drawable-hdpi/cancle.png
+SHA1-Digest: p70F1XxMyR4vKBxae+GQXeWrqlM=
+
+Name: res/raw/lotus.mp3
+SHA1-Digest: e3yF9yySZY2qLOTtziT3J2IReIk=
+
+Name: res/drawable-mdpi/couch2.jpg
+SHA1-Digest: 24ZVuZTT+cNBLlC0rpEWXi4W4hw=
+
+Name: res/drawable-mdpi/horseracing.jpg
+SHA1-Digest: MFlE2597duF3HGTyrjVjusaA1LM=
+
+Name: res/raw/cooking.mp3
+SHA1-Digest: 85vPktHPc/aJWFOQSypBcOlS3ts=
+
+Name: res/drawable-mdpi/elf.jpg
+SHA1-Digest: 5+aw/ZjiA09HFlNtBOrr5JgQ7hg=
+
+Name: res/drawable-mdpi/witch.jpg
+SHA1-Digest: 42tWHeuDHUokjT3K17qeLIt7Yso=
+
+Name: res/raw/star1.mp3
+SHA1-Digest: MWW1ntifnyWSVWQMJZ8rX3Qhgak=
+
+Name: res/drawable-mdpi/rowing.jpg
+SHA1-Digest: hMLGEIY75SgSt61lqovuaQIjVmQ=
+
+Name: res/raw/feathers.mp3
+SHA1-Digest: C/OnMzJy2mPElk6Lezm2EeR7mVA=
+
+Name: res/raw/chisels.mp3
+SHA1-Digest: eiwEhgsmhf1pXdKuPMFuHxZXrvY=
+
+Name: res/raw/conifers.mp3
+SHA1-Digest: da1KPHFhWRADjFsozMfUvVGHts0=
+
+Name: res/raw/zombie.mp3
+SHA1-Digest: PhIVaZQAeoNawb8hfOGWvngcObQ=
+
+Name: res/raw/canyon.mp3
+SHA1-Digest: 8iVqcZKNZXZPsoXMxgM8jPEzrdU=
+
+Name: res/raw/seaanemone.mp3
+SHA1-Digest: eW3RG8xwA+zafdr6rkFbmY0D6ek=
+
+Name: res/raw/fisherman.mp3
+SHA1-Digest: ijmTw3fLmL9WHcbIw7m2pyP3Hus=
+
+Name: res/raw/astronaut.mp3
+SHA1-Digest: QF6ooOsCkYDefUNlLnYkZwG1DR8=
+
+Name: res/raw/mangotree.mp3
+SHA1-Digest: 1Byf9LXtDWblK3dZLeS6p+gNsWY=
+
+Name: res/drawable-hdpi/lotus.png
+SHA1-Digest: S+oJRwezqAplkNYJmqJgiPD+SX8=
+
+Name: res/drawable-mdpi/golf.jpg
+SHA1-Digest: D33UqxQ7AAX0Ml0tjfE4ZjFsRfk=
+
+Name: res/raw/waterpolo.mp3
+SHA1-Digest: dQZvMUXftmXijyDizb4MWJ7if/8=
+
+Name: res/drawable-mdpi/chrismasday.jpg
+SHA1-Digest: QIujKWsbN3nn8gt/ZUJs2pAbO7I=
+
+Name: res/layout-sw600dp/imageview.xml
+SHA1-Digest: fDe3BMUunOEy10N24ualoSSvkt8=
+
+Name: res/raw/chalk.mp3
+SHA1-Digest: RdrZ9rUUkH+NtxeOnFlmK/H0YQE=
+
+Name: res/drawable-mdpi/axe1.jpg
+SHA1-Digest: VAPpwdnmmwXuu6kGX5yVbvwiews=
+
+Name: res/drawable-mdpi/eating.jpg
+SHA1-Digest: lckPH7b+erhrzwkyH+4w4BVqQec=
+
+Name: res/raw/hospital.mp3
+SHA1-Digest: pw21P5VjzgytIhVVFaenRAiimtE=
+
+Name: res/raw/lodge.mp3
+SHA1-Digest: 9PkWbmJgA+5FgteDXSdBtZ3/0Vs=
+
+Name: res/drawable-mdpi/bone.jpg
+SHA1-Digest: Dttcro4xA9TVppqMA0NcXtku0q0=
+
+Name: res/drawable-hdpi/icon1.png
+SHA1-Digest: 3jzrMjT5NmmffXQBZ1OLTKuakBE=
+
+Name: res/drawable-mdpi/knowing.jpg
+SHA1-Digest: Z0zRfwQMwKu9vge9umwn9haJcpY=
+
+Name: res/drawable-mdpi/blackhole.jpg
+SHA1-Digest: 57afCHXvjT1IYfGuMsgynBUz1Lw=
+
+Name: res/raw/drill.mp3
+SHA1-Digest: cgn2XHrqLNtgEygJKnzjtA0zks4=
+
+Name: res/raw/icescraper.mp3
+SHA1-Digest: vnbDZEXQZGDHRco3/KDcc8ld1LI=
+
+Name: res/raw/toolbox.mp3
+SHA1-Digest: iR+K9rzOlvfPxGOq/uVOFNuBnrE=
+
+Name: res/raw/aurora.mp3
+SHA1-Digest: 1ic+8e4UuT27MVCI3MC7zq3s55c=
+
+Name: res/drawable-mdpi/badminton.jpg
+SHA1-Digest: PrKrLgULQsmHwE30rP6z4PjcuIk=
+
+Name: res/drawable-mdpi/circus.jpg
+SHA1-Digest: Wgg94x2sVYNbKonFUW1IHQ5wLgM=
+
+Name: res/raw/slithering.mp3
+SHA1-Digest: 0wZXqx433vKTjp052HRQ5D+ros8=
+
+Name: res/drawable-mdpi/cooking2.jpg
+SHA1-Digest: 60Wx9jMGrFQnnjysRHbFUGQOLDA=
+
+Name: res/drawable-mdpi/ghoul.jpg
+SHA1-Digest: coQpa988WkkOMUslJ+C6njOEO+E=
+
+Name: res/raw/tentacles.mp3
+SHA1-Digest: 10nCguFDEs7FDlqzUaMPfOvrcIs=
+
+Name: res/drawable-hdpi/doctor_kit.png
+SHA1-Digest: w4yWyrE+33WLgpsBcWNklbdNK3U=
+
+Name: res/layout/imageview.xml
+SHA1-Digest: +i/ttxrhHvtYxAsRg2SkTR4ThJA=
+
+Name: res/raw/city.mp3
+SHA1-Digest: iaE+G7vQgN+mAYrvju76u5Tdm+w=
+
+Name: res/raw/karate.mp3
+SHA1-Digest: bXjdszSU10LT4/AZeIxBTiCL7jI=
+
+Name: res/raw/bat.mp3
+SHA1-Digest: hVKw6/XzxUoQId09ZecSc8FZNUI=
+
+Name: res/raw/hurdles.mp3
+SHA1-Digest: aYfZH08t9rSz/i8+xqRIwmsLFEc=
+
+Name: res/drawable-mdpi/carracing.jpg
+SHA1-Digest: XJQli3gb9moz6ZXahmGkaSBHXOk=
+
+Name: res/raw/safetyglasses.mp3
+SHA1-Digest: Da/z4pk7OsS3ZwpPrx7ht4agS/s=
+
+Name: res/raw/glacier.mp3
+SHA1-Digest: jOsXd8T6x3Z9tZ36BvwjTV4F/z0=
+
+Name: res/drawable-mdpi/lakes.jpg
+SHA1-Digest: XGu1u8YEU7R6mLtzm8my7IdlfTs=
+
+Name: res/drawable-mdpi/oaktree.jpg
+SHA1-Digest: 3EuUgh5bWwEgan8Qg13FfQjj9zE=
+
+Name: res/drawable-mdpi/pipewrench.jpg
+SHA1-Digest: H3hQoFaM7XO5+O5o5gqLh9i0YwI=
+
+Name: res/drawable-mdpi/petals.jpg
+SHA1-Digest: B8fEU0BMUJT1OARnnJzVvQt2nNE=
+
+Name: res/raw/redbloodcells.mp3
+SHA1-Digest: Pz9EJUucSp/cF7HIylrsPdG1Sw4=
+
+Name: res/drawable-mdpi/fangs.jpg
+SHA1-Digest: gPsyGsScYWRt9WsU7zSN9sMS6Rk=
+
+Name: res/drawable-mdpi/stepstool.jpg
+SHA1-Digest: kUDNPsChWPv3TZISHvjMzNJYwAk=
+
+Name: res/raw/farmer.mp3
+SHA1-Digest: +VSOPaXNVYOVkSE4q8oYuZSQItg=
+
+Name: res/drawable-hdpi/hh.png
+SHA1-Digest: 4QTJy0FxANe9GD2mqcHguHsGxPw=
+
+Name: res/raw/carnation.mp3
+SHA1-Digest: o7x6dvgpB/balZnZ1JJB8smrfUo=
+
+Name: res/raw/sling.mp3
+SHA1-Digest: /olHSrb+550Ay1SfPLzFGEAJcac=
+
+Name: res/layout/setting.xml
+SHA1-Digest: 83cHE1qKtg3KApET2Ucp5lRfv7M=
+
+Name: res/raw/golf.mp3
+SHA1-Digest: gLOjU72qqYXVfJi1eKQ2wD+U4aE=
+
+Name: res/raw/chess.mp3
+SHA1-Digest: Yx5vI4Z6cJG8Imw1eu/STWS4wyI=
+
+Name: res/drawable-mdpi/horns.jpg
+SHA1-Digest: DytrEGH57K1VqCdq7y4RrHiDiY4=
+
+Name: res/drawable-mdpi/brain.jpg
+SHA1-Digest: jErLCBOqzaj19HGzNCD7Etn1Nns=
+
+Name: res/raw/igloo.mp3
+SHA1-Digest: S77H93Dpj8y3r2uzEb0tg6Pd0+k=
+
+Name: res/raw/tusks.mp3
+SHA1-Digest: 7I6JK6K62/7ZpTpV1nxGmcIbPPE=
+
+Name: res/raw/pigletpig.mp3
+SHA1-Digest: 8//nfFtGY1gH4UthWvvJyJimdcc=
+
+Name: res/drawable-mdpi/beach.jpg
+SHA1-Digest: DwTRzDQweyp7jaDCSyBAJq6cRP8=
+
+Name: res/drawable-mdpi/hairdresser.jpg
+SHA1-Digest: MwAS6LlPKpzxCk0MNcemJqy8/Nc=
+
+Name: res/layout/mytitle.xml
+SHA1-Digest: 5Z8Cjn14jJaQa9rkEJcb6PeF0Tg=
+
+Name: res/drawable-mdpi/hate.jpg
+SHA1-Digest: ehAdtm4OEZv+BwgDguNCJyJGWcw=
+
+Name: res/drawable-mdpi/runningaction.jpg
+SHA1-Digest: LADzWN2ujtAI4liYrK22qjV/nS4=
+
+Name: res/raw/vampire.mp3
+SHA1-Digest: +eQZazVi0zJv+eS34zl0j9gN3dM=
+
+Name: res/layout-sw360dp/splashscreen2.xml
+SHA1-Digest: xlp7BlB2+Xf2PMrqeSJp+AG5+Qs=
+
+Name: res/raw/antlers.mp3
+SHA1-Digest: 1XYkqvULMYMO62NyXTEW9a46p+I=
+
+Name: res/drawable-mdpi/cliff.jpg
+SHA1-Digest: 7H8u1NfA+aCRLsJeMeYGidbY6cQ=
+
+Name: res/raw/satellite.mp3
+SHA1-Digest: E15i04E8siQRqQsved0aWDavm+Y=
+
+Name: res/raw/snowdrops.mp3
+SHA1-Digest: HUQg8BxoENi/gvizd7nw9qPVUhQ=
+
+Name: res/raw/liver.mp3
+SHA1-Digest: 2+4hblWAcTp/I80+2a96aEOgRpY=
+
+Name: res/drawable-mdpi/firestation.jpg
+SHA1-Digest: 49dpyoev0dbMQUkFhNtkr9SKmew=
+
+Name: res/raw/climbing.mp3
+SHA1-Digest: SBZ4g5py4wSwtu1UFlsY9YrQv3o=
+
+Name: res/raw/seaweed.mp3
+SHA1-Digest: wkXLFCxYj6a0H9fdazgNzC9T3dw=
+
+Name: res/drawable-mdpi/whispering.jpg
+SHA1-Digest: mTkbohpNjZXosGB4b+ABo1kAJ2Q=
+
+Name: resources.arsc
+SHA1-Digest: MAnvFTite5PwXp5cTtG5iozWlr4=
+
+Name: res/drawable-hdpi/setting_icn.png
+SHA1-Digest: t23ol8Vrlukeyra9uii4xjuoIC8=
+
+Name: res/drawable-mdpi/elmtree.jpg
+SHA1-Digest: roSWFsGR1qmBP0bCSFSeXq4XW7E=
+
+Name: res/raw/coach.mp3
+SHA1-Digest: UCG4DFBkDG3LSBpN7sdCxLybf4k=
+
+Name: res/raw/grave.mp3
+SHA1-Digest: 43RXNXP0xyZeG8utoKI2bonLNI8=
+
+Name: res/drawable-mdpi/wavingkids.jpg
+SHA1-Digest: g5igfgwsxXlSfEsligIyBHlsmNw=
+
+Name: res/drawable-mdpi/snowdrops.jpg
+SHA1-Digest: a2LhSKQ54/QcaASaaiHcaJeujOw=
+
+Name: res/raw/blockplane.mp3
+SHA1-Digest: kMDrM0XYZQoQBO9GC4kf8Wcq0hA=
+
+Name: res/drawable-hdpi/header.png
+SHA1-Digest: O0lyOr3W1HyOIKWMWL91/+Y47mk=
+
+Name: res/raw/snowboarding.mp3
+SHA1-Digest: Nr/XdLb/qtoRY72l1STE2wdWKw0=
+
+Name: res/drawable-mdpi/chef.jpg
+SHA1-Digest: Yt3E9thkB+Z993uL/dS3CLt/hbw=
+
+Name: res/drawable-mdpi/clusters.jpg
+SHA1-Digest: X0oV7poxvXVI3YP+jtUKPytRp/Q=
+
+Name: res/drawable-mdpi/mountains.jpg
+SHA1-Digest: R1F2e+i5AkruwNQrPL9kg1IHMkw=
+
+Name: res/raw/ghoul.mp3
+SHA1-Digest: 6AK8PfS4uhpxWKYNrNKjIM7DqkA=
+
+Name: res/drawable-mdpi/blladder.jpg
+SHA1-Digest: w5bkyXOZ/V2AEvOYoAQyNqMdpLw=
+
+Name: res/drawable-mdpi/climbing.jpg
+SHA1-Digest: 0EWrhAChZ2x9H0knXVYP5cacMRk=
+
+Name: res/drawable-mdpi/baseball.jpg
+SHA1-Digest: BZzWRJ1bm+G2d7usEWphL8n3Yho=
+
+Name: res/drawable-mdpi/rollerskating.jpg
+SHA1-Digest: x1wbDFoHLLjvFWCtIPsODUTZrEA=
+
+Name: res/raw/whispering.mp3
+SHA1-Digest: vUZpbM/Y5R5oddETQRHgqUS7VB8=
+
+Name: res/drawable-mdpi/stadium.jpg
+SHA1-Digest: RuBtJaZ9F40kgPx3+vj0BlF4O2s=
+
+Name: res/drawable-mdpi/babysitter.jpg
+SHA1-Digest: SxRSC+0ejclPx5J4sVD0oNfMUjM=
+
+Name: res/raw/doormen.mp3
+SHA1-Digest: 7LMVFX4BjYc0vW66mIpV12zyXF0=
+
+Name: res/layout-sw720dp/main.xml
+SHA1-Digest: bpvnGnRbW13Cc+3DoKPbHXTNVGU=
+
+Name: res/raw/witch.mp3
+SHA1-Digest: xK3Nlg+lxRUd8iRxbbsRbl2SWbM=
+
+Name: res/raw/funnel.mp3
+SHA1-Digest: WlDKQ14ww658laPqyBMm7Iwz+JQ=
+
+Name: res/drawable-mdpi/accountant.jpg
+SHA1-Digest: bzOcTEnp/qFyZ/jPhDfV+2OnwkM=
+
+Name: res/raw/postoffice.mp3
+SHA1-Digest: zDSiYTwoQXgJXR7kNaOBfhst070=
+
+Name: res/raw/thermometer.mp3
+SHA1-Digest: nrTP7xcCdOSBCKhvoMB4+JCEK0o=
+
+Name: res/raw/baby_flash_theme.mp3
+SHA1-Digest: 3CQGJxI/d8TaVD2Q+w/Q5OxFfZg=
+
+Name: res/raw/dentist.mp3
+SHA1-Digest: owq+04f24Ztt+oCBQ20eqmx3QLI=
+
+Name: res/drawable-hdpi/splash.png
+SHA1-Digest: t4WASLXwwMUQiG2UmPW4VKgiPKI=
+
+Name: res/raw/diving1.mp3
+SHA1-Digest: aiycNtvg3/pb3fFhQgwqlT83r5c=
+
+Name: res/drawable-mdpi/archery.jpg
+SHA1-Digest: +jfuDnYx6YRvs5ol5INnFqC8KLo=
+
+Name: res/drawable-mdpi/mairigold.jpg
+SHA1-Digest: k0EPp+zp7LzaE+L5ZoR9q217i8Q=
+
+Name: res/raw/snowflakes.mp3
+SHA1-Digest: aGeOEcZr0CnKvrkPrQY0olBCvFA=
+
+Name: res/drawable-mdpi/chrimascard.jpg
+SHA1-Digest: mjF47ZpLeg6pzNMAd0TIsi1T7W4=
+
+Name: res/raw/eclipse.mp3
+SHA1-Digest: ISM3ylZ+9mFHSH+rncl0MI2h1qk=
+
+Name: res/raw/lily.mp3
+SHA1-Digest: PEhckuC8pWNFAo8GjeGICQYke9o=
+
+Name: res/raw/cycling1.mp3
+SHA1-Digest: xO7ty9ww2jHCNdmP1Iwh9kacYrs=
+
+Name: res/drawable-mdpi/scraper.jpg
+SHA1-Digest: aLdYkKcGOhRoCEuni6t2p0msliY=
+
+Name: res/raw/teacher.mp3
+SHA1-Digest: +kelBeza9MAbCcQNrv42xyv3lKo=
+
+Name: res/raw/saw.mp3
+SHA1-Digest: XE9f2gouhDlN40IBIlHEfKNEgYw=
+
+Name: res/drawable-mdpi/goblin.jpg
+SHA1-Digest: YkPfFGPJ18DI0hUz/+moJBO3IWE=
+
+Name: res/drawable-mdpi/btn_back_box.png
+SHA1-Digest: OUZ7eHZazMHC+Lqt9G4aK72f0yE=
+
+Name: res/drawable-mdpi/billeierd.jpg
+SHA1-Digest: NQds1BCS/obOGHvcGFThd2HSOiY=
+
+Name: res/drawable-mdpi/gallbladder.jpg
+SHA1-Digest: tPNx+0ic+EHuhvHtMKmFn6IlxDQ=
+
+Name: res/drawable-mdpi/foal.jpg
+SHA1-Digest: q62/6rXKBDIZDMENiur1CPw3P0E=
+
+Name: res/raw/valley.mp3
+SHA1-Digest: 7na6PlIJ+zmzkGxuzXC1ZCtHM5k=
+
+Name: res/raw/factory.mp3
+SHA1-Digest: 61lxqa5cJejH/r+7k2xVykZq1j4=
+
+Name: res/drawable-mdpi/mummyart.jpg
+SHA1-Digest: C79H9mvxV7yDK8kYrjc8HLJNZNw=
+
+Name: res/drawable-mdpi/moonlander.jpg
+SHA1-Digest: M1dBR7exn4ugXsPGs6S6Odt0Hok=
+
+Name: res/raw/northstar.mp3
+SHA1-Digest: 4NHlraUgkc13MI/zLQjSfUyAK5g=
+
+Name: res/drawable-mdpi/drill.jpg
+SHA1-Digest: L3fAvidaYR2S00GQ9fNHzFXK6gI=
+
+Name: res/drawable-mdpi/venus.jpg
+SHA1-Digest: vsuq6SrQwF9c2QFhQtSxTWThTLc=
+
+Name: res/drawable-mdpi/backyard.jpg
+SHA1-Digest: QCLorm8ygqnt2mvgp08N+GZHD74=
+
+Name: res/raw/rowing.mp3
+SHA1-Digest: wzcS0nTQrF5WsN+w96rRMLYQHqM=
+
+Name: res/raw/concerthall.mp3
+SHA1-Digest: hUOQ3tEX9EMeLdM8wz1udeP3Ywc=
+
+Name: res/drawable-mdpi/farmer.jpg
+SHA1-Digest: E9681oFMuq04FqPLitI6NX+vbeE=
+
+Name: res/drawable-mdpi/skullcrassobone.jpg
+SHA1-Digest: WEJRkYgX98foKY+pr9CDPIuMCgc=
+
+Name: res/raw/stepstool.mp3
+SHA1-Digest: p84Ng81Pk801BTWK9oBSh+rdB1U=
+
+Name: res/drawable-mdpi/spacesuit.jpg
+SHA1-Digest: BgWgiUuMIqlLLDhLD5e5UJjKKMM=
+
+Name: res/raw/saturn.mp3
+SHA1-Digest: f7jR1GcatZWXXRJDBufc94wzBDo=
+
+Name: res/drawable-mdpi/dahila.jpg
+SHA1-Digest: ypzORbKJU6XVK72sGlAx+WyDhVY=
+
+Name: res/drawable-mdpi/earth3.jpg
+SHA1-Digest: oRptIcf7gg9ZElYuN6b+xAXiNY8=
+
+Name: res/raw/letter.mp3
+SHA1-Digest: zVXEieBzEjGhkrBxXnuyWZ0K2lc=
+
+Name: res/raw/blackhole.mp3
+SHA1-Digest: rJ12yS5z4WGl9JrDZHHGFMSp9SE=
+
+Name: res/drawable-mdpi/flowers.jpg
+SHA1-Digest: weirTwB3B+6yBKtck4cg/fHsaTE=
+
+Name: res/raw/ghost.mp3
+SHA1-Digest: mVoomdb2o/1QbY6mNMMucPgpRoo=
+
+Name: res/raw/beaks.mp3
+SHA1-Digest: WJ9MKZMv6vCv/wks8pHYsDEx2uk=
+
+Name: res/raw/football.mp3
+SHA1-Digest: 25hMmIb8vKbStFBE4D3D7bqmobk=
+
+Name: res/raw/veterinarian.mp3
+SHA1-Digest: xUhLcyRoV5EbfRa6pBAkWr3+EIA=
+
