@@ -6,7 +6,7 @@ export default StyleSheet.create({
     flex: 1,
   },
   containerStyle: {
-    paddingBottom: hp(5),
+    paddingBottom: hp(0.5),
   },
   mainBackground: {
     height: '100%',

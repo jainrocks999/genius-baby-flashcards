@@ -7,6 +7,8 @@ export type navigationParams = {
   SPlash_Screen: undefined;
   SPlash_ScreenII: undefined;
   Home_Screen: undefined;
+  Detail_Screen: undefined;
+  Setting_Screen: undefined;
 };
 const Navigation = () => {
   type RouteKey = keyof navigationParams;

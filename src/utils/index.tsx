@@ -1,5 +1,6 @@
 import {Platform} from 'react-native';
 import RNFS from 'react-native-fs';
+import {TestIds} from 'react-native-google-mobile-ads';
 
 var SQLite = require('react-native-sqlite-storage');
 const db = SQLite.openDatabase({
@@ -199,5 +200,18 @@ export default class utils {
         );
       });
     });
+  };
+
+  static addIts = {
+    ...Platform.select({
+      android: {
+        BANNER: 'ca-app-pub-3940256099942544/6300978111',
+        INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
+      },
+      ios: {
+        BANNER: 'ca-app-pub-3940256099942544/6300978111',
+        INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
+      },
+    }),
   };
 }

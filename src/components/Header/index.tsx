@@ -1,11 +1,21 @@
 import React, {useEffect, useState} from 'react';
-import {StyleSheet, TouchableOpacity, View, Image} from 'react-native';
+import {StyleSheet, TouchableOpacity, View, Image, Text} from 'react-native';
 import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 import utils from '../../utils';
+import {useNavigation} from '@react-navigation/native';
+import {navigationParams} from '../../navigation';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {useDispatch, useSelector} from 'react-redux';
+import {rootState} from '../../redux/store';
 
-type props = {};
-const Header: React.FC<props> = () => {
-  const [sound, setSound] = useState(true);
+type props = {
+  ishome: boolean;
+  title: string;
+  isSetting: boolean;
+};
+const Header: React.FC<props> = ({ishome, title, isSetting}) => {
+  const navigation = useNavigation<StackNavigationProp<navigationParams>>();
+  const sound = useSelector((state: rootState) => state.data.default_sound);
   const track = {
     url: `${utils.path}baby_flash_theme.mp3`,
     title: 'eFalsh sound',
@@ -16,32 +26,57 @@ const Header: React.FC<props> = () => {
     artwork: `${utils.path}baby_flash_theme.mp3`,
     duration: 4,
   };
+  const dispatch = useDispatch();
   const playSound = async () => {
-    sound ? await utils.player(track) : await utils.resetPlayer();
+    sound && ishome ? await utils.player(track) : await utils.resetPlayer();
   };
   useEffect(() => {
     playSound();
-  }, [sound]);
+  }, [sound, ishome]);
+  const handleOnPress = () => {
+    ishome
+      ? dispatch({
+          type: 'helper/baby_flash_them',
+          payload: !sound,
+        })
+      : navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
+  };
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        !ishome ? {backgroundColor: '#a4a6a5', elevation: 5} : undefined,
+      ]}>
       <View style={styles.row}>
         <TouchableOpacity
-          onPress={() => setSound(prev => !prev)}
+          onPress={() => {
+            handleOnPress();
+          }}
           style={styles.iconContainer}>
           <Image
             style={styles.icon}
             source={
-              sound
-                ? require('../../assets/Image_icons/speakar57.png')
-                : require('../../assets/Image_icons/speakar58.png')
+              ishome
+                ? sound
+                  ? require('../../assets/Image_icons/speakar57.png')
+                  : require('../../assets/Image_icons/speakar58.png')
+                : require('../../assets/Image_icons/home_btn.png')
             }
           />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.iconContainer}>
-          <Image
-            style={styles.icon}
-            source={require('../../assets/Image_icons/setting_icn.png')}
-          />
+        {!ishome ? <Text style={styles.txt}>{title ? title : ''}</Text> : null}
+        <TouchableOpacity
+          disabled={isSetting}
+          onPress={() => {
+            navigation.navigate('Setting_Screen');
+          }}
+          style={styles.iconContainer}>
+          {!isSetting ? (
+            <Image
+              style={styles.icon}
+              source={require('../../assets/Image_icons/setting_icn.png')}
+            />
+          ) : null}
         </TouchableOpacity>
       </View>
     </View>
@@ -70,5 +105,10 @@ const styles = StyleSheet.create({
   iconContainer: {
     height: hp(6),
     width: hp(6),
+  },
+  txt: {
+    fontSize: wp(7),
+    color: 'white',
+    fontFamily: 'OpenSans-SemiBold',
   },
 });

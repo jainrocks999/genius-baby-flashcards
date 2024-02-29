@@ -4,11 +4,11 @@ import utils from '../../utils';
 import Card from '../Card';
 type props = {
   data: typeof utils.Categoreis;
+  onPress: (item: (typeof utils.Categoreis)[0]) => void;
 };
-const CategoryList: React.FC<props> = ({data}) => {
+const CategoryList: React.FC<props> = ({data, onPress}) => {
   const databyCategory = async (item: (typeof utils.Categoreis)[0]) => {
     const data = await utils.db('tbl_items', item.cate_name, false, 0);
-    console.log(data);
   };
   return (
     <FlatList
@@ -19,7 +19,7 @@ const CategoryList: React.FC<props> = ({data}) => {
       renderItem={({item, index}) => (
         <Card
           onPress={() => {
-            databyCategory(item);
+            onPress(item);
           }}
           item={item}
         />
