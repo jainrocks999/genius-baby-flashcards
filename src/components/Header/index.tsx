@@ -12,8 +12,9 @@ type props = {
   ishome: boolean;
   title: string;
   isSetting: boolean;
+  isMemory: boolean;
 };
-const Header: React.FC<props> = ({ishome, title, isSetting}) => {
+const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
   const navigation = useNavigation<StackNavigationProp<navigationParams>>();
   const sound = useSelector((state: rootState) => state.data.default_sound);
   const track = {
@@ -34,7 +35,7 @@ const Header: React.FC<props> = ({ishome, title, isSetting}) => {
     playSound();
   }, [sound, ishome]);
   const handleOnPress = () => {
-    ishome
+    ishome && !isMemory
       ? dispatch({
           type: 'helper/baby_flash_them',
           payload: !sound,
@@ -56,7 +57,7 @@ const Header: React.FC<props> = ({ishome, title, isSetting}) => {
           <Image
             style={styles.icon}
             source={
-              ishome
+              ishome && !isMemory
                 ? sound
                   ? require('../../assets/Image_icons/speakar57.png')
                   : require('../../assets/Image_icons/speakar58.png')

@@ -1,6 +1,7 @@
-import {Platform} from 'react-native';
+import {Alert, Platform} from 'react-native';
 import RNFS from 'react-native-fs';
 import {TestIds} from 'react-native-google-mobile-ads';
+import {connect, useDispatch} from 'react-redux';
 
 var SQLite = require('react-native-sqlite-storage');
 const db = SQLite.openDatabase({
@@ -12,7 +13,9 @@ import TrackPlayer, {
   Capability,
 } from 'react-native-track-player';
 import type {AddTrack} from 'react-native-track-player';
+import {cat_type, setting_type} from '../types/Genius/db';
 type dbData = {};
+
 export default class utils {
   static Categoreis = [
     {
@@ -213,5 +216,73 @@ export default class utils {
         INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
       },
     }),
+  };
+
+  static updateSettings = (item: setting_type[0]) => {
+    db.transaction((tx: any) => {
+      tx.executeSql(
+        'UPDATE  tbl_settings set Voice=?,Game=?,' +
+          'GameLevel=?,RandomOrder=?,Swipe=?' +
+          ' WHERE _id=1',
+        [item.Voice, item.Game, item.GameLevel, item.RandomOrder, item.Swipe],
+        (tx: any, results: any) => {
+          console.log('Query completed');
+        },
+        (err: any) => {
+          console.log(err);
+        },
+      );
+    });
+  };
+
+  static createDuplicate = (array: cat_type) => {
+    return new Promise<cat_type>(resovle => {
+      const duplicateArray = array.flatMap(item => [item, item]);
+      resovle(duplicateArray);
+    });
+  };
+  static shuffleArray = (array: cat_type) => {
+    return new Promise<cat_type>((resolve, reject) => {
+      try {
+        const shuffledArray = [...array];
+
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledArray[i], shuffledArray[j]] = [
+            shuffledArray[j],
+            shuffledArray[i],
+          ];
+        }
+
+        resolve(shuffledArray);
+      } catch (error) {
+        reject(error);
+      }
+    });
+  };
+  static pickRandomOption = (array: cat_type, length: number) => {
+    return new Promise<cat_type>(async (resolve, reject) => {
+      try {
+        if (length > array.length) {
+          reject(new Error('Length exceeds the array size'));
+          return;
+        }
+
+        const shuffledArray = await this.shuffleArray(array);
+        const randomArray = shuffledArray.slice(0, length);
+
+        resolve(randomArray);
+      } catch (error) {
+        reject(error);
+      }
+    });
+  };
+  static getMemory = async (count: number) => {
+    return new Promise<cat_type>(async resovle => {
+      const db_items = await utils.db('tbl_items', 'HumanBody', true, count);
+      const dup = await utils.createDuplicate(db_items);
+      const data = await utils.pickRandomOption(dup, dup.length);
+      resovle(data);
+    });
   };
 }

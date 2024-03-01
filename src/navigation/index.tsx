@@ -9,6 +9,7 @@ export type navigationParams = {
   Home_Screen: undefined;
   Detail_Screen: undefined;
   Setting_Screen: undefined;
+  Memory_Screen: undefined;
 };
 const Navigation = () => {
   type RouteKey = keyof navigationParams;
