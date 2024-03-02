@@ -1,4 +1,4 @@
-import {createSlice} from '@reduxjs/toolkit';
+import {createSlice, current} from '@reduxjs/toolkit';
 import {cat_type, seeting_db, setting_type} from '../../types/Genius/db';
 import {actionType} from '../../types/Genius/action';
 import utils from '../../utils';
@@ -8,6 +8,11 @@ const initialState = {
   cat_data: [] as cat_type,
   setting_data: {} as seeting_db,
   memory_data: [] as cat_type,
+  cate_name: '' as string | null,
+  screens: {
+    prev: '',
+    current: '',
+  },
 };
 
 const GeniusReduc = createSlice({
@@ -26,11 +31,17 @@ const GeniusReduc = createSlice({
     update_setting_to_tb: (state, action) => {
       let payload = action.payload as payloadType;
       utils.updateSettings(payload.setting_data);
-      payload.navigation.goBack();
+
       return {...state, setting_data: action.payload.setting_data};
     },
     get_memory_data_from_db: (state, action) => {
       return {...state, memory_data: action.payload};
+    },
+    set_cat_name: (state, action) => {
+      return {...state, cate_name: action.payload};
+    },
+    setPageChange: (state, action) => {
+      return {...state, screens: action.payload};
     },
   },
 });

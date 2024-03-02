@@ -260,7 +260,7 @@ export default class utils {
       }
     });
   };
-  static pickRandomOption = (array: cat_type, length: number) => {
+  static pickRandomOption = (array: any, length: number) => {
     return new Promise<cat_type>(async (resolve, reject) => {
       try {
         if (length > array.length) {
@@ -277,12 +277,107 @@ export default class utils {
       }
     });
   };
-  static getMemory = async (count: number) => {
+  static getMemory = async (count: number, Category: string | null) => {
     return new Promise<cat_type>(async resovle => {
-      const db_items = await utils.db('tbl_items', 'HumanBody', true, count);
+      const db_items = await utils.db('tbl_items', Category, true, count);
       const dup = await utils.createDuplicate(db_items);
       const data = await utils.pickRandomOption(dup, dup.length);
       resovle(data);
     });
+  };
+
+  // static WrongVoid = [
+  //   {
+  //     url: require('../../asset2/uhoh.mp3'), // Load media from the file system
+  //     title: 'uhoh',
+  //     artist: 'eFlashApps',
+  //     duration: null,
+  //   },
+  //   {
+  //     url: require('../../asset2/tryagain.mp3'), // Load media from the file system
+  //     title: 'tryagain',
+  //     artist: 'eFlashApps',
+  //     duration: null,
+  //   },
+  //   {
+  //     url: require('../../asset2/oopsie.mp3'), // Load media from the file system
+  //     title: 'oopsie',
+  //     artist: 'eFlashApps',
+  //     duration: null,
+  //   },
+  //   {
+  //     url: require('../../asset2/youcandoit.mp3'), // Load media from the file system
+  //     title: 'youcandoit',
+  //     artist: 'eFlashApps',
+  //     duration: null,
+  //   },
+  // ];
+  static RightVoice = [
+    {
+      url: `${this.path}excellent.mp3`, // Load media from the file system
+      title: 'excellent',
+      artist: 'eFlashApps',
+      artwork: `${this.path}excellent.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}fantastic.mp3`, // Load media from the file system
+      title: 'fantastic',
+      artist: 'eFlashApps',
+      artwork: `${this.path}fantastic.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}goodanswer.mp3`, // Load media from the file system
+      title: 'goodanswer',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:
+      artwork: `${this.path}goodanswer.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}goodjob.mp3`, // Load media from the file system
+      title: 'goodjob',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:
+      artwork: `${this.path}goodjob.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}great.mp3`, // Load media from the file system
+      title: 'great',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:
+      artwork: `${this.path}great.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}marvelous.mp3`, // Load media from the file system
+      title: 'marvelous',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:
+      artwork: `${this.path}marvelous.mp3}`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}sensational.mp3`, // Load media from the file system
+      title: 'sensational',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:
+      artwork: `${this.path}sensational.mp3`,
+      duration: 2,
+    },
+    {
+      url: `${this.path}spectacular.mp3`, // Load media from the file system
+      title: 'spectacular',
+      artist: 'eFlashApps',
+      // Load artwork from the file system:,
+      artwork: `${this.path}spectacular.mp3`,
+      duration: 5,
+    },
+  ];
+  static getRandomVoice = async () => {
+    const data = await this.pickRandomOption(this.RightVoice, 1);
+    return data[0];
   };
 }

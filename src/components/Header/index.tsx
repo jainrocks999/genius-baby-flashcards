@@ -29,7 +29,9 @@ const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
   };
   const dispatch = useDispatch();
   const playSound = async () => {
-    sound && ishome ? await utils.player(track) : await utils.resetPlayer();
+    sound && ishome && !isMemory
+      ? await utils.player(track)
+      : await utils.resetPlayer();
   };
   useEffect(() => {
     playSound();

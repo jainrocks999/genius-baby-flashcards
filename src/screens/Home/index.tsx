@@ -21,24 +21,49 @@ import {rootState} from '../../redux/store';
 
 type Props = StackScreenProps<navigationParams, 'Home_Screen'>;
 const Home: React.FC<Props> = ({navigation}) => {
+  const setting = useSelector((state: rootState) => state.data.setting_data);
+  const screens = useSelector((state: rootState) => state.data.screens);
   const dispatch = useDispatch();
   const settting = useSelector((state: rootState) => state.data.setting_data);
-  const getCatDetails = async (item: (typeof utils.Categoreis)[0]) => {
-    const cat_details = await utils.db('tbl_items', item.cate_name, false, 0);
+  const getCatDetails = async (item: (typeof utils.Categoreis)[0] | string) => {
+    await utils.resetPlayer();
+    dispatch({
+      type: 'helper/set_cat_name',
+      payload: typeof item == 'object' ? item.cate_name : null,
+    });
+
+    setting.Game != '1' ? handleonDetails(item) : handleOnMamory(item);
+  };
+  const handleonDetails = async (
+    item: (typeof utils.Categoreis)[0] | string,
+  ) => {
+    let cate_data;
+    if (typeof item == 'object') {
+      cate_data = await utils.db('tbl_items', item.cate_name, false, 0);
+    } else {
+      cate_data = await utils.db('tbl_items', null, false, 0);
+    }
     dispatch({
       type: 'helper/get_data_by_category',
-      payload: cat_details,
+      payload: cate_data,
       navigation,
     });
     navigation.navigate('Detail_Screen');
   };
-  const handleOnMamory = async () => {
+  const handleOnMamory = async (
+    item: (typeof utils.Categoreis)[0] | string,
+  ) => {
     let length =
       settting.GameLevel == '1' ? 3 : settting.GameLevel == '2' ? 4 : 6;
-    const data = await utils.getMemory(length);
+    let cate_data;
+    if (typeof item == 'object') {
+      cate_data = await utils.getMemory(length, item.cate_name);
+    } else {
+      cate_data = await utils.getMemory(length, null);
+    }
     dispatch({
       type: 'helper/get_memory_data_from_db',
-      payload: data,
+      payload: cate_data,
     });
     navigation.navigate('Memory_Screen');
   };
@@ -60,7 +85,7 @@ const Home: React.FC<Props> = ({navigation}) => {
             />
             <TouchableOpacity
               onPress={() => {
-                handleOnMamory();
+                getCatDetails('allInOne');
               }}
               style={styles.allIntOne}>
               <Image

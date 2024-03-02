@@ -16,9 +16,11 @@ import {rootState} from '../../redux/store';
 import Header from '../../components/Header';
 import {cat_type, db_item} from '../../types/Genius/db';
 import utils from '../../utils';
+import {AddTrack} from 'react-native-track-player';
 type props = StackScreenProps<navigationParams, 'Memory_Screen'>;
 
 const Memory: React.FC<props> = () => {
+  const catName = useSelector((state: rootState) => state.data.cate_name);
   const dispatch = useDispatch();
   const data = useSelector((state: rootState) => state.data.memory_data);
   const [selected, setSelected] = useState<db_item>();
@@ -31,10 +33,12 @@ const Memory: React.FC<props> = () => {
     return new Promise(resolve => setTimeout(resolve, ms));
   };
   const settting = useSelector((state: rootState) => state.data.setting_data);
+  console.log('this is name', catName);
+
   const handleOnData = async () => {
     let length =
       settting.GameLevel == '1' ? 3 : settting.GameLevel == '2' ? 4 : 6;
-    const newdata = await utils.getMemory(length);
+    const newdata = await utils.getMemory(length, catName ? catName : null);
     dispatch({
       type: 'helper/get_memory_data_from_db',
       payload: newdata,
@@ -53,6 +57,13 @@ const Memory: React.FC<props> = () => {
       artwork: `asset:/files/${item.Sound}`,
       duration: 0,
     };
+    const claping = {
+      url: `asset:/files/clap.mp3`,
+      title: item.Title,
+      artist: 'eFlashApps',
+      artwork: `asset:/files/clap.mp3`,
+      duration: 0,
+    };
 
     setSelectedIndex([index]);
     setSelected(item);
@@ -62,7 +73,7 @@ const Memory: React.FC<props> = () => {
     if (selected?._ID == item._ID) {
       setCount(prev => prev + 1);
       if ([...righIndex, index, ...prevArray].length >= data.length) {
-        utils.player(music);
+        utils.player(claping);
         await delay(2000);
         await handleOnData();
         setIsDisabled(false);
@@ -70,8 +81,9 @@ const Memory: React.FC<props> = () => {
         setSelectedIndex([]);
         setCloud([]);
       } else {
-        await utils.player(music);
-        await delay(500);
+        const voice: AddTrack = (await utils.getRandomVoice()) as any;
+        await utils.player(voice);
+        await delay(2000);
         setCloud([]);
         setRinghtIndex([...righIndex, index, ...prevArray]);
         setSelected({} as db_item);

@@ -8,6 +8,7 @@ import {
   View,
   TouchableOpacity,
   Image,
+  Alert,
 } from 'react-native';
 import {navigationParams} from '../../navigation';
 import styles from './styles';
@@ -19,8 +20,11 @@ import {rootState} from '../../redux/store';
 import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import utils from '../../utils';
 import {seeting_db} from '../../types/Genius/db';
+import TrackPlayer from 'react-native-track-player';
 type props = StackScreenProps<navigationParams, 'Setting_Screen'>;
 const Setting: React.FC<props> = ({navigation}) => {
+  const catName = useSelector((state: rootState) => state.data.cate_name);
+  const screens = useSelector((state: rootState) => state.data.screens);
   const dispatch = useDispatch();
   const setting_db = useSelector((state: rootState) => state.data.setting_data);
   const [values, setValues] = useState({
@@ -35,12 +39,10 @@ const Setting: React.FC<props> = ({navigation}) => {
   }, [setting_db]);
 
   const setSettingfromDb = () => {
-    console.log('called');
-
-    let Voice = setting_db.Voice == '1' ? true : false;
-    let RandomOrder = setting_db.RandomOrder == '1' ? true : false;
-    let Swipe = setting_db.Swipe == '1' ? true : false;
-    let Game = setting_db.Game == '1' ? true : false;
+    let Voice = setting_db.Voice == '1';
+    let RandomOrder = setting_db.RandomOrder == '1';
+    let Swipe = setting_db.Swipe == '1';
+    let Game = setting_db.Game == '1';
     let GameLevel =
       setting_db.GameLevel == '1'
         ? 'easy'
@@ -65,10 +67,51 @@ const Setting: React.FC<props> = ({navigation}) => {
       GameLevel: val,
     }));
   };
-  const handleOnSave = () => {
+  const handleOnSave = async () => {
+    await TrackPlayer.reset();
+    let gameLevel =
+      values.GameLevel === 'easy'
+        ? '1'
+        : values.GameLevel === 'medium'
+        ? '2'
+        : '3';
+    if (screens.prev != 'Home_Screen') {
+      if (values.Game) {
+        if (setting_db.Game !== '1' || setting_db.GameLevel !== gameLevel) {
+          handleOnMemory();
+          updateSettings();
+        } else {
+          navigation.goBack();
+        }
+      } else {
+        const formatObj = {
+          Voice: setting_db.Voice === '1',
+          RandomOrder: setting_db.RandomOrder === '1',
+          Swipe: setting_db.Swipe === '1',
+          GameLevel: '1',
+          Game: setting_db.Game === '1',
+        };
+
+        const shouldNavigateBack = values['Game'] == formatObj['Game'];
+
+        if (!shouldNavigateBack) {
+          handleOnDetails();
+          updateSettings();
+        } else {
+          navigation.goBack();
+        }
+      }
+    } else {
+      updateSettings();
+      navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
+    }
+  };
+
+  const updateSettings = () => {
     let tempSetting = {} as seeting_db;
     Object.keys(values).map(item => {
       let key = item as keyof typeof values;
+      console.log(values[key]);
       if (typeof values[key] == 'boolean') {
         tempSetting = {...tempSetting, [item]: values[key] ? '1' : '0'};
       } else {
@@ -79,18 +122,37 @@ const Setting: React.FC<props> = ({navigation}) => {
         };
       }
     });
-    let payload = {
-      setting_data: tempSetting,
-      navigation,
-    };
-
-    console.log(tempSetting);
-
     dispatch({
       type: 'helper/update_setting_to_tb',
-      payload,
+      payload: {setting_data: tempSetting},
     });
   };
+  const handleOnDetails = async () => {
+    let cate_data = await utils.db('tbl_items', catName, false, 0);
+
+    dispatch({
+      type: 'helper/get_data_by_category',
+      payload: cate_data,
+      navigation,
+    });
+    navigation.reset({
+      index: 1,
+      routes: [{name: 'Home_Screen'}, {name: 'Detail_Screen'}],
+    });
+  };
+  const handleOnMemory = async () => {
+    let length =
+      values.GameLevel == 'easy' ? 3 : values.GameLevel == 'medium' ? 4 : 6;
+
+    let cate_data = await utils.getMemory(length, catName);
+
+    dispatch({
+      type: 'helper/get_memory_data_from_db',
+      payload: cate_data,
+    });
+    navigation.replace('Memory_Screen');
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground
