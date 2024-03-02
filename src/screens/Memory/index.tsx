@@ -33,7 +33,6 @@ const Memory: React.FC<props> = () => {
     return new Promise(resolve => setTimeout(resolve, ms));
   };
   const settting = useSelector((state: rootState) => state.data.setting_data);
-  console.log('this is name', catName);
 
   const handleOnData = async () => {
     let length =

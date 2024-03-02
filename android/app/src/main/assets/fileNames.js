@@ -454,5 +454,3 @@ const fileNames = [
   'yawning.jpg',
   'zombie.jpg',
 ];
-
-console.log(fileNames.length);

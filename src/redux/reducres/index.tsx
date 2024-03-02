@@ -31,7 +31,6 @@ const GeniusReduc = createSlice({
     update_setting_to_tb: (state, action) => {
       let payload = action.payload as payloadType;
       utils.updateSettings(payload.setting_data);
-
       return {...state, setting_data: action.payload.setting_data};
     },
     get_memory_data_from_db: (state, action) => {
