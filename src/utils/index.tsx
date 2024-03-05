@@ -1,7 +1,6 @@
 import {Alert, Platform} from 'react-native';
 import RNFS from 'react-native-fs';
-import {TestIds} from 'react-native-google-mobile-ads';
-import {connect, useDispatch} from 'react-redux';
+import {AdEventType, InterstitialAd} from 'react-native-google-mobile-ads';
 
 var SQLite = require('react-native-sqlite-storage');
 const db = SQLite.openDatabase({
@@ -14,6 +13,7 @@ import TrackPlayer, {
 } from 'react-native-track-player';
 import type {AddTrack} from 'react-native-track-player';
 import {cat_type, setting_type} from '../types/Genius/db';
+import {pngFiles} from './fileNames';
 type dbData = {};
 
 export default class utils {
@@ -93,11 +93,13 @@ export default class utils {
       _id: 15,
       cate_name: 'More',
       cat_img: require('../assets/Image_Cat/eflashmore.png'),
+      link: 'https://babyflashcards.com/apps.html',
     },
     {
       _id: 16,
       cate_name: 'Reivew',
       cat_img: require('../assets/Image_Cat/review_app.png'),
+      link: 'https://play.google.com/store/apps/details?id=com.eFlash2&feature=search_result&pli=1#?t=W251bGwsMSwxLDEsImNvbS5lRmxhc2gyIl0.',
     },
   ];
 
@@ -190,10 +192,33 @@ export default class utils {
           params,
           (tx: any, results: any) => {
             let len = results.rows.length;
+
             for (let i = 0; i < len; i++) {
               let row = results.rows.item(i);
+
+              if (tableName === 'tbl_items') {
+                const imageFileName = row['Image'];
+
+                const isPng = pngFiles.some(pngFile => {
+                  const nameWithoutExtension = pngFile.replace(/\.[^/.]+$/, '');
+                  return imageFileName === nameWithoutExtension;
+                });
+
+                row = {
+                  ...row,
+                  Image: isPng
+                    ? `${row['Image']
+                        .toLocaleLowerCase()
+                        .replace(/\s/g, '')}.png`
+                    : `${row['Image']
+                        .toLocaleLowerCase()
+                        .replace(/\s/g, '')}.jpg`,
+                };
+              }
+
               data.push(row);
             }
+
             resolve(data);
           },
           (err: any) => {
@@ -208,14 +233,34 @@ export default class utils {
   static addIts = {
     ...Platform.select({
       android: {
-        BANNER: 'ca-app-pub-3940256099942544/6300978111',
-        INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
+        BANNER: 'ca-app-pub-3339897183017333/9872014788',
+        INTERSTITIAL: 'ca-app-pub-3339897183017333/9872014788',
       },
       ios: {
         BANNER: 'ca-app-pub-3940256099942544/6300978111',
         INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
       },
     }),
+  };
+
+  static showAdd = () => {
+    const requestOption = {
+      requestNonPersonalizedAdsOnly: true,
+    };
+
+    const interstitial = InterstitialAd.createForAdRequest(
+      this.addIts.INTERSTITIAL ? this.addIts.INTERSTITIAL : '',
+      requestOption,
+    );
+
+    const unsubscribe = interstitial.addAdEventListener(
+      AdEventType.LOADED,
+      () => {
+        interstitial.show();
+      },
+    );
+    interstitial.load();
+    return unsubscribe;
   };
 
   static updateSettings = (item: setting_type[0]) => {

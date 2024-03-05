@@ -15,6 +15,7 @@ export default StyleSheet.create({
   addContainer: {
     height: hp(10),
     backgroundColor: '#0099d5',
+    alignItems: 'center',
   },
   btnContainer: {
     width: '85%',

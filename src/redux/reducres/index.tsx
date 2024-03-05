@@ -13,6 +13,7 @@ const initialState = {
     prev: '',
     current: '',
   },
+  back_sound: false,
 };
 
 const GeniusReduc = createSlice({
@@ -41,6 +42,9 @@ const GeniusReduc = createSlice({
     },
     setPageChange: (state, action) => {
       return {...state, screens: action.payload};
+    },
+    setBackSound: (state, action) => {
+      return {...state, back_sound: action.payload};
     },
   },
 });

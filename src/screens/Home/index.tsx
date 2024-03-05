@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import {
   Image,
   ImageBackground,
@@ -6,6 +6,9 @@ import {
   View,
   ScrollView,
   TouchableOpacity,
+  Linking,
+  BackHandler,
+  ToastAndroid,
 } from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
@@ -25,6 +28,33 @@ const Home: React.FC<Props> = ({navigation}) => {
   const screens = useSelector((state: rootState) => state.data.screens);
   const dispatch = useDispatch();
   const settting = useSelector((state: rootState) => state.data.setting_data);
+
+  const doublePressTimeout = useRef<number | null>(null);
+
+  useEffect(() => {
+    const backHandler = BackHandler.addEventListener(
+      'hardwareBackPress',
+      () => {
+        if (
+          doublePressTimeout.current &&
+          doublePressTimeout.current + 2000 >= Date.now()
+        ) {
+          utils.showAdd();
+          BackHandler.exitApp();
+          return true;
+        } else {
+          ToastAndroid.show('Press again to exit', ToastAndroid.SHORT);
+          doublePressTimeout.current = Date.now();
+          return true;
+        }
+      },
+    );
+
+    return () => {
+      backHandler.remove();
+    };
+  }, []);
+
   const getCatDetails = async (item: (typeof utils.Categoreis)[0] | string) => {
     await utils.resetPlayer();
     dispatch({
@@ -37,12 +67,23 @@ const Home: React.FC<Props> = ({navigation}) => {
   const handleonDetails = async (
     item: (typeof utils.Categoreis)[0] | string,
   ) => {
+    dispatch({
+      type: 'helper/setBackSound',
+      payload: false,
+    });
     let cate_data;
     if (typeof item == 'object') {
-      cate_data = await utils.db('tbl_items', item.cate_name, false, 0);
+      cate_data = await utils.db(
+        'tbl_items',
+        item.cate_name,
+        setting.RandomOrder == '1',
+        0,
+      );
     } else {
       cate_data = await utils.db('tbl_items', null, false, 0);
     }
+    console.log(JSON.stringify(cate_data));
+
     dispatch({
       type: 'helper/get_data_by_category',
       payload: cate_data,
@@ -85,7 +126,11 @@ const Home: React.FC<Props> = ({navigation}) => {
             />
             <TouchableOpacity
               onPress={() => {
-                getCatDetails('allInOne');
+                dispatch({
+                  type: 'helper/set_cat_name',
+                  payload: 'allInOne',
+                });
+                handleOnMamory('allInOne');
               }}
               style={styles.allIntOne}>
               <Image
@@ -96,7 +141,9 @@ const Home: React.FC<Props> = ({navigation}) => {
               />
             </TouchableOpacity>
             <CategoryList
-              onPress={item => console.log(item)}
+              onPress={item => {
+                Linking.openURL(item.link ? item.link : '');
+              }}
               data={utils.Categoreis.slice(14, 16)}
             />
           </View>

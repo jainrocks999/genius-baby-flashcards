@@ -9,6 +9,7 @@ import {
   TouchableOpacity,
   Image,
   Alert,
+  BackHandler,
 } from 'react-native';
 import {navigationParams} from '../../navigation';
 import styles from './styles';
@@ -34,6 +35,7 @@ const Setting: React.FC<props> = ({navigation}) => {
     Game: false,
     GameLevel: 'easy',
   });
+
   useEffect(() => {
     setSettingfromDb();
   }, [setting_db]);
@@ -67,19 +69,29 @@ const Setting: React.FC<props> = ({navigation}) => {
       GameLevel: val,
     }));
   };
+
   const handleOnSave = async () => {
+    updateSettings();
     await TrackPlayer.reset();
-    let gameLevel =
+
+    const gameLevel =
       values.GameLevel === 'easy'
         ? '1'
         : values.GameLevel === 'medium'
         ? '2'
         : '3';
-    if (screens.prev != 'Home_Screen') {
-      if (values.Game) {
-        if (setting_db.Game !== '1' || setting_db.GameLevel !== gameLevel) {
+
+    if (screens.prev !== 'Home_Screen') {
+      if (
+        values.Game ||
+        (screens.prev === 'Memory_Screen' && catName === 'allInOne')
+      ) {
+        if (
+          setting_db.Game !== '1' ||
+          setting_db.GameLevel !== gameLevel ||
+          (screens.prev === 'Memory_Screen' && catName === 'allInOne')
+        ) {
           handleOnMemory();
-          updateSettings();
         } else {
           navigation.goBack();
         }
@@ -92,17 +104,25 @@ const Setting: React.FC<props> = ({navigation}) => {
           Game: setting_db.Game === '1',
         };
 
-        const shouldNavigateBack = values['Game'] == formatObj['Game'];
+        const shouldNavigateBack =
+          values.Game === formatObj.Game &&
+          values.RandomOrder === formatObj.RandomOrder;
 
         if (!shouldNavigateBack) {
           handleOnDetails();
-          updateSettings();
+          dispatch({
+            type: 'helper/setBackSound',
+            payload: false,
+          });
         } else {
           navigation.goBack();
+          dispatch({
+            type: 'helper/setBackSound',
+            payload: true,
+          });
         }
       }
     } else {
-      updateSettings();
       navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
     }
   };
@@ -128,23 +148,23 @@ const Setting: React.FC<props> = ({navigation}) => {
     });
   };
   const handleOnDetails = async () => {
-    let cate_data = await utils.db('tbl_items', catName, false, 0);
+    let cate_data = await utils.db('tbl_items', catName, values.RandomOrder, 0);
 
     dispatch({
       type: 'helper/get_data_by_category',
       payload: cate_data,
       navigation,
     });
-    navigation.reset({
-      index: 1,
-      routes: [{name: 'Home_Screen'}, {name: 'Detail_Screen'}],
-    });
+    navigation.replace('Detail_Screen');
   };
   const handleOnMemory = async () => {
     let length =
       values.GameLevel == 'easy' ? 3 : values.GameLevel == 'medium' ? 4 : 6;
 
-    let cate_data = await utils.getMemory(length, catName);
+    let cate_data = await utils.getMemory(
+      length,
+      catName == 'allInOne' ? null : catName,
+    );
 
     dispatch({
       type: 'helper/get_memory_data_from_db',
@@ -152,6 +172,31 @@ const Setting: React.FC<props> = ({navigation}) => {
     });
     navigation.replace('Memory_Screen');
   };
+
+  useEffect(() => {
+    const backHandler = BackHandler.addEventListener(
+      'hardwareBackPress',
+      () => {
+        if (screens.prev !== 'Home_Screen') {
+          if (screens.prev === 'Detail_Screen') {
+            dispatch({
+              type: 'helper/setBackSound',
+              payload: true,
+            });
+          }
+
+          navigation.goBack();
+        } else {
+          navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
+        }
+
+        return true;
+      },
+    );
+    return () => {
+      backHandler.remove();
+    };
+  }, [navigation, screens.prev, dispatch]);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -188,7 +233,21 @@ const Setting: React.FC<props> = ({navigation}) => {
           />
         </View>
         <View style={styles.btnContainer}>
-          <TouchableOpacity style={styles.btn}>
+          <TouchableOpacity
+            onPress={() => {
+              if (screens.prev != 'Home_Screen') {
+                if (screens.prev == 'Detail_Screen') {
+                  dispatch({
+                    type: 'helper/setBackSound',
+                    payload: true,
+                  });
+                }
+                navigation.goBack();
+              } else {
+                navigation.goBack();
+              }
+            }}
+            style={styles.btn}>
             <Image
               resizeMode="contain"
               style={styles.img}

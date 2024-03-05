@@ -4,6 +4,7 @@ import Home from '../../screens/Home';
 import Detials from '../../screens/ShowCategory';
 import Setting from '../../screens/Setting';
 import Memory from '../../screens/Memory';
+import Next from '../../screens/Next';
 enum enum_stack {
   SPLASH_SCREEN = 'SPlash_Screen',
   SPLASH_SCREENII = 'SPlash_ScreenII',
@@ -11,6 +12,7 @@ enum enum_stack {
   DETAIL_SCREEN = 'Detail_Screen',
   SETTING_SCREEN = 'Setting_Screen',
   MEMORY_SCREEN = 'Memory_Screen',
+  NEXT_SCREEN = 'Next_Screen',
 }
 
 const getComponentByName = (screeName: string) => {
@@ -27,6 +29,8 @@ const getComponentByName = (screeName: string) => {
       return Setting;
     case enum_stack.MEMORY_SCREEN:
       return Memory;
+    case enum_stack.NEXT_SCREEN:
+      return Next;
     default:
       return Splash;
   }

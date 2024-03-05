@@ -1,4 +1,4 @@
-package com.eflash2
+package com.eFlash2
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

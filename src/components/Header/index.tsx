@@ -44,6 +44,8 @@ const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
         })
       : navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
   };
+  console.log(title.length);
+
   return (
     <View
       style={[
@@ -67,11 +69,21 @@ const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
             }
           />
         </TouchableOpacity>
-        {!ishome ? <Text style={styles.txt}>{title ? title : ''}</Text> : null}
+        {!ishome ? (
+          <Text style={[title.length <= 18 ? styles.txt : styles.txt2]}>
+            {title ? title : ''}
+          </Text>
+        ) : null}
         <TouchableOpacity
           disabled={isSetting}
           onPress={() => {
             navigation.navigate('Setting_Screen');
+            if (!isMemory && !ishome && !isSetting) {
+              dispatch({
+                type: 'helper/setBackSound',
+                payload: false,
+              });
+            }
           }}
           style={styles.iconContainer}>
           {!isSetting ? (
@@ -113,5 +125,12 @@ const styles = StyleSheet.create({
     fontSize: wp(7),
     color: 'white',
     fontFamily: 'OpenSans-SemiBold',
+  },
+  txt2: {
+    fontSize: wp(5),
+    color: 'white',
+    fontFamily: 'OpenSans-SemiBold',
+    alignSelf: 'center',
+    marginBottom: '5%',
   },
 });

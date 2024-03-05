@@ -11,7 +11,7 @@ fs.readdir(folderPath, (err, files) => {
 
   const nonMp3Files = files.filter(file => {
     const ext = path.extname(file).toLowerCase();
-    return ext !== '.mp3';
+    return ext === '.png';
   });
 
   const fileNamesArray = JSON.stringify(nonMp3Files, null, 2);

@@ -1,0 +1,3 @@
+
+   pasword:  eFlash2
+   alias:eflash2english

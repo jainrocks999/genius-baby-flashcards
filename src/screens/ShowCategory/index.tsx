@@ -1,5 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react';
-import {View, Image, StatusBar, TouchableOpacity} from 'react-native';
+import {
+  View,
+  Image,
+  StatusBar,
+  TouchableOpacity,
+  BackHandler,
+} from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -16,21 +22,32 @@ import Animated, {
   Easing,
 } from 'react-native-reanimated';
 import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
+import TrackPlayer from 'react-native-track-player';
+import {useIsFocused} from '@react-navigation/native';
 type Props = StackScreenProps<navigationParams, 'Detail_Screen'>;
-const Detials: React.FC<Props> = () => {
+const Detials: React.FC<Props> = ({navigation}) => {
   const data = useSelector((state: rootState) => state.data.cat_data);
+  const back_sound = useSelector((state: rootState) => state.data.back_sound);
+  const setting = useSelector((state: rootState) => state.data.setting_data);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const translationX = useSharedValue(0);
-  const changeImageWithAnimation = (direction: string) => {
+  const [count, setCount] = useState(0);
+  const changeImageWithAnimation = async (direction: string) => {
+    setCount(pre => (direction == 'next' ? pre + 1 : pre - 1));
     const newIndex = direction === 'next' ? currentIndex + 1 : currentIndex - 1;
     if (newIndex >= 0 && newIndex < data.length) {
-      palySound(newIndex);
+      palySound(newIndex, '');
       setCurrentIndex(newIndex);
       translationX.value = direction === 'next' ? +300 : -300;
       translationX.value = withTiming(0, {
         duration: 300,
         easing: Easing.ease,
       });
+    } else {
+      await TrackPlayer.reset();
+      utils.showAdd();
+      navigation.replace('Next_Screen');
     }
   };
   const animatedStyle = useAnimatedStyle(() => {
@@ -38,7 +55,7 @@ const Detials: React.FC<Props> = () => {
       transform: [{translateX: translationX.value}],
     };
   });
-  const palySound = async (index: number) => {
+  const palySound = async (index: number, butn: string) => {
     const track = {
       url: `${utils.path}${data[index].Sound}`,
       title: data[currentIndex].Title,
@@ -49,11 +66,30 @@ const Detials: React.FC<Props> = () => {
       artwork: `${utils.path}${data[index].Sound}`,
       duration: 4,
     };
-    await utils.player(track);
+
+    setting.Voice == '1' || butn == 'reapet' ? await utils.player(track) : null;
   };
+  const fucused = useIsFocused();
   useEffect(() => {
-    palySound(currentIndex);
+    back_sound ? palySound(currentIndex, '') : null;
+  }, [back_sound]);
+  useEffect(() => {
+    palySound(currentIndex, '');
   }, []);
+
+  useEffect(() => {
+    const backHandler = BackHandler.addEventListener(
+      'hardwareBackPress',
+      () => {
+        navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
+        return true;
+      },
+    );
+    return () => {
+      backHandler.remove();
+    };
+  }, [navigation]);
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar backgroundColor={'#a4a6a5'} />
@@ -62,6 +98,7 @@ const Detials: React.FC<Props> = () => {
           title={data[currentIndex].Title}
           ishome={false}
           isSetting={false}
+          isMemory={false}
         />
         <PanGestureHandler
           onGestureEvent={({nativeEvent}) => {
@@ -70,12 +107,16 @@ const Detials: React.FC<Props> = () => {
           onHandlerStateChange={({nativeEvent}) => {
             if (nativeEvent.state === State.END) {
               if (nativeEvent.translationX > 50 && currentIndex > 0) {
-                changeImageWithAnimation('prev');
+                setting.Swipe == '1' && count != 0
+                  ? changeImageWithAnimation('prev')
+                  : null;
               } else if (
                 nativeEvent.translationX < -50 &&
-                currentIndex < data.length - 1
+                currentIndex < data.length
               ) {
-                changeImageWithAnimation('next');
+                setting.Swipe == '1' && count != data.length
+                  ? changeImageWithAnimation('next')
+                  : null;
               }
               translationX.value = withTiming(0, {
                 duration: 300,
@@ -85,25 +126,31 @@ const Detials: React.FC<Props> = () => {
           }}>
           <Animated.View style={[styles.cat_image, animatedStyle]}>
             <Image
+              resizeMode="contain"
               style={styles.img}
-              source={{uri: `${utils.path}${data[currentIndex].Image}.jpg`}}
+              source={{
+                uri: `${utils.path}${data[currentIndex].Image}`,
+              }}
             />
           </Animated.View>
         </PanGestureHandler>
       </View>
-      <View style={styles.btnContainer}>
+      <View style={[styles.btnContainer]}>
         <TouchableOpacity
           onPress={() => changeImageWithAnimation('prev')}
+          disabled={currentIndex <= 0 || setting.Swipe == '1'}
           style={styles.btn}>
-          <Image
-            style={styles.img}
-            resizeMode="stretch"
-            source={require('../../assets/Image_icons/previous_btn.png')}
-          />
+          {count > 0 && setting.Swipe != '1' ? (
+            <Image
+              style={styles.img}
+              resizeMode="stretch"
+              source={require('../../assets/Image_icons/previous_btn.png')}
+            />
+          ) : null}
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => {
-            palySound(currentIndex);
+            palySound(currentIndex, 'reapet');
           }}
           style={styles.btn}>
           <Image
@@ -113,13 +160,16 @@ const Detials: React.FC<Props> = () => {
           />
         </TouchableOpacity>
         <TouchableOpacity
+          disabled={count == data.length || setting.Swipe == '1'}
           onPress={() => changeImageWithAnimation('next')}
           style={styles.btn}>
-          <Image
-            style={styles.img}
-            resizeMode="stretch"
-            source={require('../../assets/Image_icons/next_btn.png')}
-          />
+          {setting.Swipe != '1' ? (
+            <Image
+              style={styles.img}
+              resizeMode="stretch"
+              source={require('../../assets/Image_icons/next_btn.png')}
+            />
+          ) : null}
         </TouchableOpacity>
       </View>
       <View style={{bottom: 0, width: '100%', alignItems: 'center'}}>

@@ -6,8 +6,9 @@ import {
   FlatList,
   Image,
   TouchableOpacity,
+  BackHandler,
 } from 'react-native';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './styles';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
@@ -19,7 +20,7 @@ import utils from '../../utils';
 import {AddTrack} from 'react-native-track-player';
 type props = StackScreenProps<navigationParams, 'Memory_Screen'>;
 
-const Memory: React.FC<props> = () => {
+const Memory: React.FC<props> = ({navigation}) => {
   const catName = useSelector((state: rootState) => state.data.cate_name);
   const dispatch = useDispatch();
   const data = useSelector((state: rootState) => state.data.memory_data);
@@ -69,10 +70,15 @@ const Memory: React.FC<props> = () => {
     if (cloud.length < 2) {
       setCloud([...cloud, index]);
     }
+    if (count == 8) {
+      utils.showAdd();
+      setCount(0);
+    }
     if (selected?._ID == item._ID) {
       setCount(prev => prev + 1);
       if ([...righIndex, index, ...prevArray].length >= data.length) {
         utils.player(claping);
+
         await delay(2000);
         await handleOnData();
         setIsDisabled(false);
@@ -98,6 +104,19 @@ const Memory: React.FC<props> = () => {
       }
     }
   };
+
+  useEffect(() => {
+    const backHandler = BackHandler.addEventListener(
+      'hardwareBackPress',
+      () => {
+        navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
+        return true;
+      },
+    );
+    return () => {
+      backHandler.remove();
+    };
+  }, [navigation]);
 
   return (
     <SafeAreaView style={styles.container}>
@@ -134,7 +153,7 @@ const Memory: React.FC<props> = () => {
                       <Image
                         style={{height: '100%', width: '100%'}}
                         resizeMode="stretch"
-                        source={{uri: `${utils.path}${item.Image}.jpg`}}
+                        source={{uri: `${utils.path}${item.Image}`}}
                       />
 
                       {!cloud.includes(index) ? (
@@ -175,7 +194,7 @@ const Memory: React.FC<props> = () => {
                       <Image
                         style={{height: '100%', width: '100%'}}
                         resizeMode="stretch"
-                        source={{uri: `${utils.path}${item.Image}.jpg`}}
+                        source={{uri: `${utils.path}${item.Image}`}}
                       />
 
                       {!cloud.includes(index) ? (

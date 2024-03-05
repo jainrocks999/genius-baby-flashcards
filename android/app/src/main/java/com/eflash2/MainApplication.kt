@@ -1,4 +1,4 @@
-package com.eflash2
+package com.eFlash2
 
 import android.app.Application
 import com.facebook.react.PackageList

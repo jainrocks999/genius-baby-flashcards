@@ -12,6 +12,7 @@ export type navigationParams = {
   Detail_Screen: undefined;
   Setting_Screen: undefined;
   Memory_Screen: undefined;
+  Next_Screen: undefined;
 };
 const Navigation = () => {
   type RouteKey = keyof navigationParams;

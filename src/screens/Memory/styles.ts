@@ -20,7 +20,6 @@ export default StyleSheet.create({
   listContainer2: {
     height: hp(17),
     width: wp(42),
-    borderWidth: 1,
     marginHorizontal: wp(2),
     marginVertical: hp(1),
   },
