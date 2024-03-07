@@ -37,6 +37,7 @@ export default SplashII;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#2596be',
   },
   imageContainer: {
     height: '100%',

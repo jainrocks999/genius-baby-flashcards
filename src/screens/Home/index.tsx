@@ -9,6 +9,7 @@ import {
   Linking,
   BackHandler,
   ToastAndroid,
+  Alert,
 } from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
@@ -142,7 +143,7 @@ const Home: React.FC<Props> = ({navigation}) => {
             </TouchableOpacity>
             <CategoryList
               onPress={item => {
-                Linking.openURL(item.link ? item.link : '');
+                Linking.openURL(item.link ?? '');
               }}
               data={utils.Categoreis.slice(14, 16)}
             />

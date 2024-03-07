@@ -38,8 +38,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   iconContainer: {
-    height: hp(8),
-    width: hp(8),
+    height: hp(7),
+    width: hp(7),
     marginRight: wp(3),
   },
   img: {
@@ -47,12 +47,12 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   txt: {
-    fontSize: wp(8),
+    fontSize: wp(7),
     fontFamily: 'OpenSans_Condensed-Medium',
     color: 'white',
     textAlign: 'right',
   },
   txtContainer: {
-    width: '62%',
+    width: '70%',
   },
 });

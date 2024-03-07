@@ -4,6 +4,7 @@ import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 export default StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#2596be',
   },
   listContainer: {
     height: hp(24),
@@ -15,7 +16,7 @@ export default StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: hp(4),
+    marginTop: hp(2),
   },
   listContainer2: {
     height: hp(17),

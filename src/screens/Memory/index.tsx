@@ -38,7 +38,10 @@ const Memory: React.FC<props> = ({navigation}) => {
   const handleOnData = async () => {
     let length =
       settting.GameLevel == '1' ? 3 : settting.GameLevel == '2' ? 4 : 6;
-    const newdata = await utils.getMemory(length, catName ? catName : null);
+    const newdata = await utils.getMemory(
+      length,
+      catName != 'allInOne' ? catName : null,
+    );
     dispatch({
       type: 'helper/get_memory_data_from_db',
       payload: newdata,
@@ -51,17 +54,17 @@ const Memory: React.FC<props> = ({navigation}) => {
   ) => {
     setIsDisabled(true);
     const music = {
-      url: `asset:/files/${item.Sound}`,
+      url: `${utils.path}${item.Sound}`,
       title: item.Title,
       artist: 'eFlashApps',
-      artwork: `asset:/files/${item.Sound}`,
+      artwork: `${utils.path}${item.Sound}`,
       duration: 0,
     };
     const claping = {
-      url: `asset:/files/clap.mp3`,
+      url: `${utils.path}clap.mp3`,
       title: item.Title,
       artist: 'eFlashApps',
-      artwork: `asset:/files/clap.mp3`,
+      artwork: `${utils.path}clap.mp3`,
       duration: 0,
     };
 
@@ -70,7 +73,7 @@ const Memory: React.FC<props> = ({navigation}) => {
     if (cloud.length < 2) {
       setCloud([...cloud, index]);
     }
-    if (count == 8) {
+    if (count == 15) {
       utils.showAdd();
       setCount(0);
     }

@@ -15,6 +15,7 @@ import {useSelector} from 'react-redux';
 import {rootState} from '../../redux/store';
 import utils from '../../utils';
 import {PanGestureHandler, State} from 'react-native-gesture-handler';
+import {isTablet} from 'react-native-device-info';
 import Animated, {
   useSharedValue,
   useAnimatedStyle,
@@ -24,6 +25,7 @@ import Animated, {
 import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import TrackPlayer from 'react-native-track-player';
 import {useIsFocused} from '@react-navigation/native';
+import {heightPercent} from '../../utils/responsive';
 type Props = StackScreenProps<navigationParams, 'Detail_Screen'>;
 const Detials: React.FC<Props> = ({navigation}) => {
   const data = useSelector((state: rootState) => state.data.cat_data);
@@ -37,19 +39,20 @@ const Detials: React.FC<Props> = ({navigation}) => {
     setCount(pre => (direction == 'next' ? pre + 1 : pre - 1));
     const newIndex = direction === 'next' ? currentIndex + 1 : currentIndex - 1;
     if (newIndex >= 0 && newIndex < data.length) {
-      palySound(newIndex, '');
       setCurrentIndex(newIndex);
       translationX.value = direction === 'next' ? +300 : -300;
       translationX.value = withTiming(0, {
         duration: 300,
         easing: Easing.ease,
       });
+      palySound(newIndex, '');
     } else {
       await TrackPlayer.reset();
       utils.showAdd();
       navigation.replace('Next_Screen');
     }
   };
+  const tablet = isTablet();
   const animatedStyle = useAnimatedStyle(() => {
     return {
       transform: [{translateX: translationX.value}],
@@ -124,7 +127,12 @@ const Detials: React.FC<Props> = ({navigation}) => {
               });
             }
           }}>
-          <Animated.View style={[styles.cat_image, animatedStyle]}>
+          <Animated.View
+            style={[
+              styles.cat_image,
+              animatedStyle,
+              tablet ? {marginTop: heightPercent(5)} : undefined,
+            ]}>
             <Image
               resizeMode="contain"
               style={styles.img}

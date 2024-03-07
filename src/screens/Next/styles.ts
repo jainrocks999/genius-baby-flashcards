@@ -4,9 +4,10 @@ import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 export default StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#2596be',
   },
   bg_container: {
-    height: hp(91),
+    flex: 1,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',

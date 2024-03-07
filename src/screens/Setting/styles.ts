@@ -4,13 +4,15 @@ import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 export default StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#2596be',
   },
   settingContainer: {
-    marginTop: hp(20),
+    marginTop: '30%',
     alignItems: 'center',
+    marginRight: '4%',
   },
   container2: {
-    height: hp(90),
+    flex: 1,
   },
   addContainer: {
     height: hp(10),

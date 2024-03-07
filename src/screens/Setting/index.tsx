@@ -22,6 +22,7 @@ import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import utils from '../../utils';
 import {seeting_db} from '../../types/Genius/db';
 import TrackPlayer from 'react-native-track-player';
+import {isTablet} from 'react-native-device-info';
 type props = StackScreenProps<navigationParams, 'Setting_Screen'>;
 const Setting: React.FC<props> = ({navigation}) => {
   const catName = useSelector((state: rootState) => state.data.cate_name);
@@ -35,6 +36,7 @@ const Setting: React.FC<props> = ({navigation}) => {
     Game: false,
     GameLevel: 'easy',
   });
+  const tablate = isTablet();
 
   useEffect(() => {
     setSettingfromDb();
@@ -205,7 +207,11 @@ const Setting: React.FC<props> = ({navigation}) => {
         resizeMode="stretch"
         source={require('../../assets/Image_Bg/bg.png')}>
         <Header isMemory={false} ishome title="" isSetting />
-        <View style={styles.settingContainer}>
+        <View
+          style={[
+            styles.settingContainer,
+            !tablate ? {marginTop: '37%'} : null,
+          ]}>
           <Check
             onPress={val => handleonPress('Voice', val)}
             value={values.Voice}

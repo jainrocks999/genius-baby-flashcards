@@ -4,6 +4,7 @@ import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 export default StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#2596be',
   },
   containerStyle: {
     paddingBottom: hp(0.5),

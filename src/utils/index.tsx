@@ -99,7 +99,10 @@ export default class utils {
       _id: 16,
       cate_name: 'Reivew',
       cat_img: require('../assets/Image_Cat/review_app.png'),
-      link: 'https://play.google.com/store/apps/details?id=com.eFlash2&feature=search_result&pli=1#?t=W251bGwsMSwxLDEsImNvbS5lRmxhc2gyIl0.',
+      link: Platform.select({
+        android: 'https://play.google.com/store/apps/details?id=com.eFlash2',
+        ios: 'https://apps.apple.com/us/app/toddler-flashcards-english-baby-flash-cards-genius/id409571265',
+      }),
     },
   ];
 
@@ -234,11 +237,11 @@ export default class utils {
     ...Platform.select({
       android: {
         BANNER: 'ca-app-pub-3339897183017333/9872014788',
-        INTERSTITIAL: 'ca-app-pub-3339897183017333/9872014788',
+        INTERSTITIAL: 'ca-app-pub-3339897183017333/9858449153',
       },
       ios: {
-        BANNER: 'ca-app-pub-3940256099942544/6300978111',
-        INTERSTITIAL: 'ca-app-pub-3940256099942544/1033173712',
+        BANNER: 'ca-app-pub-3339897183017333/3046751980',
+        INTERSTITIAL: 'ca-app-pub-3339897183017333/8197801182',
       },
     }),
   };

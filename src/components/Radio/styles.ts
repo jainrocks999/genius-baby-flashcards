@@ -9,7 +9,7 @@ export default StyleSheet.create({
   },
 
   txt: {
-    fontSize: wp(8),
+    fontSize: wp(7),
     fontFamily: 'OpenSans_Condensed-Medium',
     color: 'white',
     textAlign: 'right',
@@ -23,20 +23,22 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingLeft: '3%',
+    marginBottom: '5%',
   },
   circle: {
     borderWidth: wp(0.7),
-    height: hp(3),
-    width: hp(3),
+    height: hp(2.7),
+    width: hp(2.7),
     borderRadius: hp(1.5),
     alignItems: 'center',
     justifyContent: 'center',
   },
   txt2: {
-    fontSize: wp(4),
+    fontSize: wp(3.8),
     fontFamily: 'OpenSans_Condensed-Medium',
     color: 'black',
     textAlign: 'right',
+    marginTop: 3,
   },
   circle2: {
     alignItems: 'center',

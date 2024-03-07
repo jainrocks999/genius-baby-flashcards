@@ -4,11 +4,15 @@ import {heightPercent as hp, widthPrecent as wp} from '../../utils/responsive';
 export default StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#a4a6a5',
   },
   cat_image: {
-    height: hp(68),
+    height: hp(63),
     width: wp(100),
-    marginTop: hp(2),
+    // marginTop: hp(2),
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: hp(2),
   },
   mainContainer: {
     flex: 1,

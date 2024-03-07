@@ -16,7 +16,6 @@ const Root = () => {
   useEffect(() => {
     const handleAppStateChange = async (nextAppState: string) => {
       if (nextAppState === 'active') {
-        utils.showAdd();
       } else if (nextAppState === 'background') {
         await utils.resetPlayer();
       }
