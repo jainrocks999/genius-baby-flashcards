@@ -1,6 +1,5 @@
 import {createSlice, current} from '@reduxjs/toolkit';
-import {cat_type, seeting_db, setting_type} from '../../types/Genius/db';
-import {actionType} from '../../types/Genius/action';
+import {cat_type, seeting_db} from '../../types/Genius/db';
 import utils from '../../utils';
 import {payloadType} from '../../types/Genius/playload';
 const initialState = {

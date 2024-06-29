@@ -13,6 +13,8 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: hp(2),
+
+    borderColor: 'red',
   },
   mainContainer: {
     flex: 1,
@@ -35,4 +37,9 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   img: {height: '100%', width: '100%'},
+  imageContainer: {
+    height: hp(72),
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });

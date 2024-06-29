@@ -103,45 +103,47 @@ const Detials: React.FC<Props> = ({navigation}) => {
           isSetting={false}
           isMemory={false}
         />
-        <PanGestureHandler
-          onGestureEvent={({nativeEvent}) => {
-            translationX.value = nativeEvent.translationX;
-          }}
-          onHandlerStateChange={({nativeEvent}) => {
-            if (nativeEvent.state === State.END) {
-              if (nativeEvent.translationX > 50 && currentIndex > 0) {
-                setting.Swipe == '1' && count != 0
-                  ? changeImageWithAnimation('prev')
-                  : null;
-              } else if (
-                nativeEvent.translationX < -50 &&
-                currentIndex < data.length
-              ) {
-                setting.Swipe == '1' && count != data.length
-                  ? changeImageWithAnimation('next')
-                  : null;
+        <View style={styles.imageContainer}>
+          <PanGestureHandler
+            onGestureEvent={({nativeEvent}) => {
+              translationX.value = nativeEvent.translationX;
+            }}
+            onHandlerStateChange={({nativeEvent}) => {
+              if (nativeEvent.state === State.END) {
+                if (nativeEvent.translationX > 50 && currentIndex > 0) {
+                  setting.Swipe == '1' && count != 0
+                    ? changeImageWithAnimation('prev')
+                    : null;
+                } else if (
+                  nativeEvent.translationX < -50 &&
+                  currentIndex < data.length
+                ) {
+                  setting.Swipe == '1' && count != data.length
+                    ? changeImageWithAnimation('next')
+                    : null;
+                }
+                translationX.value = withTiming(0, {
+                  duration: 300,
+                  easing: Easing.ease,
+                });
               }
-              translationX.value = withTiming(0, {
-                duration: 300,
-                easing: Easing.ease,
-              });
-            }
-          }}>
-          <Animated.View
-            style={[
-              styles.cat_image,
-              animatedStyle,
-              tablet ? {marginTop: heightPercent(5)} : undefined,
-            ]}>
-            <Image
-              resizeMode="contain"
-              style={styles.img}
-              source={{
-                uri: `${utils.path}${data[currentIndex].Image}`,
-              }}
-            />
-          </Animated.View>
-        </PanGestureHandler>
+            }}>
+            <Animated.View
+              style={[
+                styles.cat_image,
+                animatedStyle,
+                tablet ? {marginTop: heightPercent(5)} : undefined,
+              ]}>
+              <Image
+                resizeMode="contain"
+                style={styles.img}
+                source={{
+                  uri: `${utils.path}${data[currentIndex].Image}`,
+                }}
+              />
+            </Animated.View>
+          </PanGestureHandler>
+        </View>
       </View>
       <View style={[styles.btnContainer]}>
         <TouchableOpacity
