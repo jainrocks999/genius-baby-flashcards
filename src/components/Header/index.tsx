@@ -13,8 +13,17 @@ type props = {
   title: string;
   isSetting: boolean;
   isMemory: boolean;
+  onUpgrade: () => void;
+  hasPurchased: boolean;
 };
-const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
+const Header: React.FC<props> = ({
+  ishome,
+  title,
+  isSetting,
+  isMemory,
+  onUpgrade,
+  hasPurchased,
+}) => {
   const navigation = useNavigation<StackNavigationProp<navigationParams>>();
   const sound = useSelector((state: rootState) => state.data.default_sound);
   const track = {
@@ -44,7 +53,6 @@ const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
         })
       : navigation.reset({index: 0, routes: [{name: 'Home_Screen'}]});
   };
-  console.log(title.length);
 
   return (
     <View
@@ -69,10 +77,25 @@ const Header: React.FC<props> = ({ishome, title, isSetting, isMemory}) => {
             }
           />
         </TouchableOpacity>
-        {!ishome ? (
+        {title != '' ? (
           <Text style={[title.length <= 18 ? styles.txt : styles.txt2]}>
             {title ? title : ''}
           </Text>
+        ) : ishome && !hasPurchased ? (
+          <TouchableOpacity
+            onPress={onUpgrade}
+            activeOpacity={0.8}
+            style={{
+              height: '80%',
+              width: '50%',
+              alignSelf: 'center',
+              marginTop: '-2%',
+            }}>
+            <Image
+              style={{height: '100%', width: '100%'}}
+              source={require('../../assets/Image_icons/upgrade.png')}
+            />
+          </TouchableOpacity>
         ) : null}
         <TouchableOpacity
           disabled={isSetting}

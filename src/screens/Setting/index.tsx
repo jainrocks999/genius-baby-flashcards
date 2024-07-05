@@ -1,5 +1,5 @@
 import {StackScreenProps} from '@react-navigation/stack';
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {
   Text,
   SafeAreaView,
@@ -10,6 +10,7 @@ import {
   Image,
   Alert,
   BackHandler,
+  Platform,
 } from 'react-native';
 import {navigationParams} from '../../navigation';
 import styles from './styles';
@@ -23,8 +24,11 @@ import utils from '../../utils';
 import {seeting_db} from '../../types/Genius/db';
 import TrackPlayer from 'react-native-track-player';
 import {isTablet} from 'react-native-device-info';
+import {IAPContext} from '../../Context';
+import PurchasedeModal from '../../components/PurchaseModal';
 type props = StackScreenProps<navigationParams, 'Setting_Screen'>;
 const Setting: React.FC<props> = ({navigation}) => {
+  const IAP = useContext(IAPContext);
   const catName = useSelector((state: rootState) => state.data.cate_name);
   const screens = useSelector((state: rootState) => state.data.screens);
   const dispatch = useDispatch();
@@ -158,7 +162,11 @@ const Setting: React.FC<props> = ({navigation}) => {
       navigation,
     });
     navigation.replace('Detail_Screen');
+    setTimeout(() => {
+      !IAP?.hasPurchased && utils.showAdd();
+    }, 9000);
   };
+
   const handleOnMemory = async () => {
     let length =
       values.GameLevel == 'easy' ? 3 : values.GameLevel == 'medium' ? 4 : 6;
@@ -172,7 +180,11 @@ const Setting: React.FC<props> = ({navigation}) => {
       type: 'helper/get_memory_data_from_db',
       payload: cate_data,
     });
+
     navigation.replace('Memory_Screen');
+    setTimeout(() => {
+      !IAP?.hasPurchased && utils.showAdd();
+    }, 9000);
   };
 
   useEffect(() => {
@@ -206,37 +218,84 @@ const Setting: React.FC<props> = ({navigation}) => {
         style={styles.container2}
         resizeMode="stretch"
         source={require('../../assets/Image_Bg/bg.png')}>
-        <Header isMemory={false} ishome title="" isSetting />
+        {!IAP?.hasPurchased && (
+          <PurchasedeModal
+            visible={IAP?.visible || false}
+            onClose={value => {
+              IAP?.setVisible(value);
+            }}
+            onPress={() => {
+              IAP?.requestPurchase();
+            }}
+            onRestore={() => {
+              IAP?.checkPurchases(true);
+            }}
+          />
+        )}
+        <Header
+          onUpgrade={() => {
+            null;
+          }}
+          hasPurchased
+          isMemory={false}
+          ishome
+          title=""
+          isSetting
+        />
         <View
           style={[
             styles.settingContainer,
             !tablate ? {marginTop: '37%'} : null,
           ]}>
-          <Check
-            onPress={val => handleonPress('Voice', val)}
-            value={values.Voice}
-            title="Voice :"
-          />
-          <Check
-            onPress={val => handleonPress('RandomOrder', val)}
-            value={values.RandomOrder}
-            title="Random Order :"
-          />
-          <Check
-            onPress={val => handleonPress('Swipe', val)}
-            value={values.Swipe}
-            title="Swipe :"
-          />
-          <Check
-            onPress={val => handleonPress('Game', val)}
-            value={values.Game}
-            title="Memory Game :"
-          />
-          <Radio
-            onPress={handleOnRadioPress}
-            value={values.GameLevel}
-            title="Level :"
-          />
+          {!IAP?.hasPurchased && (
+            <TouchableOpacity
+              onPress={() => {
+                IAP?.setVisible(true);
+              }}
+              style={[
+                styles.upgrade,
+                {marginTop: Platform.OS == 'android' ? '-5%' : '-8%'},
+              ]}>
+              <Image
+                style={{height: '100%', width: '100%'}}
+                source={require('../../assets/Image_icons/upgrade.png')}
+              />
+            </TouchableOpacity>
+          )}
+          <View
+            style={{
+              marginTop: !IAP?.hasPurchased
+                ? Platform.OS == 'android'
+                  ? '5%'
+                  : '3%'
+                : '0%',
+            }}>
+            <Check
+              onPress={val => handleonPress('Voice', val)}
+              value={values.Voice}
+              title="Voice :"
+            />
+            <Check
+              onPress={val => handleonPress('RandomOrder', val)}
+              value={values.RandomOrder}
+              title="Random Order :"
+            />
+            <Check
+              onPress={val => handleonPress('Swipe', val)}
+              value={values.Swipe}
+              title="Swipe :"
+            />
+            <Check
+              onPress={val => handleonPress('Game', val)}
+              value={values.Game}
+              title="Memory Game :"
+            />
+            <Radio
+              onPress={handleOnRadioPress}
+              value={values.GameLevel}
+              title="Level :"
+            />
+          </View>
         </View>
         <View style={styles.btnContainer}>
           <TouchableOpacity
@@ -273,15 +332,17 @@ const Setting: React.FC<props> = ({navigation}) => {
           </TouchableOpacity>
         </View>
       </ImageBackground>
-      <View style={styles.addContainer}>
-        <BannerAd
-          unitId={utils.addIts.BANNER != undefined ? utils.addIts.BANNER : ''}
-          size={BannerAdSize.FULL_BANNER}
-          requestOptions={{
-            requestNonPersonalizedAdsOnly: true,
-          }}
-        />
-      </View>
+      {!IAP?.hasPurchased && (
+        <View style={styles.addContainer}>
+          <BannerAd
+            unitId={utils.addIts.BANNER != undefined ? utils.addIts.BANNER : ''}
+            size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+            requestOptions={{
+              requestNonPersonalizedAdsOnly: true,
+            }}
+          />
+        </View>
+      )}
     </SafeAreaView>
   );
 };

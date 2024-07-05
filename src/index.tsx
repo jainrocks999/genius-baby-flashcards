@@ -11,6 +11,7 @@ import App from './navigation';
 import {Provider} from 'react-redux';
 import store from './redux/store';
 import utils from './utils';
+import IAPProvider from './Context';
 
 const Root = () => {
   useEffect(() => {
@@ -30,9 +31,11 @@ const Root = () => {
 
   LogBox.ignoreAllLogs();
   return (
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <IAPProvider>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </IAPProvider>
   );
 };
 

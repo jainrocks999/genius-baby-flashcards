@@ -15,7 +15,7 @@ export default StyleSheet.create({
     flex: 1,
   },
   addContainer: {
-    height: hp(10),
+    height: hp(7.9),
     backgroundColor: '#0099d5',
     alignItems: 'center',
   },
@@ -34,5 +34,10 @@ export default StyleSheet.create({
   btn: {
     height: hp(5.5),
     width: wp(35),
+  },
+  upgrade: {
+    height: hp(6),
+    width: wp(50),
+    marginTop: '-5%',
   },
 });

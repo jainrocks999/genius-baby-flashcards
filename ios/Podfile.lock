@@ -1081,6 +1081,8 @@ PODS:
     - GoogleUserMessagingPlatform (= 2.2.0)
     - RCT-Folly (= 2022.05.16.00)
     - React-Core
+  - RNIap (12.13.0):
+    - React-Core
   - RNReanimated (3.7.1):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1154,6 +1156,7 @@ DEPENDENCIES:
   - RNFS (from `../node_modules/react-native-fs`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNGoogleMobileAds (from `../node_modules/react-native-google-mobile-ads`)
+  - RNIap (from `../node_modules/react-native-iap`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -1281,6 +1284,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-gesture-handler"
   RNGoogleMobileAds:
     :path: "../node_modules/react-native-google-mobile-ads"
+  RNIap:
+    :path: "../node_modules/react-native-iap"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -1349,6 +1354,7 @@ SPEC CHECKSUMS:
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNGestureHandler: 2e3251b41d462552997c61afd680220d019fea65
   RNGoogleMobileAds: 40cddc96c9948a7df312eebfbacbe160962b6a73
+  RNIap: ce1af5f33e92af3aa6c5c3d8fb601c624748ac03
   RNReanimated: 440ca83ef0a79a3376455663fc4a01300e131240
   RNScreens: a4d9ce8f68f833f4e42410140eafd88e38bba163
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17

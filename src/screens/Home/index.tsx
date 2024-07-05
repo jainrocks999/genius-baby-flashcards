@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useContext, useEffect, useRef} from 'react';
 import {
   Image,
   ImageBackground,
@@ -9,7 +9,6 @@ import {
   Linking,
   BackHandler,
   ToastAndroid,
-  Alert,
 } from 'react-native';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
@@ -22,9 +21,12 @@ import {useDispatch} from 'react-redux';
 import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import {useSelector} from 'react-redux';
 import {rootState} from '../../redux/store';
+import {IAPContext} from '../../Context';
+import PurchasedeModal from '../../components/PurchaseModal';
 
 type Props = StackScreenProps<navigationParams, 'Home_Screen'>;
 const Home: React.FC<Props> = ({navigation}) => {
+  const IAP = useContext(IAPContext);
   const setting = useSelector((state: rootState) => state.data.setting_data);
   const screens = useSelector((state: rootState) => state.data.screens);
   const dispatch = useDispatch();
@@ -40,7 +42,6 @@ const Home: React.FC<Props> = ({navigation}) => {
           doublePressTimeout.current &&
           doublePressTimeout.current + 2000 >= Date.now()
         ) {
-          utils.showAdd();
           BackHandler.exitApp();
           return true;
         } else {
@@ -117,8 +118,30 @@ const Home: React.FC<Props> = ({navigation}) => {
         resizeMode="stretch"
         style={styles.mainBackground}
         source={require('../../assets/Image_Bg/screen.png')}>
-        <Header isMemory={false} title="" ishome isSetting={false} />
+        <Header
+          onUpgrade={() => {
+            IAP?.setVisible(true);
+          }}
+          hasPurchased={IAP?.hasPurchased ?? false}
+          isMemory={false}
+          title=""
+          ishome
+          isSetting={false}
+        />
         <ScrollView contentContainerStyle={styles.containerStyle}>
+          {!IAP?.hasPurchased && (
+            <PurchasedeModal
+              visible={IAP?.visible ?? false}
+              onClose={value => {
+                IAP?.setVisible(value);
+              }}
+              onPress={() => {
+                IAP?.requestPurchase();
+              }}
+              onRestore={() => IAP?.checkPurchases(true)}
+              key={'1'}
+            />
+          )}
           <View
             style={{width: '100%', alignSelf: 'center', alignItems: 'center'}}>
             <CategoryList
@@ -149,15 +172,17 @@ const Home: React.FC<Props> = ({navigation}) => {
             />
           </View>
         </ScrollView>
-        <View style={{bottom: 0, width: '100%', alignItems: 'center'}}>
-          <BannerAd
-            unitId={utils.addIts.BANNER != undefined ? utils.addIts.BANNER : ''}
-            size={BannerAdSize.FULL_BANNER}
-            requestOptions={{
-              requestNonPersonalizedAdsOnly: true,
-            }}
-          />
-        </View>
+        {!IAP?.hasPurchased && (
+          <View style={{bottom: 0, width: '100%', alignItems: 'center'}}>
+            <BannerAd
+              unitId={utils.addIts.BANNER ?? ''}
+              size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+              requestOptions={{
+                requestNonPersonalizedAdsOnly: true,
+              }}
+            />
+          </View>
+        )}
       </ImageBackground>
     </SafeAreaView>
   );

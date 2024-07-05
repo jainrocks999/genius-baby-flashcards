@@ -1,7 +1,6 @@
 import {Alert, Platform} from 'react-native';
 import RNFS from 'react-native-fs';
 import {AdEventType, InterstitialAd} from 'react-native-google-mobile-ads';
-
 var SQLite = require('react-native-sqlite-storage');
 const db = SQLite.openDatabase({
   name: 'eFlash2.db',
@@ -14,8 +13,6 @@ import TrackPlayer, {
 import type {AddTrack} from 'react-native-track-player';
 import {cat_type, setting_type} from '../types/Genius/db';
 import {pngFiles} from './fileNames';
-type dbData = {};
-
 export default class utils {
   static Categoreis = [
     {
@@ -105,7 +102,6 @@ export default class utils {
       }),
     },
   ];
-
   static setupPlayer = async () => {
     let isSetup = false;
     try {
@@ -138,7 +134,6 @@ export default class utils {
       return isSetup;
     }
   };
-
   static player = async (track: AddTrack) => {
     const isSetup = await this.setupPlayer();
     if (isSetup) {
@@ -153,12 +148,10 @@ export default class utils {
       await TrackPlayer.reset();
     }
   };
-
   static path = Platform.select({
     android: 'asset:/files/',
     ios: RNFS.MainBundlePath + '/files/',
   });
-
   static db = async (
     tableName: string,
     category: string | null = null,
@@ -232,7 +225,6 @@ export default class utils {
       });
     });
   };
-
   static addIts = {
     ...Platform.select({
       android: {
@@ -245,17 +237,14 @@ export default class utils {
       },
     }),
   };
-
   static showAdd = () => {
     const requestOption = {
       requestNonPersonalizedAdsOnly: true,
     };
-
     const interstitial = InterstitialAd.createForAdRequest(
       this.addIts.INTERSTITIAL ? this.addIts.INTERSTITIAL : '',
       requestOption,
     );
-
     const unsubscribe = interstitial.addAdEventListener(
       AdEventType.LOADED,
       () => {
@@ -265,7 +254,6 @@ export default class utils {
     interstitial.load();
     return unsubscribe;
   };
-
   static updateSettings = (item: setting_type[0]) => {
     db.transaction((tx: any) => {
       tx.executeSql(
@@ -282,7 +270,6 @@ export default class utils {
       );
     });
   };
-
   static createDuplicate = (array: cat_type) => {
     return new Promise<cat_type>(resovle => {
       const duplicateArray = array.flatMap(item => [item, item]);
@@ -293,7 +280,6 @@ export default class utils {
     return new Promise<cat_type>((resolve, reject) => {
       try {
         const shuffledArray = [...array];
-
         for (let i = shuffledArray.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [shuffledArray[i], shuffledArray[j]] = [
@@ -301,7 +287,6 @@ export default class utils {
             shuffledArray[i],
           ];
         }
-
         resolve(shuffledArray);
       } catch (error) {
         reject(error);
@@ -315,10 +300,8 @@ export default class utils {
           reject(new Error('Length exceeds the array size'));
           return;
         }
-
         const shuffledArray = await this.shuffleArray(array);
         const randomArray = shuffledArray.slice(0, length);
-
         resolve(randomArray);
       } catch (error) {
         reject(error);
@@ -327,99 +310,66 @@ export default class utils {
   };
   static getMemory = async (count: number, Category: string | null) => {
     return new Promise<cat_type>(async resovle => {
-      const db_items = await utils.db('tbl_items', Category, true, count);
-      const dup = await utils.createDuplicate(db_items);
-      const data = await utils.pickRandomOption(dup, dup.length);
+      const db_items = await this.db('tbl_items', Category, true, count);
+      const dup = await this.createDuplicate(db_items);
+      const data = await this.pickRandomOption(dup, dup.length);
       resovle(data);
     });
   };
-
-  // static WrongVoid = [
-  //   {
-  //     url: require('../../asset2/uhoh.mp3'), // Load media from the file system
-  //     title: 'uhoh',
-  //     artist: 'eFlashApps',
-  //     duration: null,
-  //   },
-  //   {
-  //     url: require('../../asset2/tryagain.mp3'), // Load media from the file system
-  //     title: 'tryagain',
-  //     artist: 'eFlashApps',
-  //     duration: null,
-  //   },
-  //   {
-  //     url: require('../../asset2/oopsie.mp3'), // Load media from the file system
-  //     title: 'oopsie',
-  //     artist: 'eFlashApps',
-  //     duration: null,
-  //   },
-  //   {
-  //     url: require('../../asset2/youcandoit.mp3'), // Load media from the file system
-  //     title: 'youcandoit',
-  //     artist: 'eFlashApps',
-  //     duration: null,
-  //   },
-  // ];
   static RightVoice = [
     {
-      url: `${this.path}excellent.mp3`, // Load media from the file system
+      url: `${this.path}excellent.mp3`,
       title: 'excellent',
       artist: 'eFlashApps',
       artwork: `${this.path}excellent.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}fantastic.mp3`, // Load media from the file system
+      url: `${this.path}fantastic.mp3`,
       title: 'fantastic',
       artist: 'eFlashApps',
       artwork: `${this.path}fantastic.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}goodanswer.mp3`, // Load media from the file system
+      url: `${this.path}goodanswer.mp3`,
       title: 'goodanswer',
       artist: 'eFlashApps',
-      // Load artwork from the file system:
       artwork: `${this.path}goodanswer.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}goodjob.mp3`, // Load media from the file system
+      url: `${this.path}goodjob.mp3`,
       title: 'goodjob',
       artist: 'eFlashApps',
-      // Load artwork from the file system:
       artwork: `${this.path}goodjob.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}great.mp3`, // Load media from the file system
+      url: `${this.path}great.mp3`,
       title: 'great',
       artist: 'eFlashApps',
-      // Load artwork from the file system:
       artwork: `${this.path}great.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}marvelous.mp3`, // Load media from the file system
+      url: `${this.path}marvelous.mp3`,
       title: 'marvelous',
       artist: 'eFlashApps',
-      // Load artwork from the file system:
       artwork: `${this.path}marvelous.mp3}`,
       duration: 2,
     },
     {
-      url: `${this.path}sensational.mp3`, // Load media from the file system
+      url: `${this.path}sensational.mp3`,
       title: 'sensational',
       artist: 'eFlashApps',
-      // Load artwork from the file system:
       artwork: `${this.path}sensational.mp3`,
       duration: 2,
     },
     {
-      url: `${this.path}spectacular.mp3`, // Load media from the file system
+      url: `${this.path}spectacular.mp3`,
       title: 'spectacular',
       artist: 'eFlashApps',
-      // Load artwork from the file system:,
       artwork: `${this.path}spectacular.mp3`,
       duration: 5,
     },

@@ -28,8 +28,13 @@ export default StyleSheet.create({
     width: hp(7.5),
   },
   addContainer: {
-    height: hp(9),
+    height: hp(8.5),
     backgroundColor: '#0099d5',
     alignItems: 'center',
+  },
+  upgrade: {
+    height: hp(6),
+    width: wp(50),
+    marginTop: '-10%',
   },
 });

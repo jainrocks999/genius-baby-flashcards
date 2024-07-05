@@ -8,7 +8,7 @@ import {
   Alert,
   BackHandler,
 } from 'react-native';
-import React, {useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {StackScreenProps} from '@react-navigation/stack';
 import {navigationParams} from '../../navigation';
 import styles from './styles';
@@ -16,8 +16,10 @@ import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import utils from '../../utils';
 import {useDispatch, useSelector} from 'react-redux';
 import {rootState} from '../../redux/store';
+import {IAPContext} from '../../Context';
 type Props = StackScreenProps<navigationParams, 'Next_Screen'>;
 const Next: React.FC<Props> = ({navigation}) => {
+  const IAP = useContext(IAPContext);
   const {cate_name, setting_data} = useSelector(
     (state: rootState) => state.data,
   );
@@ -84,6 +86,12 @@ const Next: React.FC<Props> = ({navigation}) => {
         style={styles.bg_container}
         resizeMode="stretch"
         source={require('../../assets/Image_Bg/bg.png')}>
+        {/* <TouchableOpacity style={styles.upgrade}>
+          <Image
+            style={{height: '100%', width: '100%'}}
+            source={require('../../assets/Image_icons/upgrade.png')}
+          />
+        </TouchableOpacity> */}
         <View style={styles.iconContainer}>
           <TouchableOpacity
             onPress={() => handleonPress('repeat')}
@@ -111,15 +119,17 @@ const Next: React.FC<Props> = ({navigation}) => {
           </TouchableOpacity>
         </View>
       </ImageBackground>
-      <View style={styles.addContainer}>
-        <BannerAd
-          unitId={utils.addIts.BANNER != undefined ? utils.addIts.BANNER : ''}
-          size={BannerAdSize.FULL_BANNER}
-          requestOptions={{
-            requestNonPersonalizedAdsOnly: true,
-          }}
-        />
-      </View>
+      {!IAP?.hasPurchased && (
+        <View style={styles.addContainer}>
+          <BannerAd
+            unitId={utils.addIts.BANNER || ''}
+            size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+            requestOptions={{
+              requestNonPersonalizedAdsOnly: true,
+            }}
+          />
+        </View>
+      )}
     </SafeAreaView>
   );
 };

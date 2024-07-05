@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useContext, useEffect, useRef, useState} from 'react';
 import {
   View,
   Image,
@@ -24,14 +24,14 @@ import Animated, {
 } from 'react-native-reanimated';
 import {BannerAd, BannerAdSize} from 'react-native-google-mobile-ads';
 import TrackPlayer from 'react-native-track-player';
-import {useIsFocused} from '@react-navigation/native';
 import {heightPercent} from '../../utils/responsive';
+import {IAPContext} from '../../Context';
 type Props = StackScreenProps<navigationParams, 'Detail_Screen'>;
 const Detials: React.FC<Props> = ({navigation}) => {
+  const IAP = useContext(IAPContext);
   const data = useSelector((state: rootState) => state.data.cat_data);
   const back_sound = useSelector((state: rootState) => state.data.back_sound);
   const setting = useSelector((state: rootState) => state.data.setting_data);
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const translationX = useSharedValue(0);
   const [count, setCount] = useState(0);
@@ -48,7 +48,7 @@ const Detials: React.FC<Props> = ({navigation}) => {
       palySound(newIndex, '');
     } else {
       await TrackPlayer.reset();
-      utils.showAdd();
+      !IAP?.hasPurchased && utils.showAdd();
       navigation.replace('Next_Screen');
     }
   };
@@ -72,7 +72,6 @@ const Detials: React.FC<Props> = ({navigation}) => {
 
     setting.Voice == '1' || butn == 'reapet' ? await utils.player(track) : null;
   };
-  const fucused = useIsFocused();
   useEffect(() => {
     back_sound ? palySound(currentIndex, '') : null;
   }, [back_sound]);
@@ -99,6 +98,10 @@ const Detials: React.FC<Props> = ({navigation}) => {
       <View style={styles.mainContainer}>
         <Header
           title={data[currentIndex].Title}
+          hasPurchased={IAP?.hasPurchased || false}
+          onUpgrade={() => {
+            null;
+          }}
           ishome={false}
           isSetting={false}
           isMemory={false}
@@ -182,15 +185,17 @@ const Detials: React.FC<Props> = ({navigation}) => {
           ) : null}
         </TouchableOpacity>
       </View>
-      <View style={{bottom: 0, width: '100%', alignItems: 'center'}}>
-        <BannerAd
-          unitId={utils.addIts.BANNER != undefined ? utils.addIts.BANNER : ''}
-          size={BannerAdSize.FULL_BANNER}
-          requestOptions={{
-            requestNonPersonalizedAdsOnly: true,
-          }}
-        />
-      </View>
+      {!IAP?.hasPurchased && (
+        <View style={{bottom: 0, width: '100%', alignItems: 'center'}}>
+          <BannerAd
+            unitId={utils.addIts.BANNER ?? ''}
+            size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
+            requestOptions={{
+              requestNonPersonalizedAdsOnly: true,
+            }}
+          />
+        </View>
+      )}
     </SafeAreaView>
   );
 };
