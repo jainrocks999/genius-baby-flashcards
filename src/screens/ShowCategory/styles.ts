@@ -7,7 +7,7 @@ export default StyleSheet.create({
     backgroundColor: '#a4a6a5',
   },
   cat_image: {
-    height: hp(63),
+    height: hp(60),
     width: wp(100),
     // marginTop: hp(2),
     alignItems: 'center',
@@ -28,7 +28,7 @@ export default StyleSheet.create({
     paddingHorizontal: hp(2),
     alignItems: 'center',
     justifyContent: 'space-between',
-    bottom: 0,
+    bottom: -10,
   },
   btn: {
     height: '80%',

@@ -16,7 +16,7 @@ export default StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: hp(2),
+    marginTop: hp(3),
     alignSelf: 'center',
   },
   listContainer2: {

@@ -155,16 +155,16 @@ const Memory: React.FC<props> = ({navigation}) => {
         <View
           style={[
             styles.secondContainer,
-            {
+            { 
               height: IAP?.hasPurchased
                 ? hp(Platform.OS == 'android' ? 91 : 80)
-                : hp(Platform.OS == 'android' ? 82.4 : 72),
+                : hp(Platform.OS == 'android' ? 82.4 : 73),
               paddingBottom:
                 Platform.OS == 'android'
                   ? IAP?.hasPurchased
                     ? '8%'
                     : '0%'
-                  : '7%',
+                  : '4%',
             },
           ]}>
           <View style={styles.mainContainer}>
